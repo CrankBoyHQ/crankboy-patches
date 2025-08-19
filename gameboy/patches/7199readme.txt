@@ -1,0 +1,7 @@
+This is an addendum to Shane Mohammed's hack of Pokémon Blue which recreates the Japanese Pokémon Red, Green and Blue in an English format. Although Shane's patches boast an incredible eye for detail, two minor quirks were missed. These addendum patches aim to address them:
+
+* In the Red Version patch, the slot machine graphics in Celadon Game Corner mistakenly feature sprites exclusive to Green Version. This has been corrected in the "Red Version (Restored Slot Graphics)" patch.
+* In the Blue Version patch, the background music for the SS Anne has been replaced by an unused music track discovered by dataminers. This was most likely a deliberate change, intended as an easter egg, yet the "Blue Version (Restored SS Anne Theme)" patch reverts the change, for the sake of providing the option.
+
+PATCHING INSTRUCTIONS
+First, patch an UNMODIFIED Pokémon - Blue Version (UE) [S][!].gb file with Shane Mohammed's patches, preferably via Floating IPS. Afterwards, apply the "Red Version (Restored Slot Graphics)" patch onto the ROM prepatched with Shane's "Pokémon - Red Version" patch, and/or the "Blue Version (Restored SS Anne Theme)" patch onto a ROM prepatched with Shane's "Pokémon - Blue Version" patch.

@@ -1,0 +1,25 @@
+Apply these to the 1.1 version of Super Mario Land.
+
+The black and white version is the most playable. It has improved graphics, rearranged enemies, and no glitches. I have also included a colorized version. There is some problems with it. I would reccomend trying it at least once cause it is pretty awesome to see Mario Land in colors. I colorized it using GBcolorizer version 4. Below are some of the problems you will come across with the colorized version.
+
+
+
+New to color version 3.0
+- Level 3 obstacles has now been made passable.
+- Music is now corrected.
+-All other issues in the previous version remain, but none of them are too bad. I have also found that the final boss can be beaten. So long as you do not shoot him right away. Wait for him to attack then start your shooting.
+
+Problems with color version 2.0:
+-Level 3 has some parts that are unpassable without use of a gameshark code to become invincible.
+-Some graphics could not be colored correctly so they were redrawn and colored to black and white colors.
+-You can stomp Bullet Bill launchers like little goombas.
+-Some Projectiles can be destroyed.
+-Messed up music. It is recommended you leave the music off while you play.
+-You cannot defeat the final boss.
+
+Contact Info
+iamstillhiro1112@yahoo.com
+
+Thanks:
+Frank15 for his work in rearranging the enemies.
+The Creator of the GBColorizer, a great tool which made the colorization of my hack possible.

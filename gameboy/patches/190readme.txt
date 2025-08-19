@@ -1,0 +1,16 @@
+A quick fix for Castlevania that addresses some of it's faults.
+Listed below are the changes I made:
+
+Increased character speed
+Do not lose whip powerups when hit by enemies
+Coins changed to money bags
+Hearts changed to Castlevania potroast
+Crosses changed to Medicine jars.
+
+Now there is also a patch for The color version of this game.
+Patch it to Konami GB Collection volume 1. (GBC Version)
+
+Contact info
+iamstillhiro1112@yahoo.com
+
+Thanks to Ugetab for finding the character speed and whip addies.

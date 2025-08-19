@@ -1,0 +1,1 @@
+This patch is meant to make the game a bit easier and less frustrating. Applying this patch to Mega Man Xtreme 2 will make the weapon energy of all weapons restore fully whenever a life is lost. This is done in Mega Man games for the PS1 or later. 

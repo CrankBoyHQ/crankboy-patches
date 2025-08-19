@@ -1,0 +1,78 @@
+Hack Name: Pokemon red proud eyes edition V4.0 
+
+Hack of: Pokemon Red US/EU (GameBoy) 
+
+
+Introduction:  
+
+Hello everyone, Break here with the release of the 4th update to my popular romhack "Pokemon red proud eyes edition".  
+After spending and extended period of time testing out the hacking tools available...I am very happy with the results of my re-balancing of this classic game.  
+I will start by thanking the large group of followers who have given me an enormous amount of support and feedback over the years!   
+Watching "let's play" streams and answering questions about the hack has been an enriching experience. 
+
+Storyline:  
+
+This hack contains the same storyline as the original...no dialogue has been changed.  
+
+Features:  
+
+-Updated to 2nd-Gen graphics
+-The casino prizes have been edited
+-All of the pokemarts have been edited
+-Edited all of the in-game rival encounters
+-Pokemon experience gains have been modified
+-Overworld pokemon levels have been modified 
+-Pokemon starting move sets have been updated
+-Lowered professor oak's aids item requirements
+-Updated the difficulty to catch in-game pokemon
+-All of the in-game pokemon trades have been updated
+-Changed the types of pokemon that cycle through at the title screen
+-All of the gym leader's and elite 4's pokemon teams have been edited
+-Changed the number of TMs you recieve after obtaining a gym badge to three 
+-The levels and types of pokemon that appear in caves, grass, and water have been edited
+
+
+Progress ( Complete ) 
+
+Elite 4 - 100%
+Pokemarts - 100%
+Gym Leaders - 100%
+Title Screen - 100%
+Casino Prizes - 100%
+Updated Graphics - 100%
+Pokemon Move Sets - 100%
+Pokemon EXP Gains - 100%
+Pokemon Encounters - 100%
+Pokemon Catch Rate - 100%
+Professor Oak's Aids - 100%
+In-Game Pokemon Trades - 100%
+In-Game Rival Encounters - 100%
+
+
+Download Patch 
+http://www.mediafire.com/?5545qbp1ap5b55z
+
+
+Credits 
+
+http://imgur.com/ - for letting me host my images
+http://fusoya.eludevisibility.org/ - for creating the Lunar ISP tool 
+http://www.mediafire.com/ - for letting me host my patch for download 
+http://www.swamperttools.co.nr/ - for creating the editors to make my romhack  
+http://www.youtube.com/ - for letting me upload gameplay footage of my romhack 
+http://www.romhacking.net/utilities/240/ - for helping me understand how to use this tool (Nightcrawler) 
+
+
+
+Contact:
+
+twitter: @Proud_Eyes
+email: grandflare@yahoo.com
+skeetendo: http://hax.iimarck.us/user/3474/ 
+facebook: https://www.facebook.com/TeamGunLeo 
+youtube: http://www.youtube.com/user/breaktube 
+piforums: http://piforums.info/member.php?u=3591
+pokemonforum: http://www.pokemon-forum.com/user-break
+romhacking: http://www.romhacking.net/community/1557/
+xboxlive: https://live.xbox.com/en-US/Profile?Gamertag=Joe%20D%20Haze
+

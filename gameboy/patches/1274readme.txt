@@ -1,0 +1,1 @@
+My 2nd gameboy hack, I created this because, though I liked the gameplay of this better than its NES counterpart, the graphics weren't done justice. Thus, all in-game graphics have been replaced with ones from the NES version. Also, most text in the game has been changed.

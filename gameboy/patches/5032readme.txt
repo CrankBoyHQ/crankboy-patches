@@ -1,0 +1,4 @@
+This small hack makes the health upgrades found in the stages 'shared' over both X and Zero. Instead of only increasing the maximum health of one character, the health of both is increased. This makes the upgrades feel more meaningful but removes some strategy. The patch can help if you are having difficulty in one stage as one of the two characters.
+
+This patch comes in two flavors: a version compatible with original vanilla save data and one that is slightly incompatible. While both versions should play mostly fine using both types of saves, it could be that some auto saving scenarios make a difference.
+For that reason I advice on using the compatibility patch and having included the other one mostly as a curiosity. 
