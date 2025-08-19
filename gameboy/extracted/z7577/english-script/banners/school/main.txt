@@ -1,0 +1,5 @@
+.include "banners.txt"
+.include "name_card.txt"
+.include "favorites_card.txt"
+.include "dice_banner.txt"
+.include "score_banner.txt"

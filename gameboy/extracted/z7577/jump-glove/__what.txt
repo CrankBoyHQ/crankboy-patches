@@ -1,0 +1,11 @@
+Adds a missing pixel to big jump hand  (from NES)
+
+
+
+
+
+Target: Super Mario Bros. Deluxe (Japan) (En) (Rev 1) (NP).gbc
+
+
+Credit: BucketOfFriedChicken
+License: Free. Whatever. Don't ask.

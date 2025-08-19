@@ -1,0 +1,47 @@
+# Baserom
+
+File: Legend of Zelda, The - Link's Awakening DX (USA, Europe) (SGB Enhanced).gbc
+Database match: Legend of Zelda, The - Link's Awakening DX (USA, Europe) (SGB Enhanced) (GB Compatible)
+Database: No-Intro: Game Boy/Color (v. 20210227-015730)
+SHA1: D90AC17E9BF17B6C61624AD9F05447BDB5EFC01A
+MD5: 07C211479386825042EFB4AD31BB525F
+CRC32: 97822948
+
+# Tools
+
+https://www.romhacking.net/hash/
+https://www.romhacking.net/patch/
+
+# Changelog
+
+Release 1.2.0
+* Show error message if Super Game Boy not detected
+
+Release 1.1.4
+* Bug Fix: Cannot open save dialog with A/B/Start/Select
+
+Release 1.1.3
+* Bug Fix: Game may freeze when picking up sword
+
+Release 1.1.2
+* Bug Fix: Crane game button text
+
+Release 1.1.1
+* Bug Fix: Save/Load issues after obtaining Magic Rod
+* Bug Fix: Boomerang trading with Secret Goriya
+* Remove debug save file
+
+Release 1.1.0
+* Quick restock empty items by spending rupees
+* Bug fix: Duplicate inventory items appearing
+* Bug fix: Incorrect Ocarina song on toggle
+* Disable dashable rock dialog when boots are unlocked
+
+Release 1.0.1
+* Bug fix: Rapid shield
+
+Release 1.0
+* Quick lift
+* Ocarina song toggle
+* P2 buttons changed to A/B/Left/Right
+* SGB controller injection

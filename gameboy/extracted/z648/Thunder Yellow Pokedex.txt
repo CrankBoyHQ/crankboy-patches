@@ -1,0 +1,156 @@
+#	Pokémon		Location
+001	Bulbasaur	House in Cerulean City
+002	Ivysaur		Evolve Bulbasaur (16)
+003	Venusaur	Evolve Venusaur (32)
+004	Charmander	Route 24 from Man
+005	Charmeleon	Evolve Charmander (16)
+006	Charizard	Evolve Charmeleon (36)
+007	Squirtle	Woman in Vermillion (after Gym battle)
+008	Wartortle	Evolve Squirtle (16)
+009	Blastoise	Evolve Wartortle (36)
+010	Caterpie	Viridian Forest
+011	Metapod		Evolve Caterpie (7)
+012	Butterfree	Evolve Metapod (10)
+013	Weedle		Routes 2, 24, 25
+014	Kakuna		Evolve Weedle (7)
+015	Beedrill	Evolve Kakuna (10)
+016	Pidgey		Routes 1, 2, 7, 17, 22
+017	Pidgeotto	Evolve Pidgey (18)
+018	Pidgeot		Evolve Pidgeotto (36)
+019	Rattata		Routes 11, 12, 13, 14, 15, 18
+020	Raticate	Evolve Rattata (20)
+021	Spearow		Routes 6, 13, 14, 15, 18
+022	Fearow		Evolve Spearow (20)
+023	Ekans		Routes 1, 2, 3, 4, 17, 22
+024	Arbok		Evolve Ekans (22)
+025	Pikachu		*Starter Pokemon (surfing)
+026	Raichu		Trade Eevee in Cinnabar (surfing)
+027	Sandshrew	Mount Moon
+028	Sandslash	Evolve Sandshrew (22)
+029	Nidoran (F)	Routes 13, 14, 15; Safari Zone
+030	Nidorina	Evolve Nidoran F (16)
+031	Nidoqueen	Evolve Nidorina (Moon Stone)
+032	Nidoran (M)	Routes 13, 14, 15; Safari Zone
+033	Nidorino	Evolve Nidoran M (16)
+034	Nidoking	Evolve Nidorino (Moon Stone)
+035	Clefairy	Mount Moon
+036	Clefable	Evolve Clefairy (Moon Stone)
+037	Vulpix		Route 16
+038	Ninetales	Evolve Vulpix (Fire Stone)
+039	Jigglypuff	Route 22; Celadon Game Corner
+040	Wigglytuff	Evolve Jigglypuff (Moon Stone)
+041	Zubat		Mount Moon, Rock Tunnel, Seafoam Cave, Victory Road
+042	Golbat		Evolve Zubat (22)
+043	Oddish		Routes 2, 3, 4, 5, 7, 24, 25
+044	Gloom		Evolve Oddish (21)
+045	Vileplume	Evolve Gloom (Leaf Stone)
+046	Paras		Mount Moon, Safari Zone
+047	Parasect	Evolve Paras (24)
+048	Venonat		Routes 13, 14, 15
+049	Venomoth	Evolve Venonat (31)
+050	Diglett		Diglett's Cave
+051	Dugtrio		Evolve Diglett (26)
+052	Meowth		Routes 4, 24, 25
+053	Persian		Evolve Meowth (28)
+054	Psyduck		Surf in Route 6
+055	Golduck		Evolve Psyduck (33)
+056	Mankey		Routes 3, 22
+057	Primeape	Evolve Mankey (28)
+058	Growlithe	Route 16, Pokemon Mansion
+059	Arcanine	Evolve Growlithe (Fire Stone)
+060	Poliwag		Fish in Routes 16, 17, 22, 23, Viridian, Fuschia
+061	Poliwhirl	Evolve Poliwag (25)
+062	Poliwrath	Evolve Poliwhirl (Water Stone)
+063	Abra		Route 24, Celadon Game Corner
+064	Kadabra		Evolve Abra (16)
+065	Alakazam	Trade Kadabra at Route 5
+066	Machop		Routes 9, 10; Rock Tunnel
+067	Machoke		Evolve Machop (28)
+068	Machamp		Trade Machoke at Route 2
+069	Bellsprout	Routes 6, 8, 11, 12, 13, 14, 15
+070	Weepinbell	Evolve Bellsprout (21)
+071	Victreebel	Evolve Weepinbell (Leaf Stone)
+072	Tentacool	Fish in Route 11, Pallet, Vermilion, Seafoam; Surf in Routes 19, 20, 21
+073	Tentacruel	Evolve Tentacool (30)
+074	Geodude		Mount Moon, Rock Tunnel, Victory Road
+075	Graveler	Evolve Geodude (25)
+076	Golem		Trade Graveler at Route 11
+077	Ponyta		Route 16
+078	Rapidash	Evolve Ponyta (40)
+079	Slowpoke	Surf Routes 12, 13, Seafoam
+080	Slowbro		Evolve Slowpoke (37)
+081	Magnemite	Power Plant
+082	Magneton	Evolve Magnemite (30)
+083	Farfetch'd	Routes 8, 9, 10, 11, 12, 17
+084	Doduo		Routes 3, 4, 5, 18, 24, 25
+085	Dodrio		Evolve Doduo (31)
+086	Seel		Seafoam Island
+087	Dewgong		Evolve Seel (34)
+088	Grimer		Pokemon Mansion, Power Plant
+089	Muk		Evolve Grimer (38)
+090	Shellder	Fish in Routes 16, 17
+091	Cloyster	Evolve Shellder (Water Stone)
+092	Gastly		Pokemon Tower
+093	Haunter		Evolve Gastly (25)
+094	Gengar		Trade Haunter at Route 18
+095	Onix		Rock Tunnel, Victory Road
+096	Drowzee		Route 17
+097	Hypno		Evolve Drowzee (26)
+098	Krabby		Fish in Routes 9, 24, 25; Seafoam
+099	Kingler		Evolve Krabby (28)
+100	Voltorb		Power Plant
+101	Electrode	Evolve Voltorb (30)
+102	Exeggcute	Safari Zone
+103	Exeggutor	Evolve Exeggcute (Leaf Stone)
+104	Cubone		Safari Zone, Pokemon Tower
+105	Marowak		Evolve Cubone (28)
+106	Hitmonlee	Route 23; Saffron City Dojo
+107	Hitmonchan	Route 23; Saffron City Dojo
+108	Lickitung	Route 12; Unknown Dungeon
+109	Koffing		Routes 9, 10
+110	Weezing		Evolve Koffing (35)
+111	Rhyhorn		Safari Zone, Unknown Dungeon
+112	Rhydon		Evolve Rhyhorn (42)
+113	Chansey		Safari Zone, Celadon Game Corner, Unknown Dungeon
+114	Tangela		Safari Zone
+115	Kangaskhan	Safari Zone
+116	Horsea		Fish in Routes 12, 13
+117	Seadra		Evolve Horsea (32)
+118	Goldeen		Fish Anywhere (Good Rod)
+119	Seaking		Evolve Goldeen (33)
+120	Staryu		Fish in Routes, 19, 20, 21, Pallet Town; Surf in Seafoam
+121	Starmie		Evolve Staryu (Water Stone)
+122	Mr. Mime	Routes 7, 8
+123	Scyther		Safari Zone
+124	Jynx		Routes 5, 6
+125	Electabuzz	Route 10
+126	Magmar		Route 16
+127	Pinsir		Safari Zone
+128	Tauros		Safari Zone
+129	Magikarp	Fish Anywhere
+130	Gyarados	Evolve Magikarp (20)
+131	Lapras		Silph Co. in Lavendar, Celadon Game Corner
+132	Ditto		Pokemon Mansion, Unknown Dungeon
+133	Eevee		Route 23; Celadon Game Corner, Celadon Mansion
+134	Vaporeon	Evolve Eevee (Water Stone)
+135	Jolteon		Evolve Eevee (Thunder Stone)
+136	Flareon		Evolve Eevee (Fire Stone)
+137	Porygon		Celadon Game Corner
+138	Omanyte		Route 23; Cinnabar Lab
+139	Omastar		Evolve Omanyte (40)
+140	Kabuto		Route 23; Cinnabar Lab
+141	Kabutops	Evolve Kabuto (40)
+142	Aerodactyl	Cinnabar Lab
+143	Snorlax		Routes 12, 16 (PokeFlute); Trade Eevee in Cinnabar
+144	Articuno	Seafoam Islands (Battle)
+145	Zapdos		Power Plant (Battle)
+146	Moltres		Victory Road (Battle)
+147	Dratini		Fish in the Safari Zone
+148	Dragonair	Evolve Dratini (30)
+149	Dragonite	Evolve Dragonair (55)
+150	Mewtwo		Unknown Dungeon (Battle)
+151	Mew			Route 24*, Trade Eevee in Cinnabar
+*To catch the wild Mew, you must not have beaten the Cerulean City Gym or crossed Gate Bridge.
+   :Across Gate Bridge, there is a trainer to the left in the patch of grass you have to avoid for now.  You must catch an Abra for its Teleport ability, so you will need to have a pokemon with a sleep ability in your party.  Save your game, make sure you have some Poke Balls, and go over to the trainer in the grass to the left of Gate Bridge, but do not challenge him yet.
+   :Stand directly to the north of the trainer so he's out of sight.  Walk south, holding down start and the menu will come up before the [!] appears over his head.  Use Teleport to get back to the Cerulean PokeCenter, and if you've done it correctly, your buttons should be disabled.  Without talking to anyone, enter the Cerulean Gym and battle the Swimmer.  After you defeat him, go back to the Gate Bridge and cross over.  Your menu will come up by itself this time!  Press B and you'll automatically enter a battle with a wild Mew.
+   :Other rare Pokemon can be summoned using the same method by simply avoiding a confrontation with the initial trainer.

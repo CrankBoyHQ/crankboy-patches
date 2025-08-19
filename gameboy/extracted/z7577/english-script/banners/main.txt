@@ -1,0 +1,4 @@
+.include "frames\main.txt"
+.include "logos\main.txt"
+.include "portraits\main.txt"
+.include "school\main.txt"

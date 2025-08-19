@@ -1,0 +1,26 @@
+Adds a few pixels to the edge of clouds.
+
+
+
+
+
+Original Credit: TakuikaNinja
+https://github.com/TakuikaNinja/smb1-bugfix
+
+
+
+
+Note:
+Original NES art was ported to GBC, which also fixes printer.
+
+
+
+
+
+
+
+Target: Super Mario Bros. Deluxe (Japan) (En) (Rev 1) (NP).gbc
+
+
+Credit: BucketOfFriedChicken
+License: Free. Whatever. Don't ask.

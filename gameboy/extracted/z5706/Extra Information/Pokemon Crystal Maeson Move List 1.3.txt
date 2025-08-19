@@ -1,0 +1,670 @@
+
+Move Changes:
+
+Note 1: Moves such as Wrap, and the ones that have the same effect (that is, draining HP
+	each turn to the foe in a passive way) had their effect improved. Now, instead of
+	taking 1/16th of the total HP of the affected Pokémon, now drain 1/12th of HP. 
+	
+Note 2: With Normal Pokémon now been changed into Beast Type, the Moves still being Normal
+		can't be used with STAB, thus can be considered totally "Neutral", and valuable for 
+		their special effects mostly. 
+		
+Note 3: As of version 1.2, several moves got removed or reworked, and a couple of new effects 
+        were created. One of them is similar to the move Dragon Tail that would appear on later 
+		generations, it will deal damage and force switch but has low priority. 
+		
+		Look at the end of this file for specific changes. 
+		
+		The limit of 255 moves really puts a limit what can be done though...
+
+-------------------------------------------------------------------------------------------------
+					Normal
+-------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------
+ Name			Pow. Acc. PP  Type		Description			Attacks Part 1
+-------------------------------------------------------------------------------------------------
+*Flail			 --  100  20  Physical  Damage done depends on HP, the lower, the more powerful.*
+ Return			 ??  100  20  Physical	Damage depends on Happiness (1~102 Power).
+ Fury Attack	 28   85  10  Physical	Hits 2-5 times, for a total of 140 Pow.
+ Tackle			 50  100  35  Physical	No Special Effect.
+ Wrap			 60   80  20  Physical	Traps the enemy for 2-5 turns, causing damage on each.
+ Rapid Spin		 70  100  35  Physical	Removes Spikes and Leech Seed, has high Critical Ratio.
+ Headbutt		 70  100  15  Physical	30% Chance of Flinching. Used to bump trees.
+ Cut			 70  100  25  Physical	High Critical Ratio. Also cuts bushes.
+ False Swipe	 80  100  30  Physical	Will never faint a foe, used for catching Pokémon.
+ Skull Bash		180   90   5  Physical	First tun attacks, the next turn takes a rest to recharge.
+ Explosion		250  100   5  Physical	Sacrifices itself to cause heavy dmg.
+ Struggle        60  100  --  Physical  Used when all PP are emtpy. Causes Recoil Damage.
+-------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------
+ Name			Pow. Acc. PP  Type		Description			Attacks Part 2
+-------------------------------------------------------------------------------------------------
+*Last Resort	 --  100  20  Physical  Damage done depends on HP, the lower, the more powerful.*
+ Splash			 10  100  30  Special	Has a mysterious effect (5% chance of activating).
+ Snore			 75  100  15  Special	20% Chance of Flinching, only useable while sleeping.
+ Flash			 60   95  20  Special	25% Chance of lowering Accuracy.
+ Tri Attack		 90   90  10  Special	15% Chance of Burn, Frostbite OR Paralyze.
+ Enerbeam		 95  100  20  Special	10% Chance of lowering Speed.
+ Hyper Beam		180   90   5  Special	First tun attacks, the next turn takes a rest to recharge.
+ Self Destruct	250  100   5  Special	Sacrifices itself to cause heavy dmg.
+-------------------------------------------------------------------------------------------------
+* Flail and Last Resort effect had its power increased and HP thresholds modified.
+  100% to 76%  HP > 80 Power (Originally  20)
+   75% to 51%  HP >100 Power (Originally  40)
+   50% to 26%  HP >130 Power (Originally  80)
+   25% to 10%  HP >180 Power (Originally 100)
+   10% or less HP >220 Power (Originally 150)
+
+I hope the risk vs reward pays of better now.
+-------------------------------------------------------------------------------------------------
+ Name			Pow. Acc. PP  Type		Description			Priority Moves
+-------------------------------------------------------------------------------------------------
+ Quick Attack	70  100  20  Physical 	High priority move, attacks First.
+ Swift			70  100  20  Special  	High priority move, attacks First.
+-------------------------------------------------------------------------------------------------
+ Name		 	Pow. Acc. PP  Type		Description			Stat-Up Moves
+-------------------------------------------------------------------------------------------------
+ Meditate		--  100  30  Status		Increases Attack   by 1 Lvl.
+ Concentrate	--  100  20  Status		Increases Sp.Atk.  by 1 Lvl.
+ Shield Up		--  100  20  Status		Increases Defense  by 1 Lvl.
+ Accelerate		--  100  20  Status		Increases Speed    by 1 Lvl.
+ Aim			--  100  20  Status		Increases Accuracy by 1 Lvl.
+ Double Team	--  100  20  Status		Increases Evasion  by 1 Lvl.
+ Minimize		--  100  20  Status		Increases Evasion  by 1 Lvl, x2 damage from Stomp.
+ Focus Energy	--  100  30  Status		Increases Critical Hit ratio by 1 Lvl.
+ Belly Drum		--  100  10  Status		Increases Attack  by 6 Lvls (Max) but costs 50% HP.
+-------------------------------------------------------------------------------------------------
+ Name			Pow. Acc. PP  Type		Description			Stat-Down Moves
+-------------------------------------------------------------------------------------------------
+ Growl			--  100  15  Status		Decreases Attack  by 1 Lvl.
+ Leer			--  100  15  Status		Decreases Defense by 1 Lvl.
+ Smokescreen	--   90  15  Status		Decreases Accuracy of a foe.
+-------------------------------------------------------------------------------------------------
+ Name			Pow. Acc. PP  Type		Description			Healing Moves
+-------------------------------------------------------------------------------------------------
+ Recover		 --  100   5  Status	Heals 50% of your MAX HP.
+ Softboiled		 --  100   5  Status	Heals 50% of your MAX HP.
+ Milk Drink		 --  100   5  Status	Heals 50% of your MAX HP.
+-------------------------------------------------------------------------------------------------
+ Name			Pow. Acc. PP  Type		Description			Status Effect Moves
+-------------------------------------------------------------------------------------------------
+ Sing			 --   75  15  Status	Can Cause Sleep.
+ Swagger		 --   90  15  Status	Confuses the foe, but also raises its Atk.
+ Attract		 --   75  15  Status  *	Causes infatuation to a foe of the opposite gender.
+-------------------------------------------------------------------------------------------------
+* Originally, Attract had 100% Accuracy. Seeing how in this game genders of NPC teams are  
+  fixed depending on the trainer's type, combined with infite uses of the TM, it made 
+  it a very, very, very abusable move. So it got a cut of 25% Accuracy to compensate, 
+  along other changes in some of the trainer's teams.
+-------------------------------------------------------------------------------------------------
+ Name			Pow. Acc. PP  Type		Description			Other Effect Moves
+-------------------------------------------------------------------------------------------------
+ Disable		 --   75  10  Status	For a few turns the foe will have its last used move blocked.
+ Mimic			 --  100  10  Status	Copies a foe's move (it becomes the move).
+ Transform		 --  100  10  Status  *	Copies Type, Moves, and all stats bar HP. 
+ Conversion		 --  100  30  Status	Changes your Type as the same as one of your moves.
+ Protect		 --  100  10  Status	Stops an enemy move. Can fail if used repeatedly.
+ Bide			 --  100  10  Status  *	Awaits for 2-3 turns, then returns double the damage received.
+ Sleep Talk		 --  100  10  Status	You will use another of your moves if sleeping.	
+ Metronome		 --  100  10  Status	Uses a random attack, any in the game.
+ Substitute		 --  100  10  Status	You create a decoy using 1/ of your HP.
+ Sketch			 --  100   1  Status	Permanently learns the last move used by the foe.
+ Lock On		 --  100   5  Status	Next move will never fail.
+ Perish Song	 --  100   5  Status	Both Pokémon will faint in 3 turns.
+ Mean Look		 --  100   5  Status	Makes the foe unable to switch out or flee.
+ Heal Bell		 --  100   5  Status	Heals the Status of the entire team.
+ Safeguard		 --  100   5  Status  *	Creates a shield against Status for 5 turns.
+ Pain Split		 --  100  20  Status	Combines foe's HP with yours, then shares evenly.
+ Batton Pass	 --  100  40  Status	The PKMN Switches out, passing stat-ups to the next.
+ Encore			 --  100   5  Status	Forces the foe to use the last move for 2~6 turns.
+-------------------------------------------------------------------------------------------------
+ Bide now has Priority, the same level as Quick Attack and Swift.
+ Transform now has Priority, the same level as Protect and Endure.
+ Safeguard now has Priority, the same level as Quick Attack and Swift.
+-------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------
+				Beast
+-------------------------------------------------------------------------------------------------
+ Name			Pow. Acc. PP  Type		Description			Attacks Part 1
+-------------------------------------------------------------------------------------------------
+ Fury Swipes	 25   90  15  Physical	Hits 2-5 times, for a total of 125 Pow. 
+ Scratch		 50  100  30  Physical	10% Chance of lowering Defense. 
+ Constrict		 60   85  15  Physical	35% Chance of lowering Speed.
+ Stomp			 70  100  20  Physical	25% Chance of Flinch, x2 damage if foe used Minimize.
+ Body Slam		 85   90  15  Physical	20% Chance of Paralyzing.
+ Hyper Fang		 90   95  15  Physical	15% Chance of Flinching.
+ Double Edge	120   90  15  Physical	Causes Recoil Damage.
+ Super Fang		 --   90  10  Physical	Halves foe's Current HP.
+-------------------------------------------------------------------------------------------------
+ Name			Pow. Acc. PP  Type		Description			Attacks Part 2
+-------------------------------------------------------------------------------------------------
+ Howl  Blast	 50   90  25  Special	10% Chance of Confusion.
+ Feral Slash	 70   90  20  Special	High Critical Ratio. 
+ Wild  Beam		 90   95  15  Special	15% Chance of lowering Attack.
+-------------------------------------------------------------------------------------------------
+ Name			Pow. Acc. PP  Type		Description			Other Effect Moves
+-------------------------------------------------------------------------------------------------
+ Glare			 --   75  30  Status	Can cause Paralysis.
+ Defense Curl	 --  100  20  Status	Increases Defense  by 1 Lvl & increases Rollout's Power.
+ Scare			 --  100  20  Status	Forces the foe to switch out or flee.
+-------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------
+					Fighting
+-------------------------------------------------------------------------------------------------
+ Name			Pow. Acc. PP  Type		Description			Attacks Part 1
+-------------------------------------------------------------------------------------------------
+ SeismicToss	 --  100  20  Physical	Damage done is your Level (Up to 100 HP).
+ Karate Chop	 50  100  25  Physical  High Critical Ratio.
+ Double Kick	 40  100  25  Physical  Attacks twice, for a combined 80 Power.
+ Rock Smash		 70   90  20  Physical	25% Chance of lowering Def.
+ Jump Kick		 70   95  25  Physical  If it fails, you lose 1/8 HP.
+ Cross Chop		 80   80  10  Physical  High Critical Ratio.
+ Strength		 95  100  15  Physical	10% Chance of Flinching.
+ Triple Kick	 20   80  15  Physical  Does 3 Strikes, 20 + 30 + 40 = 90 Pow.
+ Hi JumpKick	100   85  20  Physical  If it fails, you lose 1/8 HP.
+ DynamicPunch	100   80   5  Physical  30% Chance of Confusion.
+ Mega Kick		120   75   5  Physical	No Special effect.		
+-------------------------------------------------------------------------------------------------
+ Name			Pow. Acc. PP  Type		Description			Attacks Part 2
+-------------------------------------------------------------------------------------------------
+ Mind Punch		 50  100  20  Special	Never Misses.
+ Energy Kick	 70   90  15  Special	25% Chanfe of Flinching. 
+ Vital Throw	 95  100  15  Special	10% Chance of lowering Sp.Def.
+-------------------------------------------------------------------------------------------------
+ Name			Pow. Acc. PP  Type		Description			Other Effect Moves
+-------------------------------------------------------------------------------------------------
+ Detect			 --  100  10  Status	Stops an enemy move. Can fail if used repeatedly.
+ Counter		 --  100  20  Status	Counters Physical attacks, doing double Damage.
+-------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------
+					Fire
+-------------------------------------------------------------------------------------------------
+ Name			Pow. Acc. PP  Type		Description			Attacks Part 1
+-------------------------------------------------------------------------------------------------
+ Heat Tackle	 50  100  25  Physical	15% Chance of Burning.
+ Flame Wheel	 70  100  25  Physical	20% Chance of Burning.
+ Fire Strike	 95  100  15  Physical	10% Chance of Burning.
+ Sacred Fire	100   95   5  Physical	50% Chance of Burning.
+-------------------------------------------------------------------------------------------------
+ Name			Pow. Acc. PP  Type		Description			Attacks Part 2
+-------------------------------------------------------------------------------------------------
+ Ember			 50  100  25  Special	15% Chance of Burning.
+ Fire Spin		 60   80  15  Special	Traps the enemy for 2-5 turns, causing damage on each.
+ Fire Breath	 70  100  20  Special	20% Chance of Burning.
+ Flamethrower	 95  100  15  Special	10% Chance of Burning.
+ Fire Blast		120   85   5  Special	10% Chance of Burning.
+-------------------------------------------------------------------------------------------------
+ Name			Pow. Acc. PP  Type		Description			Other Effect Movest
+-------------------------------------------------------------------------------------------------
+ Burninate		 --   65  10  Status	Causes Burn (does affect Fire Pokémon).
+ Charge Up		 --   80  10  Status	Increases Sp.Atk. by 2 Lvls.
+ Sunny Day		 --   90   5  Status	Makes the battlefield Sunny for 5 turns.
+-------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------
+					Water
+-------------------------------------------------------------------------------------------------
+ Name			Pow. Acc. PP  Type		Description			Attacks Part 1
+-------------------------------------------------------------------------------------------------
+ Vicegrip		 50  100  30  Physical	10% Chance of lowering Attack.
+ Clamp			 60   80  15  Physical	Traps the enemy for 2-5 turns, causing damage on each.
+ Sea Hammer		 70   90  20  Physical	High Critical Ratio.
+ Waterfall		 95  100  15  Physical	10% Chance of causing Confusion.
+-------------------------------------------------------------------------------------------------
+ Name			Pow. Acc. PP  Type		Description			Attacks Part 2
+-------------------------------------------------------------------------------------------------
+ Water Gun		 50  100  25  Special	20% Chance of lowering Sp.Def.
+ Whirlpool		 60   80  15  Special	Traps fore for 2-5 turns, causing damage on each.
+ Bubblebeam		 70   90  20  Special   25% Chance of lowering Speed.
+ Surf			 95  100  15  Special	10% Chance of lowering Speed.
+ Hydro Pump		120   85   5  Special	10% Chance of Flinching.
+-------------------------------------------------------------------------------------------------
+ Name			Pow. Acc. PP  Type		Description			Other Effect Moves
+-------------------------------------------------------------------------------------------------
+ Liquid Armor	 --   80  10  Status	Increases Def. by 2 Lvls.
+ Rain Dance		 --   90   5  Status	Makes the battlefield Rainy for 5 turns.
+-------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------
+					Grass
+-------------------------------------------------------------------------------------------------
+ Name		Pow. Acc. PP  Type		Description			Attacks Part 1
+-------------------------------------------------------------------------------------------------
+ Vine Whip	 50  100  35  Physical	10% Chance of Flinch.
+ Razor Leaf	 70   95  25  Physical	High Critical Ratio.
+ Numb Petal	 95  100  15  Physical	10% Chance of lowering Evasion.
+-------------------------------------------------------------------------------------------------
+ Name			Pow. Acc. PP  Type		Description			Attacks Part 2
+-------------------------------------------------------------------------------------------------
+ Absorb			 40  100  20  Special	Recovers half of the HP done.
+ Mega Drain		 60  100  15  Special	Recovers half of the HP done.
+ Giga Drain		 75  100  10  Special	Recovers half of the HP done. 
+ Petal Dance	 95  100  15  Special	10% Chance of lowering Speed.
+ Solar Beam		130  100  10  Special	First turn charges, second one attacks.
+-------------------------------------------------------------------------------------------------
+ Name			Pow. Acc. PP  Type		Description			Status & Other Ef. Moves.
+-------------------------------------------------------------------------------------------------
+ Leech Seed		 --   90  15  Status	Plants a seed that steals HP to a foe.
+ Stun Spore		 --   75  35  Status	Can Cause Paralysis.
+ Poison Podwer	 --   75  35  Status	Can Cause Poison.
+ Sleep Powder	 --   75  35  Status	Can Cause Sleep.
+ Spore			 --  100  10  Status	Can Cause Sleep.
+ Cotton Spore	 --   80  10  Status	Lowers Speed by 2 Lvls.
+ Sweet Scent	 --  100  20  Status	Lowers Evasion by 1 Lvl.
+ Morning Sun	 --  100   5  Status	Heals 50% of your Maximum HP.
+-------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------
+					Ground
+-------------------------------------------------------------------------------------------------
+ Name			Pow. Acc. PP  Type		Description			Attacks Part 1
+-------------------------------------------------------------------------------------------------
+ Bone Rush		 25   90  15  Physical	Hits 2-5 Times, for a total of 125 Power.
+ Sand Attack	 50  100  15  Physical	20% Chance of lowering Accuracy.
+ Bonemerang		 50   85  10  Physical	Hits twice, for a total of 100 Power.
+ Ground Slam	 70   90  20  Physical	Deals damage and forces foe to switch. Has low Priority.  
+ Dig			 80  100  10  Physical	First tun digs, second attacks.
+ Earthquake		 95  100  15  Physical	10% Chance of lowering Speed.
+-------------------------------------------------------------------------------------------------
+ Name			Pow. Acc. PP  Type		Description			Attacks Part 2
+-------------------------------------------------------------------------------------------------
+ Mud Slap		 50  100  10  Special	15% Chance of lowering Accuracy.
+ Mud Bomb		 70   90  20  Special   25% Chance of lowering Sp. Attack. 
+ Earth Crash	 95  100  15  Special 	10% Chance of lowering Evasion.
+-------------------------------------------------------------------------------------------------
+ Name			Pow. Acc. PP  Type		Description			Other Effect Moves
+-------------------------------------------------------------------------------------------------
+ Fissure	 	 --   30   5  Physical	30% Chance of One-Hit KO.
+ Spikes		 	 --  100  20  Status	Puts spikes on the field, hurting any foe that enters.
+-------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------
+					Rock
+-------------------------------------------------------------------------------------------------
+ Name			Pow. Acc. PP  Type		Description			Attacks Part 1
+-------------------------------------------------------------------------------------------------
+ Rollout		 30   90  20  Physical	Increases power when used repeatedly.
+ Rock Throw		 60   90  20  Physical	20% Chance of Confusion.
+ Rock Slide		 95  100  15  Physical	10% Chance of lowering Speed.
+-------------------------------------------------------------------------------------------------
+ Name			Pow. Acc. PP  Type		Description			Attacks Part 2
+-------------------------------------------------------------------------------------------------
+ Ancient Power	 70  100  10  Special	10% Chance of raising all stats.
+ Rock Launch	 95  100  15  Special	10% Chance of raising own Def.
+-------------------------------------------------------------------------------------------------
+ Name			Pow. Acc. PP  Type		Description			Other Effect Moves
+-------------------------------------------------------------------------------------------------
+ Sandstorm		 --  100   5 Status	Causes a storm that takes away 1/8 of the HP of 
+									Pokémon that are NOT Rock, Steel, Ground and Ice. 
+-------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------
+					Ice
+-------------------------------------------------------------------------------------------------
+ Name			Pow. Acc. PP  Type		Description			Attacks Part 1
+-------------------------------------------------------------------------------------------------
+ Spike Cannon	 25   90 15  Physical	Attacks 2-5 times, for a total of 125 Power.
+ Powder Snow	 70   90 25  Physical	25% Chance of causing Frostbite.
+ Ice Strike		 95  100 15  Physical	10% Chance of Freezing.
+-------------------------------------------------------------------------------------------------
+ Name			Pow. Acc. PP  Type		Description			Attacks Part 1
+-------------------------------------------------------------------------------------------------
+ Aurora Beam	 50  100  25  Special	20% Chance of lowering Atk.
+ Icy Wind		 70   90  20  Special	25% Chance of causing Frostbite.
+ Octazooka		 70   85  10  Special	30% Chance of lowering Accuracy.
+ Ice Beam		 95  100  15  Special	10% Chance of causing Frostbite.
+ Blizzard		120   85   5  Special	10% Chance of causing Frostbite.
+-------------------------------------------------------------------------------------------------
+ Name			Pow. Acc. PP  Type		Description			Other Effect Moves
+-------------------------------------------------------------------------------------------------
+ Haze			 --  100  20  Status  *	Resets Status changes.
+ Mist			 --  100  30  Status  *	Protects from Status changes.
+-------------------------------------------------------------------------------------------------
+ Both Haze and Mist now have Priority, the same level as Quick Attack and Swift.
+-------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------
+					Electric
+-------------------------------------------------------------------------------------------------
+ Name			Pow. Acc. PP  Type		Description			Attacks Part 1
+-------------------------------------------------------------------------------------------------
+ Spark			 50   90  20  Physical  20% Chance of Paralyzing.
+ Light Dash      70   90  20  Physical  15% Chance of raising Speed by 1 Lvl. 
+ Bolt Strike	 95  100  15  Physical  10% Chance of Paralyzing
+-------------------------------------------------------------------------------------------------
+ Name			Pow. Acc. PP  Type		Description			Attacks Part 2
+-------------------------------------------------------------------------------------------------
+ Thundershock	 50  100  25  Special	20% Chance of Paralysis.
+ Jolt			 70   90  20  Special   15% Chance of raising Speed by 1 Lvl. 
+ Thunderbolt	 95  100  15  Special	10% Chance of Paralysis.
+ Zap Cannon		100   50   5  Special	100% Chance of Paralysis.
+ Thunder		120   85   5  Special	10% Chance of Paralysis (100 Acc in Rain).
+-------------------------------------------------------------------------------------------------
+ Name			Pow. Acc. PP  Type		Description			Status Effect Moves
+-------------------------------------------------------------------------------------------------
+ Thunder Wave	 --   80  20  Status	Can cause Paralysis (does affect Electric Pokémon). 
+-------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------
+					Ghost
+-------------------------------------------------------------------------------------------------
+ Name			Pow. Acc. PP  Type		Description			Attacks Part 1
+-------------------------------------------------------------------------------------------------
+ Lick			 50  100  20  Physical	20% Chance of Paralysis.
+ Night Slash	 95  100  20  Physical	10% Chance of Flinching.
+-------------------------------------------------------------------------------------------------
+ Name			Pow. Acc. PP  Type		Description			Attacks Part 2
+-------------------------------------------------------------------------------------------------
+ Night Shade	 60  100  20  Special	15% Chance of Confusion.
+ Shadow Ball	 95  100  15  Special	10% Chance of lowering SP.DEF.
+-------------------------------------------------------------------------------------------------
+ Name			Pow. Acc. PP  Type		Description			Other Effect Moves
+-------------------------------------------------------------------------------------------------
+ Confuse Ray	 --   75  10  Status	Causes confusion.
+ Nightmare		 --  100  15  Status	If foe is asleep, it will lose 1/4 of its HP.
+-------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------
+					Flying
+-------------------------------------------------------------------------------------------------
+ Name			Pow. Acc. PP  Type		Description			Attacks Part 1
+-------------------------------------------------------------------------------------------------
+ Peck			 50 100   35  Physical	May steal an item. 
+ Wing Attack	 70  90   20  Physical	25% Chance of lowering Defense.
+ Drill Peck		 95 100   15  Physical	10% Chance of lowering Def.
+ Fly			110  90   10  Physical	Causes Recoil Damage.
+ Sky Attack		135  90    5  Physical	First attacks, then recharges.
+-------------------------------------------------------------------------------------------------
+ Name			Pow. Acc. PP  Type		Description			Attacks Part 2
+-------------------------------------------------------------------------------------------------
+ Gust			 50  100  35  Special	15% Chance of lowering Speed 1 Lvl. 
+ Split Wind      70   90  20  Special   25% Chance of lowering Sp. Defense. 
+ Razor Wind		 95  100  15  Special	15% Chance of Flinching.
+ Aeroblast		 90   90   5  Special	High Critical Ratio.
+-------------------------------------------------------------------------------------------------
+ Name			Pow. Acc. PP  Type		Description			Other Effect Moves
+-------------------------------------------------------------------------------------------------
+ Agility		 --   80  10  Status	Increases Speed   by 2 Lvls.
+ Mirror Move	 --  100  20  Status	Copies the last move used by foe.
+-------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------
+					Bug
+-------------------------------------------------------------------------------------------------
+ Name			Pow. Acc. PP  Type		Description			Attacks Part 1
+-------------------------------------------------------------------------------------------------
+ Fury Cutter	 10   95 20  Physical	Continuous uses raises its Power (10, 20, 40, 80, 160).
+ Pin Missile	 25   90 15  Physical	Attacks 2-5 times, for a total of 125 Power.
+ Leech Life		 40  100 20  Physical	Heals 1/2 of the damage done.
+ Twineedle		 35   95 20  Physical	Attacks twice for 70 Power, 2nd hit has 20% Poison chance.
+ Drain Bite		 80   95 20  Physical	Restores half the damage done.
+ Mega Horn		100   85 10  Physical	10% Chance of lowering Def.
+-------------------------------------------------------------------------------------------------
+ Name			Pow. Acc. PP  Type		Description			Attacks Part 2
+-------------------------------------------------------------------------------------------------
+ String Shot	 50   90  20  Special	20% Chance of lowering Speed.
+ Signal Beam  	 70   90  15  Special	20% Chance of Confusion.
+ Melting Web	 90   90  20  Special	20% Chance of Burning.		
+-------------------------------------------------------------------------------------------------
+ Name			Pow. Acc. PP  Type		Description			Other Effect Moves
+-------------------------------------------------------------------------------------------------
+ Screech		 --   80  10  Status	Decreases Defense by 2 Lvls.
+ Spider Web		 --  100  10  Status	Blocks the enemy from switching out or fleeing.
+-------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------
+					Psychic
+-------------------------------------------------------------------------------------------------
+ Name			Pow. Acc. PP  Type		Description			Attacks Part 1
+-------------------------------------------------------------------------------------------------
+ Kinesis		 50   90  30  Physical	15% Chance of lowering Accuracy.
+ Palm Strike     70   90  20  Physical  Deals damage and forces foe to switch. Has low Priority.  
+ Mind Arrows	 95  100  15  Physical	10% Chance of Confusion.
+-------------------------------------------------------------------------------------------------
+ Name			Pow. Acc. PP  Type		Description			Attacks Part 2
+-------------------------------------------------------------------------------------------------
+ Confusion		 50  100  20  Special	20% Chance of Confusion.
+ Psybeam		 70   90  15  Special	20% Chance of Confusion.
+ Psychic		 95  100  15  Special	10% Chance of lowering Sp. Defense.
+ Dream Eater    100  100  15  Special	Steals health from foe if asleep.
+ FutureSight 	150  100  10  Special	Damages foe after two turns (bypasses Protect/Detect,
+                                        does no get STAB, it has no Type, so it's always neutral).
+-------------------------------------------------------------------------------------------------
+ Name			Pow. Acc. PP  Type		Description			Other Effect Moves
+-------------------------------------------------------------------------------------------------
+ Amnesia		 --   80  10  Status	Increases Sp.Def. by 2 Lvls.
+ Rest			 --  100  10  Status	Recovers all HP by sleeping for 2 turns.
+ Hypnosis		 --   70  20  Status	Can cause Sleep.
+ Light Screen	 --  100  15  Status	Doubles Def. of team, halving Physical Dmg. Lasts 5 turns.
+ Reflect		 --  100  15  Status	Doubles Sp.Def. of team, halving Special Dmg. Lasts 5 turns.
+ Mirror Coat	 --  100  20  Status	Counters Special Attacks, doing double Damage.
+ Teleport		 --  100  20  Status	Flees wild battle, useless in trainer battle.
+-------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------
+					Fairy
+-------------------------------------------------------------------------------------------------
+ Name			Pow. Acc. PP  Type		Description			Attacks Part 1
+-------------------------------------------------------------------------------------------------
+ Double Slap	 20   90  10  Physical	Hits 2-5 times, for a total of 100 Power.
+ Dizzy Punch	 85   90  10  Physical	20% Chance of Confusion.
+ Tantrum		110   90  25  Physical	Causes Recoil Damage.
+-------------------------------------------------------------------------------------------------
+ Name			Pow. Acc. PP  Type		Description			Attacks Part 2
+-------------------------------------------------------------------------------------------------
+ Present		 --   90  15  Special	50% 50 Pow, 30% 70 Pow, 10% 120 Pow, 10% Heal Foe. 
+ Shooting Star	 50  100  20  Special   15% Chance of lowering Sp. Def.
+ Magic Wind		 70   90  20  Special	20% Chance of lowering Accuracy.	
+ Reverb			 95  100  15  Special	10% Chance of Confusion.			
+-------------------------------------------------------------------------------------------------
+ Name			Pow. Acc. PP  Type		Description			Attacks Part 2
+-------------------------------------------------------------------------------------------------
+ Lovely Kiss	 --   80   5  Status	Can Cause Sleep.
+ Sweet Kiss		 --   70  10  Status	Causes Confusion.
+ Charm			 --   75  10  Status	Decreases Attack by 2 Lvls.
+ Moon Light		 --  100   5  Status	Heals 50% of your Maximum HP.
+-------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------
+					Poison
+-------------------------------------------------------------------------------------------------
+ Name			Pow. Acc. PP  Type		Description			Attacks Part 1
+-------------------------------------------------------------------------------------------------
+ Poison Sting	 50  100  25  Physical	25% Chance of Poison.
+ Acid			 70   90  20  Physical	25% Chance of lowering Sp. Attack.
+ Poison Fang	 90   95  15  Physical	20% Chance of Poison.	
+-------------------------------------------------------------------------------------------------
+ Name			Pow. Acc. PP  Type		Description			Attacks Part 2
+-------------------------------------------------------------------------------------------------
+ Smog			 50  100  25  Special	25% Chance of Poisoning.
+ Sludge			 70   90  20  Special	25% Chance of lowering Attack.
+ Sludge Bomb	 90   95  15  Special	20% Chance of Poison.
+-------------------------------------------------------------------------------------------------
+ Name			Pow. Acc. PP  Type		Description			Other Effect Moves
+-------------------------------------------------------------------------------------------------
+ Poison Gas		 --   75 35  Status		Can Poison.
+ Toxic			 --  100 10  Status		Can cause Bad Poison (takes more HP each turn). 
+-------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------
+					Dark
+-------------------------------------------------------------------------------------------------
+ Name			Pow. Acc. PP  Type		Description			Attacks Part 1
+-------------------------------------------------------------------------------------------------
+ Bite			 60  100  25  Physical	20% Chance of Flinching.
+ Thief			 70  100  15  Physical	Can Steal Items from Wild Pokémon.
+ Pay Day		 70  100  20  Physical	Gives Extra Money at the end of the battle (Lvl x 10).
+ Crunch			 95  100  15  Physical	10% Chance of lowering Def.
+ Take Down  	110   90  10  Physical	Causes Recoil Damage.
+-------------------------------------------------------------------------------------------------
+ Name			Pow. Acc. PP  Type		Description			Attacks Part 2
+-------------------------------------------------------------------------------------------------
+ Pursuit		 50  100  15  Special	Damage doubles if foe tries to flee.
+ Faint Attack	 70  ---  20  Special	Never Misses.
+ Dark Wind		 95  100  15  Special	10% chance of lowering Sp.Def.	
+-------------------------------------------------------------------------------------------------
+ Name			Pow. Acc. PP  Type		Description			Other Moves
+-------------------------------------------------------------------------------------------------
+ Debilitate		 --   80  10  Status	Lowers Sp. Atk. by 2 Lvls.
+ Scary Face		 --   80  10  Status	Lowers Sp. Def. by 2 Lvls.
+-------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------
+					Dragon
+-------------------------------------------------------------------------------------------------
+ Name			Pow. Acc. PP  Type		Description			Attacks Part 1
+-------------------------------------------------------------------------------------------------
+ Draco Fang		 70   90  15  Physical	25% Chance of lowering Def.
+ Draco Slash	 95   90  15  Physical	10% Chance of lowering Atk.
+ Outrage		110   90  15  Physical	Causes Recoil Damage.
+-------------------------------------------------------------------------------------------------
+ Name			Pow. Acc. PP  Type		Description			Attacks Part 2
+-------------------------------------------------------------------------------------------------
+ Dragon Rage	 50  100  25  Special	10% Chance of Burning.
+ Twister		 70   90  20  Special	20% Chance of Flinching.
+ Dragon Breath	 95  100  15  Special	10% Chance of Paralyze.
+-------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------
+					Steel
+-------------------------------------------------------------------------------------------------
+ Name			Pow. Acc. PP  Type		Description			Attacks Part 2
+-------------------------------------------------------------------------------------------------
+ Metal Claw		 50   95  30  Physical	10% Chance of raising own Atk.
+ Steel Bash		 70   90  25  Physical	15% Chance of raising own Defense.   
+ Iron  Clash 	100   90  15  Physical	10% Chance of lowering Def.
+-------------------------------------------------------------------------------------------------
+ Name			Pow. Acc. PP  Type		Description			Attacks Part 2
+-------------------------------------------------------------------------------------------------
+ Mercury Shot	 70  100  20  Special	15% Chance of raising own Sp. Defense.  
+ Iron Bomb		 95   95  10  Special	10% Chance of raising DEF.	
+-------------------------------------------------------------------------------------------------
+ Name			Pow. Acc. PP  Type		Description			Other Moves
+-------------------------------------------------------------------------------------------------
+ Swords Dance	 --   85  10  Status	Increases Attack  by 2 Lvls.
+-------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------
+					???
+-------------------------------------------------------------------------------------------------
+ Name			Pow. Acc. PP  Type		Description			Attacks Part 2
+-------------------------------------------------------------------------------------------------
+ Curse			 --  100  10  Status	If Ghost, causes Curse, if not, raises Atk/Def & lowers Speed.
+ Hidden Power	 70  100  15  Special * Its Type depends on the Pokémon's DVs. Power is fixed at 60.  
+-------------------------------------------------------------------------------------------------
+* Hidden Power now has fixed damage. Its Type is still randomized depending on the Pokémon's DVs
+  but because DVs no longer matter in stat calculations you could have cool HD Type without your 
+  Pokémon suffering from poor DV lottery. 
+-------------------------------------------------------------------------------------------------
+
+Stat Changing Move List for easier reference:
+
+-------------------------------------------------------------------------------------------------
+ Name			Pow. Acc. PP  Type		Description				Stat Ups
+-------------------------------------------------------------------------------------------------
+ Meditate		---  100  20  Status	 Increases Attack  by 1 Lvl.
+ Defense Curl   ---  100  20  Status     Increases Defense by 1 Lvl.
+ Concentrate    ---  100  20  Status     Increases Sp. Atk by 1 Lvl.
+ Shield Up      ---  100  20  Status     Increase  Sp. Def by 1 Lvl.
+ Accelerate     ---  100  20  Status     Increase  Speed   by 1 Lvl.
+ Double Team	---  100  15  Status	 Increase  Evasion by 1 Lvl.
+ Aim			---  100  10  Status     Increase  Acc.    by 1 Lvl.
+-------------------------------------------------------------------------------------------------
+ Swords Dance	---   85  10  Status     Increase  Attack  by 2 Lvls.
+ Acid Armor		---   85  10  Status     Increase  Defense by 2 Lvls.
+ Charge Up		---   85  10  Status     Increase  Sp. Atk by 2 Lvls.
+ Amnesia		---   85  10  Status     Increase  Sp. Def by 2 Lvls.
+ Agility		---   85  10  Status     Increase  Speed   by 2 Lvls.
+-------------------------------------------------------------------------------------------------
+ Name			Pow. Acc. PP  Type		Description				Stat Downs
+-------------------------------------------------------------------------------------------------
+ Growl			---  100  30  Status	Lowers Attack   by 1 Lvl.
+ Leer			---  100  30  Status	Lowers Defense  by 1 Lvl. 
+ Smokescreen	---   90  10  Status	Lowers Accuracy by 1 Lvl.
+ Sweet Scent	---   80  10  Status	Lowers Evasion  by 1 Lvl.
+-------------------------------------------------------------------------------------------------
+ Charm			---   80  10  Status	Lowers Attack   by 2 Lvls.
+ Screech		---   80  10  Status	Lowers Defense  by 2 Lvls.
+ Debilitate		---   80  10  Status	Lowers Sp. Atk. by 2 Lvls.
+ Scary Face		---   80  10  Status	Lowers Sp. Def. by 2 Lvls.
+ Cotton Spore	---   80  10  Status	Lowers Speed    by 2 Lvls.
+-------------------------------------------------------------------------------------------------
+
+
+ 1.2 changes:
+ 
+ Moves removed: Guillotine, Horn Drill, Fissure, Egg Bomb, Bone Club. 
+ 
+ Moves Changed:
+ 
+    Fire Blast, Blizzard, Thunder, Hydro Pump had their Accuracy boosted 
+	from 75 to 85. Fire Blast's description corrected, it said 100 Accuracy.
+	
+	Ember and Heat Tackle's Burning chance lowered to 15% from 20%.
+	Fire Breath and Flame Wheel's Burning chance raised to 20% from 15%.
+	
+	Icy Wind' Accuracy raised from 85 to 90. 
+	
+	Snow Powder power raised from 60 to 70, effect changed to 25% chance to lower Sp. Atk.
+	Accuracy was lowered from 100 to 90. 
+	
+	Octazooka's Accuracy Down effect lowered from 40% to 30%
+	
+	Sky Attack Accuracy raised from 80 to 90. Power from 130 to 135.
+	Gust effect changed to 15% Chance of lowering Speed. Original effect was useless on this hack.
+	
+	Razor Wind had its Fliching Effect lowered from 15% chance to 10%. 
+	
+	Future Sight had its power raised from 120 to 150.
+	Constrict had its power raised from 60 to 65. 
+	
+	Rapid Spin now has a high chance of being a Critical Hit. 
+	
+	Selfdestruct had its Power raised from 200 to 250, and now does Special damage.
+	
+	Quick Attack and Swift had their power rised from 60 to 70.
+
+	Jolt has changed. It now it has a power of 70, an Accuracy of 85,
+	and a 50% chance of raising the user's Speed by 1 Level. 
+	
+	Spark had its Power lowered from 70 to 50, and a new 70 Power physical 
+	Electric move has been added (more info below). 
+	
+	Snore had its Power raised from 60 to 75, and its Flinching effect lowered 
+	from 30% to 20%. 
+	
+	Flail Effect had its Power tiers improved. You can read about it on the 
+	list itself.
+	
+	Mud Bomb effect has changed. Now it has a 25% chance to lower the enemy's 
+	Special Attack. 
+	
+	Mercury Shot now raises user's Special Defense. 
+	Steel Bash now raises user's Defense.
+	Acid now lowers the enemy's Special Attack. 
+	Sludge now lowers the enemy's Attack.
+	
+	Hyper Beam had its power raised to 180. Skull Bash now acts as a Physical 
+	version of Hyper Beam, with the same Power. Accuracy raised to 100.
+	Believe or not, it's still not that incredibly powerful. 
+	
+	A few others have minor things that are not too important as different PP.
+	
+New Moves: 
+	
+	Last Resort added, it's a Special version of Flail. 
+	
+	Light Dash has been added. A phys. Electric-Type move that has 70 Power, 
+	85 Acc. and 50% to raise Speed by 1 Level.  
+	
+	Ground Slam has been added. A physical Ground move that has 70 Power, 
+	90 Accuracy and forces the enemy to switch Pokémon. It has low Priority.
+	
+	A Psychic version of this effect also exists, as Palm Strike, with the 
+	same Power, Accuracy and type of damage. 
+
+    WindSplitter is a new 70 Power Special Flying move that has a 25% 
+	chance to lower the foe's Sp. Def. 
+	

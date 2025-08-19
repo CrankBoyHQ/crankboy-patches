@@ -1,0 +1,126 @@
+---------------------------------------------------------
+		Uncatchable
+---------------------------------------------------------
+The following are not catchable until they have been bred first. Don't waste your MeteOrbs! \
+This includes all Lord type monsters except Darck.
+
+MetalKing
+GoldSlime
+GranSlime
+Divinegon
+Orligon
+GigaDraco
+KingLeo
+Gorago
+Azurile
+RoseVine
+EgDracil
+Armorpion
+Durran
+Jamirus
+Titanis
+LazaManus
+WhiteKing
+Niterich
+GoldGolem
+DarkMate
+Poseidon
+
+---------------------------------------------------------
+		Boosted XP		
+---------------------------------------------------------
+If you have hunted Metalys before in the DQ series, you understand the appeal of high XP monsters.
+The following monsters have had their base XP dramatically increased within random keys. 
+MetalKing is still the King. 
+
+Monster		Base XP
+CopyCat		168
+GhosTree	186
+Multieyes	189
+Exaucers	192
+Garudian	210
+PomPomBom	216
+Sickler		219
+Capt Dead	222
+FooHero		231
+Mimic		234
+ProtoMech	237
+FaceTree	243
+HaloSlime	246
+MimeSlime	255
+SlimeBorg	261
+Emyu		267
+HoodSquid	267
+WarMantis	303
+WhaleMage	312
+AxeShark	354
+FunkyBird	414
+Metally		600
+Golem		603
+IceMan		639
+LavaMan		666
+MetalDrak	729
+Blizzardy	756
+Phoenix		756
+GreatDrak	900
+KingSlime	927
+RoseVine	1161
+Metabble	1400
+MetalKing	1800
+
+---------------------------------------------------------
+		Recommendations
+---------------------------------------------------------
+This game has a lot of monsters to choose from. 
+I'm including my list of recommendations because I have thoroughly examined their growth tables and made changes to some XP requirements.
+It may also explain why some of these monsters are included in the lists above.
+Here are my recommendations sorted by how easily they level up.
+
+* Quite well-rounded for how easy it is to obtain
+** great choice
+*** Incredible choice
+
+	
+GiantMoth
+WeedBug
+TailEater 	*
+LandOwl
+RotRaven
+StubBird 	**
+HornBeet 	***
+SnakeBat
+Hork
+Mommonja 	*
+RayGigas
+Clawster
+VooDoll
+Mimic		**
+Angleron	**
+MerTiger
+DarkEye		*
+WarMantis	
+WalrusMan	*
+GulpBeast
+Roboster	**
+Balzak		***
+HoodSquid	
+Trumpeter
+Gamanian	*
+Octoreach	***
+Grizzly
+DeadNoble	
+StoneMan
+FireWeed	*
+WhipBird	***
+Octogon
+CancerMan
+KingLeo		**
+EvilBeast	*
+GoldGolem	***
+Niterich	
+Roboster2	**
+BattleRex	***
+Jamirus
+Rosevine
+AxeShark
+

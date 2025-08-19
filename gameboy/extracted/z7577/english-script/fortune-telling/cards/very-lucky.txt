@@ -1,0 +1,107 @@
+.loadtable "font.tbl"
+
+
+
+org 0x31, 0x58c0
+
+.stringn "                  "
+.stringn "Stomp a shell and "
+.stringn "                  "
+.stringn "scores will swell "
+
+
+
+.stringn "                  "
+.stringn "Pipe cleaning     "
+.stringn "                  "
+.stringn "reaps rewards     "
+
+
+
+.stringn "                  "
+.stringn "An eye to the sky "
+.stringn "                  "
+.stringn "reveals Red Coins "
+
+
+
+.stringn "                  "
+.stringn "Keep your head up "
+.stringn "                  "
+.stringn "Find what you seek"
+
+
+
+.stringn "                  "
+.stringn "A party of three  "
+.stringn "                  "
+.stringn "brings good luck  "
+
+
+
+.stringn "                  "
+.stringn "Luck arrives with "
+.stringn "                  "
+.stringn "the easterly wind "
+
+
+
+.stringn "                  "
+.stringn "Express yourself  "
+.stringn "                  "
+.stringn "with written word "
+
+
+
+.stringn "                  "
+.stringn "Seek out the one  "
+.stringn "                  "
+.stringn "who thinks of you "
+
+
+
+.stringn "                  "
+.stringn "Active bodies     "
+.stringn "                  "
+.stringn "breed active minds"
+
+
+
+.stringn "                  "
+.stringn "To create music is"
+.stringn "                  "
+.stringn "to create joy     "
+
+
+
+.stringn "                  "
+.stringn "You shall achieve "
+.stringn "                  "
+.stringn "great victories   "
+
+
+
+.stringn "                  "
+.stringn "Words of the wise "
+.stringn "                  "
+.stringn "cast fears aside  "
+
+
+
+
+; #########################################################
+
+
+
+
+org 0x23, 0x5f80
+	.incbin "very-lucky.gfx", 0x000, 0x80
+	.incbin "very-lucky.gfx", 0x100, 0x80
+	.incbin "very-lucky.gfx", 0x200, 0x80
+
+
+
+org 0x14, 0x47cd
+	.db 0x03, 0x03, 0x03, 0x03, 0x03, 0x03, 0x03, 0x03
+	.db 0x03, 0x03, 0x03, 0x03, 0x03, 0x03, 0x03, 0x03
+	.db 0x03, 0x03, 0x03, 0x03, 0x03, 0x03, 0x03, 0x03

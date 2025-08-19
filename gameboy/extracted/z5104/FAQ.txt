@@ -1,0 +1,150 @@
+-What is this?
+
+A very simple FAQ to help you know the project more.
+
+-What is Pokemon Patched Crystal?
+
+Pokemon Patched Crystal is a romhack of Pokemon Crystal which doesnt drastically alter the game's
+content and gameplay but instead it improves upon it with bugfixes and Quality of Life features that fit
+today's standarts, the series setting and theming and personal preference.
+
+-Personal preference?!
+
+Dont be alarmed, this isnt a romhack full of fakemon and Original Characters nor anything is removed.
+This is still the Pokemon Crystal you love but with some additions and adjustments.
+
+-So what's in it then?
+
+Here's a full feature list:
+
+The game's original bugs and glitches have been fixed, most notable fixes are all pokeballs working
+as intented, item fixes, no Arbitrary Code Execution, no battle glitches/bugs and many more issues
+have been sorted.
+
+You can obtain all 251 pokemon without the need to do trades with other people, version exclusives can now
+be found in the wild and certain evolution methods have been altered. (More info below)
+
+Time "works differently" now, meaning that the time when the sun rises and sets has been tweaked to
+logical ranges so that players can take advantage out of all three parts of the day in the game easier.
+
+TMs are now infinite use just like in later games.
+
+When picking up or receiving TMs as gifts the name of the move will also be shown.
+
+The starter sprites that are being shown before picking one are now in color.
+
+There's a Move Reminder NPC at Move Deleter's home now to teach your pokemon forgotten moves.
+
+Catching pokemon yields EXP to pokemon that took part in the battle like in later games.
+
+Berry and apricorn trees now drop between 1 to 5 berries/apricorns.
+
+Kurt will now immediately make balls so you dont need to wait an entire day for them.
+
+The Lucky Number Show now occurs daily instead of weekly.
+
+The Trainer House battle no longer has a daily limit
+
+You can challenge all Gym Leaders to a rematch as many times as you want after unlocking MT. Silver.
+Both Gym Leaders and the Elite Four now have stronger teams for rematches much like the remakes after
+unlocking MT. Silver.
+
+The trainer card now includes an extra page for Kanto badges and all 16 badges are now
+shown in color.
+
+You can now see the shiny variant of a pokemon in the pokedex by pressing SELECT.
+
+You can now choose one of many unique colors for your Pokedex UI in its SELECT menu.
+
+All 251 pokemon now have uniquely colored sprites in menus and the overworld.
+Shiny variants and shiny egg included.
+
+You are able to release EGGs via the PC.
+
+Both the Battle Tower and Buena's Password feature additional, new rewards.
+
+Carrie, the girl that enables Mystery Gift at the Goldenrod Department Store will offer
+to Mystery Gift with you once per day. The item range is exactly the same as the real
+Mystery Gift along with the ever rare Mirage and Bluesky mail (decorations are excluded at the moment)
+
+Smashing rocks now has a chance to give you certain items, including fossils. (More info below)
+
+Easily change the time by pressing DOWN + B on the title screen.
+
+Weather conditions in battle are now shown if active via an appropriate icon in the move selection window.
+
+Daytime/Nightime status is also shown with an icon in the main battle window.
+
+Ghost type attacks are now taking advantage of Special Attack instead of Attack and Dark type attacks take
+advantage of Attack instead of Special Attack.
+
+-Woah hold on there! You said no major changes, why change how types scale?!
+
+Allow me to explain. Before the Physical and Special split of Gen 4, moves were Physical or Special depending
+on their type, for example Fire attacks are Special and Normal attacks are Physical. For whatever reason, Ghost
+type attacks are Physical, meaning that they take advantage of the Attack stat. This is clearly a disadvantage
+for all Ghost types so i took the chance to correct that, and at the same time did the same thing with the Dark
+type for the same reason as most Dark Type attacks are physical past Gen 2.
+I hope you understand my reasoning on this change.
+
+-You said i can capture all 251 pokemon, what about Celebi and the Kanto legendaries?
+
+Celebi's event has been restored, meaning that it will occur normally once you beat the Elite Four
+so you can finally have a legit Celebi.
+
+The Kanto legendaries have been placed onto the overworld much like in later games, Mew included.
+
+-What about fossil pokemon?
+
+By smashing rocks there's a chance you'll get one of three (3) Kanto fossils. You can revive them the same way you did
+in Gen 1 at the corresponding NPC which is in the Ruins of Alph Research Center.
+
+-You said altered evolutions, what about that?
+
+Certain pokemon now evolve thanks to the item "Link Cord" which acts like an evolutionary stone much like in Pokemon Arceus.
+More info on the new encounters and ways to evolve pokemon can be found in the "Encounters and Evolutions.txt" file.
+
+-Can you Trade/Battle in this?
+
+Yes but also no. Trading works 100% and i've implemented fixes for bugs/mishaps that occur during Link Battles however Link Battles
+should be between two (2) Patched Crystal games not one (1) Patched Crystal game and any Gen 2 vanilla game as there will
+be desynchronization due to these changes.
+
+-Got the full list of Battle Tower rewards?
+
+MasterBall x1
+Revive x5
+Max Potion x5
+Full Restore x5
+Hp Up x5
+Protein x5
+Iron x5
+Carbos x5
+Calcium x5
+Rare Candy x5 
+Full Heal x5
+PP Up x5
+Dire Hit x5
+Guard Spec. x5
+Berserk Gene x1
+Scope Lens x1
+Lucky Punch x1
+Light Ball x1
+Twisted Spoon x1
+Normal Box x1
+Gorgeous Box x1
+
+-What else you got in store for us?
+
+Right now, i consider this romhack "complete" The initial goal of this project was to create "my dream version of Crystal" and it
+reached that status but new vanilla-friendly features, tweaks or maintenance updates are not off the table.
+
+-Why updates roll in such irregular rate?
+
+Its not on purpose. Life gets in the way and im not a fully fledged programmer, all my work is based on very helpful guides and individuals
+and whenever something cool comes up i take the safe approach and try it out internaly until im certain its fit for a release.
+
+-Any way i can help?
+
+You can always report back any bugs, throw your suggestions, etc. You can reach out to me through through a discord server.
+https://discord.com/invite/5Xu54kDeJS

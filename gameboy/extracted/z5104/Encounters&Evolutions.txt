@@ -1,0 +1,106 @@
+This is list of encounters that are added and/or adjusted and how certain pokemon evolve now.
+
+
+~~Improved Encounters~~
+
+Skarmory can now be found during the day at:
+Route 38
+
+Smeargle can now be found during the day at:
+Sprout Tower 3F
+
+Mantine can now be found at:
+Cianwood, Olivine City (Surf)
+
+Corsola can now be found at:
+Route 34, Olivine City (Surf)
+
+Larvitar can now be found rarely during the day at:
+Route 42
+
+Misdreavus can now be found on Johto rarely during the night at:
+Sprout/Tin Tower, Route 31, 32
+
+Houndour can now be found on Johto rarely during the day and mostly during the night at:
+Route 36, 37
+
+Murkrow can now be found on Johto during the night at:
+Route 38 
+
+Slugma can now be found on Johto during the day at:
+Burned Tower B1F 
+
+
+~~Missing Encounters~~
+
+Vulpix can be found during the morning and day at:
+Route 36, 37, 7, 8 
+
+Mankey can be found rarely during the morning and mostly during the day at:
+Route 42, 9 
+
+Mareep can be found mostly during the morning and day at:
+Route 32, 42, 43 
+
+Girafarig can be found rarely during the morning and day at:
+Route 43 
+
+Remoraid and Octillery can mostly be found at bodies of water using both rods and SURF besides swarms
+
+Chikorita can be found only during morning at:
+Route 31 
+
+Cyndaquil can be found only during the night at:
+Dark cave (Violet city entrance) 
+
+Totodile can be found only during the day at:
+Route 31
+
+Bulbasaur can be found only during morning and night at:
+Ilex Forest
+
+Charmander can be found only during the night at:
+Burned Tower B1F
+
+Squirtle can be found at all times at:
+Route 34 (Surf)
+
+Omanyte, Kabuto and Aerodactyl's fossils can be found by smashing rocks and revived
+at the Ruins of Alph Research Center.
+
+
+~~Legendaries~~
+
+Celebi can be found through its special event after beating the Elite Four
+
+Zapdos can be found at:
+Rock Tunnel
+
+Moltres can be found at:
+Victory Road
+
+Articuno can be found at:
+Ice Path
+
+Mewtwo can be found at:
+Silver Cave
+
+Mew is now found in the 4th secret Unown inscription chamber at the Ruins of Alph. To access this chamber
+you need to have Ho-Oh in your party. Eusine will also hint towards all this now.
+
+
+~~Evolutions~~
+
+***These methods are subject to change***
+
+Haunter, Machoke, Graveler, Kadabra, Seadra, Onix, Scyther evolve by using a Link Cord
+
+Eevee evolves into Espeon by using a Sun Stone
+
+Eevee evolves into Umbreon by using a Moon Stone
+
+Slowpoke evolves into Slowking by using a Link Cord
+
+Poliwhirl evolves into Politoed by using a Link Cord
+
+Porygon evolves into Porygon2 by using Up-grade

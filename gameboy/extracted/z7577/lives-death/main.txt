@@ -1,0 +1,14 @@
+org 0x3, 0x4906
+	ld a, (0xc17f)		; lives
+	dec a
+	ld (0xc17f), a
+
+
+	jr z, 0x492a		; 0 = game over
+
+
+	jr 0x4914		; keep playing
+	nop :: nop :: nop
+
+
+warnpc 0x4914

@@ -1,0 +1,18 @@
+org 0x14, 0x6a4e
+	ld a, 0x2d+3			; erase date x-pos
+
+
+
+
+org 0,0
+
+
+
+
+; ############################
+
+
+
+
+orga 0xe88b0
+	.incbin "erase.gfx"		; 1W x 2H

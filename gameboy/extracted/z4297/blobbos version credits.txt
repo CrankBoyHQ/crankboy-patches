@@ -1,0 +1,40 @@
+romhacking -
+Camerupt
+
+melmetal sprite -
+BloodlessNS
+
+movesets -
+Silent S
+Roaming Red
+
+general sprites-
+Rool
+Menu
+Le Ruse Bird
+Stargazr
+
+super gameboy border
+Rangi
+RedBlueStar
+
+hacking support-
+LuckyTyphlosion
+pret
+
+experience glitch fix-
+The Shadow Knight
+
+RPP code -
+Luna
+
+music and battle tent-
+TPP Devs
+Aniv. Red
+
+deadly seven -
+Cutlerine
+
+blobbos voices -
+Lil'Bro
+

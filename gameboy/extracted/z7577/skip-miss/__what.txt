@@ -1,0 +1,33 @@
+Lets you exit the challenge "Miss!" screen earlier.
+
+
+
+
+
+Original credit:
+
+Skip Miss! Screen @ RussianManSMWC
+https://www.romhacking.net/hacks/6201/
+
+
+
+
+
+
+Note:
+Above patch does not work with Japan.
+
+A different solution was used and old work was discarded.
+
+
+
+
+
+
+
+
+Target: Super Mario Bros. Deluxe (Japan) (En) (Rev 1) (NP).gbc
+
+
+Credit: BucketOfFriedChicken
+License: Free. Whatever. Don't ask.

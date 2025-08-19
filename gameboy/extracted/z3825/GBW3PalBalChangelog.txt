@@ -1,0 +1,938 @@
+===========
+Version 0.9
+===========
+
+Miscellaneous:
+-Bug fix: secondary weapon now uses appropriate supply pricing
+-Air units' Cover set to 30
+-Attacker's Support value doubled
+-Attacker's Flank penalty value and Defender's Support value both halved
+-Range attacks have attacker's Flank penalty value set to 10 times the number of spaces between the units
+-Bomb from Anti-City Bomb damage 2 -> 3 for Lite Land, 1 -> 2 for Armor
+-Bomb damage VS properties 15 -> 10 for Bombers, 25 -> 15 for Missile Frigate and Submarine+
+-APC+ can promote into IFV and Small Aircraft Carrier can promote into Large Aircraft Carrier
+
+EXP changes:
+-Capture, Bomb, Develop, Build, and Supply commands provides 4x EXP
+-Transport provides 8x EXP
+-Pave provides 50 EXP
+-Bomb can't get EXP from friendly fire damage anymore
+-Offensive EXP 2 -> 12 for direct, 1 -> 20 for indirect
+-Defensive EXP 1 -> 20 for direct, 2 -> 50 for indirect
+-Kill Bonus EXP 1 -> 32
+
+Unit changes:
+-Bazooka Materials Cost 12M -> 13M
+-Bazooka Movement Type changed from Foot to Veteran
+-Bazooka Armor DEF 14 -> 11
+-Bazooka Air DEF 16 -> 13
+-Bazooka Ship DEF 14 -> 11
+-Bazooka Primary Weapon Ammo 1 -> 2
+-Commando Movement Power 4 -> 3
+-Commando Lite Land DEF 16 -> 13
+-Commando Armor DEF 16 -> 13
+-Commando Air DEF 18 -> 15
+-Commando Ship DEF 16 -> 13
+-Commando Primary Weapon Ammo 2 -> 3
+-Work Car Air DEF 14 -> 15
+-Work Car Primary Weapon Ammo 5 -> 8
+-Work Car Secondary Weapno Ammo 7 -> 5
+-Work Car Fuel 50 -> 65
+-Supply Truck Gold Cost 600G -> 500G
+-Supply Truck Air DEF 12 -> 13
+-Supply Truck+ Gold Cost 800G -> 700G
+-Supply Truck+ Air DEF 12 -> 15
+-Supply Truck+ Primary Weapon Ammo 8 -> 9
+-Convoy Materials Cost 20M -> 16M
+-Convoy Transport Capacity 1 -> 2
+-Convoy Air DEF 12 -> 13
+-Convoy Base Focus 14 -> 18
+-Convoy Primary Weapon Ammo 7 -> 9
+-Convoy Fuel 50 -> 70
+-Convoy+ Materials Cost 22M -> 18M
+-Convoy+ Transport Capacity 1 -> 3
+-Convoy+ Air DEF 12 -> 15
+-Convoy+ Base Focus 15 -> 21
+-Convoy+ Focus Loss 2 -> 3
+-Convoy+ Secondary Weapon Ammo 9 -> 7
+-Convoy+ Fuel 60 -> 50
+-Buggy Armor DEF 12 -> 13
+-Buggy Air DEF 13 -> 14
+-Buggy Ship DEF 12 -> 13
+-Buggy Secondary Weapon Ammo 5 -> 7
+-Buggy+ Primary Weapon Ammo 3 -> 1
+-Buggy+ Secondary Weapon Ammo 7 -> 9
+-Humvee Air DEF 14 -> 15
+-Humvee Primary Weapon Ammo 2 -> 3
+-Humvee+ Base Focus 21 -> 22
+-Humvee Primary Weapon Ammo 3 -> 4
+-APC Gold Cost 1000G -> 900G
+-APC Materials Cost 24M -> 20M
+-APC Lite Land DEF 22 -> 25
+-APC Armor DEF 22 -> 27
+-APC Air DEF 10 -> 24
+-APC Ship DEF 22 -> 27
+-APC Fuel 60 -> 80
+-APC+ Materials Cost 26M -> 22M
+-APC+ Transport Capacity 1 -> 2
+-APC+ Lite Land DEF 24 -> 28
+-APC+ Armor DEF 24 -> 28
+-APC+ Air DEF 12 -> 28
+-APC+ Ship DEF 24 -> 30
+-APC+ Secondary Weapon Ammo 7 -> 9
+-Rocket Launcher Gold Cost 4200G -> 3200G
+-Rocket Launcher Materials Cost 32M -> 27M
+-Rocket Launcher Lite Land DEF 17 -> 18
+-Rocket Launcher Air DEF 10 -> 20
+-Rocket Launcher Ship DEF 17 -> 18
+-Rocket Launcher+ Gold Cost 4800G -> 4400G
+-Rocket Launcher+ Materials Cost 40M -> 32M
+-Rocket Launcher+ Lite Land DEF 20 -> 22
+-Rocket Launcher+ Air DEF 12 -> 24
+-Rocket Launcher+ Ship DEF 20 -> 22
+-Rocket Launcher+ Primary Weapon Ammo 3 (!) -> 7
+-Anti-Air Tank Gold Cost 2200G -> 1700G
+-Anti-Air Tank Materials Cost 30M -> 24M
+-Anti-Air Tank Movement Power 5 -> 6
+-Anti-Air Tank Lite Land DEF 20 -> 27
+-Anti-Air Tank Armor DEF 18 -> 30
+-Anti-Air Tank Air DEF 20 -> 40
+-Anti-Air Tank Ship DEF 16 -> 27
+-Anti-Air Tank Base Focus 17 -> 19
+-Anti-Air Tank Primary Weapon Ammo 2 -> 3
+-Anti-Air Tank Secondary Weapon Ammo 5 -> 6
+-Anti-Air Tank Fuel 60 -> 70
+-Mercenary Anti-Air Tank Gold Cost 3800G -> 2500G
+-Mercenary Anti-Air Tank 34M -> 28M
+-Mercenary Anti-Air Tank Movement Power 6 -> 5
+-Mercenary Anti-Air Tank Lite Land DEF 26 -> 32
+-Mercenary Anti-Air Tank Armor DEF 30 -> 35
+-Mercenary Anti-Air Tank Air DEF 20 -> 44
+-Mercenary Anti-Air Tank Ship DEF 30 -> 32
+-Mercenary Anti-Air Tank Base Focus 19 -> 25
+-Mercenary Anti-Air Tank Focus Loss 2 -> 3
+-Mercenary Anti-Air Tank Primary Weapon Ammo 3 -> 4
+-Anti-Air Missile Launcher Gold Cost 3600G -> 2500G
+-Anti-Air Missile Launcher Materials Cost 32M -> 27M
+-Anti-Air Missile Launcher Lite Land DEF 17 -> 18
+-Anti-Air Missile Launcher Air DEF 12 -> 24
+-Anti-Air Missile Launcher Ship DEF 17 -> 18
+-Anti-Air Missile Launcher+ Gold Cost 4400G -> 4000G
+-Anti-Air Missile Launcher+ Materials Cost 36M -> 30M
+-Anti-Air Missile Launcher+ Lite Land DEF 20 -> 22
+-Anti-Air Missile Launcher+ Air DEF 14 -> 28
+-Anti-Air Missile Launcher+ Ship DEF 20 -> 22
+-Anti-Air Missile Launcher+ Primary Weapon Ammo 4 -> 7
+-Artillery Gold Cost 3800G -> 2800G
+-Artillery Materials Cost 44M -> 36M
+-Artillery Lite Land DEF 18 -> 20
+-Artillery Air DEF 12 -> 24
+-Artillery Ship DEF 18 -> 20
+-Artillery+ Gold Cost 4500G -> 4000G
+-Artillery+ Materials Cost 50M -> 50M
+-Artillery Lite Land DEF 21 -> 24
+-Artillery Air DEF 14 -> 28
+-Artillery Ship DEF 21 -> 24
+-Artillery+ Primary Weapon Ammo 4 -> 6
+-IFV Gold Cost 1800G -> 2000G
+-IFV Materials Cost 36M -> 32M
+-IFV Movement Power 6 -> 5
+-IFV Lite Land DEF 30 -> 32
+-IFV Armor DEF 30 -> 32
+-IFV Air DEF 14 -> 30
+-IFV Ship DEF 30 -> 32
+-IFV Base Focus 17 -> 19
+-IFV Focus Loss 2 -> 3
+-IFV Primary Weapon Ammo 3 -> 4
+-IFV Fuel 65 -> 60
+-IFV+ Gold Cost 2000G -> 2400G
+-IFV+ Transport Capacity 1 -> 2
+-IFV+ Movement Power 6 -> 5
+-IFV+ Lite Land DEF 35 -> 36
+-IFV+ Armor DEF 35 -> 36
+-IFV+ Air DEF 16 -> 32
+-IFV+ Ship DEF 35 -> 36
+-IFV+ Base Focus 19 -> 22
+-IFV+ Focus Loss 2 -> 3
+-IFV Primary Weapon Ammo 3 -> 4
+-IFV+ Fuel 70 -> 65
+-Hunter Tank Gold Cost 2000G -> 1500G
+-Hunter Tank Materials Cost 32M -> 25M
+-Hunter Tank Air DEF 16 -> 32
+-Hunter Tank+ Gold Cost 2800G -> 2200G
+-Hunter Tank+ Materials Cost 42M -> 33M
+-Hunter Tank+ Air DEF 18 -> 36
+-MB Tank Gold Cost 3500G -> 3200G
+-MB Tank Materials Cost 46M -> 36M
+-MB Tank Lite Land DEF 45 -> 50
+-MB Tank Armor DEF 45 -> 50
+-MB Tank Air DEF 18 -> 40
+-MB Tank Ship DEF 50 -> 56
+-Mercenary Tank Materials Cost 48M -> 40M
+-Mercenary Tank Movement Power 6 -> 4
+-Mercenary Tank Lite Land DEF 52 -> 56
+-Mercenary Tank Armor DEF 52 -> 56
+-Mercenary Tank Air DEF 22 -> 44
+-Mercenary Tank Ship DEF 56 -> 64
+-Mercenary Tank Secondary Weapon changed from Machine Gun to Vulcan
+-Mercenary Tank Primary Weapon Ammo 9 -> 5
+-Mercenary Tank Fuel 60 -> 80
+-Fighter Gold Cost 8500G -> 4500G
+-Fighter Materials Cost 86M -> 44M
+-Fighter Movement Power 12 -> 10
+-Fighter Lite Land DEF 48 -> 40
+-Fighter Armor DEF 42 -> 44
+-Fighter Air DEF 35 -> 40
+-Fighter Ship DEF 44 -> 48
+-Fighter Primary Weapon Ammo 5 -> 8
+-Fighter Secondary Weapon Ammo 7 -> 4
+-Fighter Fuel 80 -> 99
+-Lite Fighter Gold Cost 6500G -> 3200G
+-Lite Fighter Materials Cost 72M -> 34M
+-Lite Fighter Movement Power 11 -> 9
+-Lite Fighter Lite Land DEF 42 -> 28
+-Lite Fighter Armor DEF 36 -> 32
+-Lite Fighter Air DEF 30 -> 28
+-Lite Fighter Ship DEF 38 -> 35
+-Lite Fighter Primary Weapon Ammo 4 -> 3
+-Lite Fighter Secondary Weapon Ammo 8 -> 6
+-Interceptor Gold Cost 9000G -> 5400G
+-Interceptor Materials Cost 94M -> 48M
+-Interceptor Movement Power 13 -> 10
+-Interceptor Lite Land DEF 56 -> 36
+-Interceptor Armor DEF 50 -> 40
+-Interceptor Air DEF 40 -> 36
+-Interceptor Ship DEF 52 -> 44
+-Attacker Gold Cost 8500G -> 5000G
+-Attacker Materials Cost 86M -> 48M
+-Attacker Movement Power 11 -> 9
+-Attacker Lite Land DEF 44 -> 32
+-Attacker Armor DEF 38 -> 33
+-Attacker Air DEF 28 -> 32
+-Attacker Ship DEF 40 -> 36
+-Lite Attacker Gold Cost 3400G -> 5000G
+-Lite Attacker Materials Cost 76M -> 40M
+-Lite Attacker Movement Power 9 -> 8
+-Lite Attacker Lite Land DEF 38 -> 27
+-Lite Attacker Armor DEF 32 -> 28
+-Lite Attacker Air DEF 26 -> 27
+-Lite Attacker Ship DEF 34 -> 32
+-Lite Bomber Gold Cost 12000G -> 5500G
+-Lite Bomber Materials Cost 96M -> 48M
+-Lite Bomber Movement Power 10 -> 8
+-Lite Bomber Lite Land DEF 61 -> 44
+-Lite Bomber Armor DEF 55 -> 45
+-Lite Bomber Air DEF 45 -> 44
+-Lite Bomber Ship DEF 57 -> 50
+-Lite Bomber Primary Weapon Ammo 5 -> 8
+-Bomber Gold Cost 15000G -> 5000G
+-Bomber Materials Cost 100M -> 56M
+-Bomber Movement Power 10 -> 8
+-Bomber Lite Land DEF 32 -> 50
+-Bomber Armor DEF 32 -> 50
+-Bomber Air DEF 30 -> 48
+-Bomber Ship DEF 34 -> 56
+-Bomber Primary Weapon Ammo 3 -> 4
+-Mercenary Bomber Gold Cost 18000G -> 6400G
+-Mercenary Bomber Materials Cost 120M -> 64M
+-Mercenary Bomber Movement Power 11 -> 9
+-Mercenary Bomber Lite Land DEF 37 -> 64
+-Mercenary Bomber Armor DEF 37 -> 64
+-Mercenary Bomber Air DEF 35 -> 60
+-Mercenary Bomber Ship DEF 39 -> 72
+-Mercenary Bomber Primary Weapon Ammo 4 -> 7
+-Mercenary Bomber Fuel Upkeep 5 -> 6
+-Transport Plane Gold Cost 5500G -> 3800G
+-Transport Plane Materials Cost 100M -> 56M
+-Transport Plane Transport Target Lite Land -> All Land
+-Transport Plane Movement Power 8 -> 6
+-Transport Plane Lite Land DEF 18 -> 42
+-Transport Plane Armor DEF 18 -> 42
+-Transport Plane Air DEF 18 -> 40
+-Transport Plane Ship DEF 18 -> 44
+-Transport Plane Fuel Upkeep 4 -> 5
+-Fuel Plane Gold Cost 6000G -> 4800G
+-Fuel Plane Materials Cost 100M -> 46M
+-Fuel Plane Movement Power 9 -> 7
+-Fuel Plane Lite Land DEF 18 -> 36
+-Fuel Plane Armor DEF 18 -> 40
+-Fuel Plane Air DEF 18 -> 36
+-Fuel Plane Ship DEF 18 -> 44
+-Gunship Gold Cost 5000G -> 2400G
+-Gunship Materials Cost 52M -> 30M
+-Gunship Lite Land DEF 27 -> 20
+-Gunship Armor DEF 27 -> 22
+-Gunship Ship DEF 28 -> 22
+-Gunship Fuel 60 -> 70
+-Gunship+ Gold Cost 5500G -> 3400G
+-Gunship+ Materials Cost 55M -> 33M
+-Gunship+ Movement Power 7 -> 5
+-Gunship+ Lite Land DEF 32 -> 24
+-Gunship+ Armor DEF 32 -> 25
+-Gunship+ Ship DEF 35 -> 27
+-Gunship+ Primary Weapon Ammo 2 -> 3
+-Gunship+ Fuel 70 -> 60
+-Anti-Submarine Helicopter Gold Cost 3800G -> 3200G
+-Anti-Submarine Helicopter Materials Cost 60M -> 40M
+-Anti-Submarine Helicopter Movement Power 6 -> 5
+-Anti-Submarine Helicopter Secondary Weapon changed from Machine Gun to VulcanX4
+-Anti-Submarine Helicopter Lite Land DEF 22 -> 25
+-Anti-Submarine Helicopter Armor DEF 22 -> 28
+-Anti-Submarine Helicopter Air DEF 20 -> 25
+-Anti-Submarine Helicopter Ship DEF 22 -> 25
+-Anti-Submarine Helicopter Primary Weapon Ammo 2 -> 3
+-Anti-Submarine Helicopter Secondary Weapon Ammo 7 -> 9
+-Anti-Submarine Helicopter Fuel 50 -> 65
+-Transport Helicopter Gold Cost 1900G -> 1800G
+-Transport Helicopter Materials Cost 25M -> 24M
+-Transport Helicopter Movement Power 7 -> 6
+-Transport Helicopter Lite Land DEF 20 -> 18
+-Transport Helicopter Fuel 70 -> 50
+-Transport Helicopter+ Gold Cost 3500G -> 2500G
+-Transport Helicopter+ Materials Cost 48M -> 28M
+-Transport Helicopter+ Movement Power 6 -> 5
+-Transport Helicopter+ Lite Land DEF 23 -> 20
+-Aegis Warship Gold Cost 22000G -> 5600G
+-Aegis Warship Materials Cost 180M -> 64M
+-Aegis Warship Movement Power 6 -> 5
+-Aegis Warship Lite Land DEF 75 -> 80
+-Aegis Warship Armor DEF 75 -> 80
+-Aegis Warhsip Air DEF 75 -> 64
+-Aegis Warship Ship DEF 65 -> 80
+-Aegis Warship Submarine DEF 52 -> 60
+-Aegis Warship Primary Weapon Ammo 4 -> 6
+-Aegis Warship Fuel 99 -> 50
+-Mercenary Missile Frigate Gold Cost 26000G -> 6000G
+-Mercenary Missile Frigate Materials Cost 200M -> 72M
+-Mercenary Missile Frigate Movement Power 7 -> 4
+-Mercenary Missile Frigate Lite Land DEF 80 -> 99
+-Mercenary Missile Frigate Armor DEF 80 -> 99
+-Mercenary Missile Frigate Air DEF 80 -> 80
+-Mercenary Missile Frigate Ship DEF 70 -> 99
+-Mercenary Missile Frigate Submarine DEF 60 -> 75
+-Mercenary Missile Frigate Fuel 99 -> 60
+-Large Aircraft Carrier Gold Cost 35000G -> 6400G
+-Large Aircraft Carrier Materials Cost 220M -> 80M
+-Large Aircraft Carrier Movement Power 5 -> 4
+-Large Aircraft Carrier Lite Land DEF 70 -> 72
+-Large Aircraft Carrier Armor DEF 70 -> 72
+-Large Aircraft Carrier Air DEF 65 -> 56
+-Large Aircraft Carrier Ship DEF 60 -> 72
+-Large Aircraft Carrier Submarine DEF 48 -> 54
+-Large Aircraft Carrier Fuel 99 -> 70
+-Small Aircraft Carrier Gold Cost 28000G -> 5000G
+-Small Aircraft Carrier Materials Cost 150M -> 64M
+-Small Aircraft Carrier Lite Land DEF 65 -> 64
+-Small Aircraft Carrier Armor DEF 65 -> 64
+-Small Aircraft Carrier Air DEF 58 -> 50
+-Small Aircraft Carrier Ship DEF 55 -> 64
+-Small Aircraft Carrier Submarine DEF 42 -> 48
+-Small Aircraft Carrier Movement Power 6 -> 5
+-Small Aircraft Carrier Primary Weapon Ammo 9 -> 6
+-Small Aircraft Carrier Secondary Weapon Ammo 9 -> 6
+-Small Aircraft Carrier Fuel 80 -> 50
+-Lander Gold Cost 8000G -> 2200G
+-Lander Materials Cost 130M -> 36M
+-Lander Movement Power 4 -> 5
+-Lander Lite Land DEF 40 -> 50
+-Lander Armor DEF 40 -> 50
+-Lander Air DEF 36 -> 40
+-Lander Ship DEF 35 -> 50
+-Lander Submarine DEF 25 -> 40
+-Lander Fuel 70 -> 60
+-Tanker Gold Cost 11000G -> 2000G
+-Tanker Materials Cost 140M -> 32M
+-Tanker Movement Power 4 -> 6
+-Tanker Lite Land DEF 30 -> 54
+-Tanker Armor DEF 30 -> 54
+-Tanker Air DEF 24 -> 45
+-Tanker Ship DEF 25 -> 54
+-Tanker Submarine DEF 22 -> 45
+-Tanker Fuel 90 -> 99
+-Submarine Gold Cost 20000G -> 3400G
+-Submarine Materials Cost 160M -> 48M
+-Submarine Air DEF 70 -> 64
+-Submarine Submarine DEF 57 -> 48
+-Submarine Primary Weapon Ammo 3 -> 4
+-Submarine Fuel 60 -> 70
+-Submarine+ Gold Cost 28000G -> 5200G
+-Submarine+ Materials Cost 180M -> 64M
+-Submarine+ Submarine DEF 66 -> 60
+-Submarine+ Primary Weapon Ammo 2 -> 3
+-Submarine+ Secondary Weapon Ammo 4 -> 8
+
+Weapon changes:
+-Rifle Lite Land ATK 10 -> 11
+-Rifle Air ATK 2 -> 12
+-Machine Gun Air ATK 4 -> 17
+-Vulcan Armor ATK 8 -> 4
+-Vulcan Air ATK 22 -> 24
+-VulcanX4 Armor ATK 13 -> 6
+-VulcanX4 Air ATK 34 -> 40
+-Minigun Lite Land ATK 33 -> 28
+-Minigun Armor ATK 20 (!) -> 6
+-Minigun Air ATK 30 -> 33
+-Minigun Cost 3G -> 4G
+-Vulcan++ Lite Land ATK 43 -> 40
+-Vulcan++ Armor ATK 18 -> 8
+-Vulcan++ Air ATK 40 -> 44
+-Vulcan++ Cost 4G -> 5G
+-Grenade Armor ATK 10 -> 14
+-Grenade Ship ATK 5 -> 25
+-Tank Gun Lite Land ATK 13 -> 11
+-Tank Gun Armor ATK 30 -> 36
+-Tank Gun Ship ATK 12 -> 50
+-Tank Gun+ Armor ATK 40 -> 50
+-Tank Gun+ Ship ATK 15 -> 72
+-Tank Gun++ Range 1~1 -> 1~2
+-Tank Gun++ Armor ATK 50 -> 64
+-Tank Gun++ Ship ATK 18 -> 90
+-Tank Gun++ Cost 13G -> 16G
+-Cannon Range 2~5 -> 2~4
+-Cannon Armor ATK 30 -> 40
+-Cannon Ship ATK 22 -> 44
+-Cannon+ Range 3~6 -> 3~5
+-Cannon+ Lite Land ATK 24 -> 22
+-Cannon+ Armor ATK 38 -> 50
+-Cannon+ Ship ATK 28 -> 56
+-Rockets Range 2~3 -> 2~4
+-Rockets Lite Land ATK 24 -> 30
+-Rockets Armor ATK 27 -> 28
+-Rockets Ship ATK 18 -> 30
+-Rockets+ Range 2~4 -> 3~6
+-Rockets+ Lite Land ATK 28 -> 36
+-Rockets+ Armor ATK 31 -> 32
+-Rockets+ Ship ATK 20 -> 36
+-Anti-Tank TOW Lite Land ATK 0 -> 8
+-Anti-Tank TOW Armor ATK 36 -> 44
+-Anti-Tank TOW Ship ATK 0 -> 50
+-Anti-Tank TOW Cost 11G -> 12G
+-Anti-Tank Javelin Lite Land ATK 0 -> 6
+-Anti-Tank Javelin Armor ATK 32 -> 36
+-Anti-Tank Javelin Ship ATK 0 -> 40
+-Anti-Tank Javelin Cost 13G -> 14G
+-Bomb Armor ATK 26 -> 52
+-Bomb Ship ATK 40 -> 64
+-Bomb Cost 18G -> 20G
+-Cruise Missile "Range" 3~7 -> 2~5 (erroneously not corrected in actual gameplay; well played Hudson Soft you Magnificent Baddies)
+-Surface-to-Air Missile Direct Lite Land ATK 0 -> 4
+-Surface-to-Air Missile Direct Armor ATK 0 -> 18
+-Surface-to-Air Missile Direct Air ATK 60 -> 64
+-Surface-to-Air Missile Direct Ship ATK 0 -> 20
+-Surface-to-Air Missile Range Range 2~3 -> 2~4
+-Surface-to-Air Missile Range Lite Land ATK 0 -> 4
+-Surface-to-Air Missile Range Armor ATK 0 -> 17
+-Surface-to-Air Missile Range Air ATK 55 -> 60
+-Surface-to-Air Missile Range Ship ATK 0 -> 19
+-Surface-to-Air Missile Range+ Range 4~6 -> 3~6
+-Surface-to-Air Missile Range+ Lite Land ATK 0 -> 4
+-Surface-to-Air Missile Range+ Armor ATK 0 -> 20
+-Surface-to-Air Missile Range+ Air ATK 52 -> 72
+-Surface-to-Air Missile Range+ Ship ATK 0 -> 22
+-Air-To-Air Missile Lite Land ATK 0 -> 3
+-Air-To-Air Missile Armor ATK 0 -> 14
+-Air-To-Air Missile Ship ATK 0 -> 16
+-Air-To-Air Missile Cost 40G -> 50G
+-Air-To-Air Missile+ Range 3~5 -> 2~3
+-Air-To-Air Missile+ Lite Land ATK 0 -> 3
+-Air-To-Air Missile+ Armor ATK 0 -> 13
+-Air-To-Air Missile+ Air ATK 47 -> 48
+-Air-To-Air Missile+ Ship ATK 0 -> 15
+-Air-To-Air Missile+ Cost 45G -> 56G
+-Air-To-Air Missile++ Range 4~7 -> 4~5
+-Air-To-Air Missile++ Lite Land ATK 0 -> 2
+-Air-To-Air Missile++ Armor ATK 0 -> 12
+-Air-To-Air Missile++ Air ATK 45 -> 44
+-Air-To-Air Missile++ Ship ATK 0 -> 14
+-Air-To-Air Missile++ Cost 50G -> 64G
+-Anti-Ship Missile Range 4~7 -> 3~5
+-Anti-Ship Missile Lite Land ATK 0 -> 25
+-Anti-Ship Missile Armor ATK 0 -> 50
+-Direct Torpedo Ship ATK 65 -> 80
+-Direct Torpedo Cost 30G -> 32G
+-Range Torpedo Ship ATK 50 -> 72
+-Range Torpedo Submarine ATK 70 -> 76
+-Range Torpedo Cost 35G -> 40G
+-Anti-Ground Rocket Armor ATK 18 -> 32
+-Anti-Ground Rocket Ship ATK 16 -> 36
+
+
+Terrain/Movement Type changes:
+-Airport Cover 10 -> 20
+-Ruined Airport Cover 20 -> 10
+-Harbor Cover 20 -> 30
+-Sea Cover 0 -> 10
+-Foot Ruins Movement 2 -> 1.5
+-Foot Moor Movement 2 -> 1.5
+-Foot Desert Movement 2 -> 1.5
+-Foot River Movement 2 -> 1.5
+-Foot Beach Movement 2 -> 1.5
+-Veteran Ruins Movement 2 -> 1
+-Veteran Mountain Movement 2 -> 1.5
+-Veteran Moor Movement 1.5 -> 1
+-Veteran Desert Movement 1.5 -> 1
+-Veteran River Movement 2 -> 1
+-Veteran Sea Movement 3 - > 1.5
+-Veteran Beach Movement 2 -> 1
+-Worker Desert Movement 3 -> 2.5
+-Worker Beach Movement (0) -> 2.5
+-Convoy Forest Movement 1.5 -> 2
+-Convoy Moor Movement 3 -> 2
+-Convoy Beach Movement (0) -> 2
+-Buggy Forest Movement 1.5 -> 2
+-Buggy Moor Movement 3 -> 2
+-Buggy River Movement 3 -> 4
+-Buggy Beach Movement 3 -> 2
+-Humvee Ruins Movement 4 -> 3
+-Humvee Forest Movement 2 -> 2.5
+-Humvee River Movement 3 -> 4
+-Humvee Beach Movement 2 -> 1.5
+-Armor Ruins Movement 3 -> 1.5
+-Armor Forest Movement 2 -> 1.5
+-Armor Moor Movement 3 -> 1.5
+-Armor Desert Movement 3 -> 1.5
+-Armor Beach Movement (0) -> 1.5
+-Tank Ruins Movement 3 -> 1.5
+-Tank Moor Movement 2 -> 1.5
+-Tank Desert Movement 2 -> 1.5
+-Tank River Movement 4 -> 3.5
+-Tank Beach Movement 4 - > 1
+
+
+
+===========
+Version 1.0
+===========
+
+Miscellaneous:
+-Range fire penalty revamp: penalty is now additionally based on whether or not the unit moves:
+--Distance in below formulae is number of spaces away from the target, capping at 6
+--If the unit moves, penalty is 10% x (Distance + 1); as a result, this can be anywhere from 30% to 70%
+--If the unit is stationary, penalty is 5% x (Distance - 2); as a result, this can be anywhere from 0% to 20%
+-Property deployment radius from HQ increased 3 -> 5
+-Harbors under the active player's control may now deploy regardless of proximity to the HQ
+-Repair rate increased: roundup(Property Strength/10) -> 1 + trunc(Property Strength/10)
+--Note: basically caps at 4 simply to prevent graphical glitching with manual maxed HQ recovery
+-Attacking unit now gets a Focus Bonus of +15
+-Fuel loss from movement now rounds up required Movement Power value instead of truncating
+-Fuel Display now has the alerting red coloring trigger for if the unit's Fuel is below 37.5% of its maximum Fuel, still triggering at 20 or below
+--Note: this does NOT apply for the mini-window displaying only HP and Fuel because programming limitations are fun
+-Ship family units now have 1 Fuel Upkeep, and Submarine family units have 2 Fuel Upkeep
+-Fuel Upkeep now displays for sea units
+-Unit Badges rewarded by beating any map on Standard or Campaign other than the first 2 in either mode
+-Summon Unit feature in Campaign now skips online prompt, allowing for the feature to work unconditionally and the animation of the unit coming in to play out
+-Aegis Warship can promote into Mercenary Missile Frigate
+
+EXP Changes:
+-A unit on a controlled property gains EXP at the start of its phase as long as it hadn't been deployed the previous Day
+--EXP is generally Property Strength/10 * Old HP / 10
+--Aircraft Carriers are treated as having 20 Property Strength, resulting in Old HP * 2 EXP
+--Old HP is (of course) HP before any repair healing
+-EXP Gains from Damage/Kills are now affected by Level
+--Direct fire attacks against units capable of counterattack multiplies the attacker's Damage/Kill EXP by (10 - Attacking Unit's Level Advantage - Spawn Penalty) / 8
+--The defending unit's Damage/Kill EXP multiplies the defender's Damage/Kill EXP by (8 - Defending Unit's Level Advantage) / 8
+---Level Advantage is shooting unit's Level - hit unit's Level; this can be negative if Defending unit has a higher Level
+--All other attacks multiply Damage/Kill EXP by (8 - Attacking unit's Level - Spawn Penalty) / 8
+---Spawn Penalty is 4 if the defending unit was just deployed on the opponent's previous phase; it's 0 otherwise
+-EXP Underdog Bonus trigger is no longer having getting the kill as a requirement
+-EXP Underdog Bonus trigger is now affected by each unit's Level
+--Each unit's ATK for the purpose of the check is multiplied by (4 + Unit's Level) / 4
+
+Unit changes:
+-Grunt Focus Loss 3 -> 2
+-Bazooka Focus Loss 6 -> 4
+-Work Car Focus Loss 2 -> 5
+-Supply Truck Movement Power 6 -> 7
+-Supply Truck Cost 500G -> 400G
+-Supply Truck+ Movement Power 5 -> 6
+-Supply Truck+ Cost 600G -> 500G
+-Convoy Base Focus 18 -> 20
+-Convoy Focus Loss 2 -> 5
+-Convoy Transport Capacity 2 -> 1
+-Convoy+ Base Focus 21 -> 18
+-Convoy+ Focus Loss 3 -> 4
+-Convoy+ Transport Capacity 3 -> 2
+-Buggy Base Focus 22 -> 18
+-Buggy Focus Loss 3 -> 2
+-Buggy+ Base Focus 25 -> 19
+-Humvee Base Focus 21 -> 17
+-Humvee+ Base Focus 22 -> 18
+-Humvee+ Focus Loss 3 -> 2
+-APC Base Focus 13 -> 20
+-APC Focus Loss 2 -> 5
+-APC Armor DEF 27 -> 28 (mostly patching out magic number shenanigans with Class 7)
+-APC Ship DEF 27 -> 28
+-APC Gold Cost 900G -> 800G
+-APC+ Primary Weapon changed from Anti-Tank TOW to Grenade
+-APC+ Primary Weapon Ammo 2 -> 4
+-APC+ Base Focus 15 -> 21
+-APC+ Focus Loss 2 -> 6
+-Rocket Launcher Gold Cost 3200G -> 2200G
+-Rocket Launcher Materials Cost 27M -> 28M
+-Rocket Launcher+ Gold Cost 4400G -> 4000G
+-Rocket Launcher+ Materials Cost 32M -> 36M
+-Anti-Air Tank Gold Cost 1700G -> 1600G
+-Anti-Air Tank Focus Loss 2 -> 3
+-Mercenary Anti-Air Tank Base Focus 25 -> 21
+-Mercenary Anti-Air Tank Focus Loss 3 -> 4
+-Anti-Air Missile Launcher Gold Cost 2500G -> 1600G
+-Anti-Air Missile Launcher Materials Cost 27M -> 32M
+-Anti-Air Missile Launcher+ Gold Cost 4000G -> 3200G
+-Anti-Air Missile Launcher+ Materials Cost 30M -> 40M
+-Artillery Gold Cost 2800G -> 2000G
+-Artillery Materials Cost 36M -> 40M
+-Artillery+ Gold Cost 4000G -> 3600G
+-Artillery+ Materials Cost 40M -> 50M
+-IFV Base Focus 19 -> 16
+-IFV Focus Loss 3 -> 2
+-IFV Secondary Weapon changed from Machine Gun to Vulcan
+-IFV Transport Capacity 1 -> 2
+-IFV+ Base Focus 22 -> 18
+-IFV+ Focus Loss 3 -> 1
+-IFV+ Secondary Weapon changed from Machine Gun to Vulcan
+-IFV+ Transport Capacity 2 -> 3
+-Hunter Tank Gold Cost 1500G -> 1400G
+-Hunter Tank Base Focus 24 -> 18
+-Hunter Tank+ Base Focus 25 -> 19
+-Hunter Tank+ Focus Loss 4 -> 3
+-MB Tank Materials Cost 36M -> 40M
+-MB Tank Focus Loss 2 -> 1
+-Mercenary Tank Materials Cost 40M -> 50M
+-Mercenary Tank Base Focus 22 -> 20
+-Fighter Primary Weapon changed from Air-To-Air Missile to Air-To-Air Missile+
+-Fighter Movement Power 10 -> 9
+-Fighter Base Focus 32 -> 22
+-Lite Fighter Movement Power 9 -> 8
+-Lite Fighter Base Focus 29 -> 18
+-Lite Fighter Focus Loss 2 -> 3
+-Interceptor Primary Weapon changed from Air-To-Air Missile+ to Air-To-Air Missile++
+-Interceptor Secondary Weapon changed from Air-To-Air Missile to Air-To-Air Missile+
+-Interceptor Base Focus 36 -> 20
+-Interceptor Focus Loss 2 -> 3
+-Attacker Movement Power 9 -> 8
+-Attacker Base Focus 30 -> 19
+-Attacker Focus Loss 2 -> 1
+-Attacker Fuel 60 -> 65
+-Lite Attacker Movement Power 8 -> 7
+-Lite Attacker Base Focus 27 -> 16
+-Lite Bomber Movement Power 8 -> 7
+-Lite Bomber Base Focus 30 -> 20
+-Lite Bomber Focus Loss 2 -> 3
+-Lite Bomber Fuel 65 -> 70
+-Bomber Movement Power 8 -> 7
+-Mercenary Bomber Movement Power 7 -> 6
+-Transport Plane Movement Power 6 -> 5
+-Fuel Plane Movement Power 7 -> 6
+-Gunship Gold Cost 2400G -> 2000G
+-Gunship Base Focus 24 -> 15
+-Gunship Focus Loss 3 -> 4
+-Gunship Fuel 70 -> 80
+-Gunship+ Base Focus 29 -> 16
+-Gunship+ Fuel 60 -> 65
+-Anti-Submarine Helicopter Gold Cost 3200G -> 2800G
+-Anti-Submarine Helicopter Base Focus 22 -> 17
+-Anti-Submarine Helicopter Fuel 65 -> 70
+-Transport Helicopter Gold Cost 1800G -> 1600G
+-Transport Helicopter Base Focus 22 -> 15
+-Transport Helicopter Fuel 50 -> 60
+-Transport Helicopter+ Base Focus 22 -> 15
+-Transport Helicopter+ Focus Loss 2 -> 3
+-Transport Helicopter+ Fuel 65 -> 70
+-All Ships Fuel Upkeep 0 -> 1
+-Aegis Warship Base Focus 20 -> 18
+-Aegis Warship Focus Loss 2 -> 4
+-Mercenary Missile Frigate Base Focus 24 -> 32 (really just fluff)
+-Large Aircraft Carrier Base Focus 22 -> 25
+-Large Aircraft Carrier Focus Loss 2 -> 4
+-Small Aircraft Carrier Base Focus 21 -> 22
+-Small Aircraft Carrier Focus Loss 2 -> 3
+-Lander Gold Cost 2200G -> 2000G
+-Lander Base Focus 17 -> 14
+-Tanker Gold Cost 2000G -> 1600G
+-Tanker Movement Type changed from Sea to Lander
+-Submarine Gold Cost 3400G -> 3200G
+-Submarine+ Focus Loss 3 -> 1
+-Both Submarines Fuel Upkeep 0 -> 2
+
+
+Weapon changes:
+-Artillery Cannon Lite Land ATK 16 -> 18
+-Rocket Lite Land ATK 30 -> 36
+-Rockets Ship ATK 30 -> 32
+-Rockets+ Lite Land ATK 36 -> 40
+-Anti-Tank Javelin Lite Land ATK 6 -> 8
+-Anti-Tank Javelin Armor ATK 36 -> 40
+-Anti-Tank Javelin Ship ATK 40 -> 45
+-Bomb Ship ATK 64 -> 50
+-Surface-to-Air Missile Range Armor ATK 17 -> 18
+-Surface-to-Air Missile Range Air ATK 60 -> 64
+-Surface-to-Air Missile Range Armor ATK 19 -> 20
+-Surface-to-Air Missile Range+ Lite Land ATK 4 -> 5
+-Surface-to-Air Missile Range+ Armor ATK 20 -> 22
+-Surface-to-Air Missile Range+ Air ATK 72 -> 80
+-Surface-to-Air Missile Range+ Ship ATK 22 -> 25
+-Air-To-Air Missile+ Range 2~3 -> 1~2
+-Air-To-Air Missile+ Armor ATK 13 -> 14
+-Air-To-Air Missile+ Air ATK 48 -> 50
+-Air-To-Air Missile+ Ship ATK 15 -> 16
+-Air-To-Air Missile++ Range 4~5 -> 2~3
+-Air-To-Air Missile++ Lite Land ATK 2 -> 4
+-Air-To-Air Missile++ Armor ATK 12 -> 18
+-Air-To-Air Missile++ Air ATK 44 -> 64
+-Air-To-Air Missile++ Ship ATK 14 -> 20
+-Range Torpedo Ship ATK 72 -> 80
+-Range Torpedo Submarine ATK 76 -> 80
+-Cruise Missile Range actually fixed up to be 2~5 Range
+
+Map Changes:
+-Beginner Map 9 (Class 9) - 3 tiles changed to Mountains to prevent delivery by south path bypassing the Work Car tutorial
+-Campaign Map 10 (Nozee) - Both proximity Harbors preowned to counteract Aegis Warship and Fighter siege
+-Campaign Map 14 (Suod) - added ownership of 1 City, 1 Airport, and 1 Harbor to counteract oppressive infantry and air unit siege
+-Campaign Map 15 (Lightow) - added ownership of 1 City, 1 Factory, and 1 Harbor to counteract oppressive navy siege
+-Campaign Map 33 (Lirebe) - added ownership of 1 City to counteract slightly oppressive armor siege
+-Campaign Map 37 (Ryuunoha) - added ownership of 3 Harbors and 2 Airports to counteract VERY oppressive air force siege
+-Campaign Map 38 (Saki) - added ownership of 2 Harbors to counteract Interceptors
+-Campaign Map 41 (Galgan) - added ownership of 1 Harbor to make siege busting easier
+-Campaign Map 45 (Plan A) - added ownership of 2 Cities, 1 Factory, and 1 Airport to counteract VERY oppressive air force siege
+
+
+
+===========
+Version 2.0
+===========
+
+
+Miscellaneous:
+-Flanking defense penalty revamped: now the maximum ignored amount of DEF boosting, but with the listed Flank value used as ATK percent boost for the attack's owner
+-Flanking penalty reduced 25/35/50 -> 10/25/40
+-Communication Towers now contribute +5 to the ATK and DEF boosting, capping at 200 (NOTE: not shown in-game due to limitations)
+-Air units' Cover now have a system
+--Planes have 40 Cover not affected by terrain, but it gets reduced by 20 when against planes or attacked by range fire; both stack with each other
+--Helicopters now benefit from terrain but their Cover floors at 20 to begin with
+--Helicopters gain an additional 30 Cover against range fire attacks, added after terrain considerations
+-A unit moving off of a transport that has already moved has halved rounded up Movement Power
+-Supply Trucks and Tanker now repair adjacent surface units at the start of the player's phase:
+--Supply Truck will repair 1 HP to land units; Supply Truck+ will repair 2 HP to land units; neither repairs sea units
+--Tanker will repair 4 HP to land units and 2 HP to sea units, including Submarines
+--Uses 1 "Ammo" of Supplies when repairs are done at all and does not restore Fuel or Ammo but repairs are still done to Submarines and fellow supplier units where applicable with the above, and also grants EXP at a rate of 4 x (5 + Healing Total)
+--NOTICE: Does not get shut off by turning off Auto-Supply due to system complications
+-Property EXP gains are now doubled in general
+--Sea units also get 1.25x the new amount of Property EXP
+-Communication Towers now provide Gold income particularly thanks to telecommunication that is useful when dealing with pandemics
+-Harbors now provide Materials income in their trade routes that especially help with the God awful Russia invasion
+-Predeployed units now are registered as newly built, preventing Property EXP gain on the first Day and also reducing Red Star Day 1 combat EXP VS White Moon units
+-Any units, including Promoted and Mercenary units, can now be built on VS Mode on the right deployment points
+-Factories under the active player's control may now deploy regardless of proximity to the HQ
+-Mercenary Missile Frigate can now Promote back into Aegis Warship and Submarine+ can Promote back into Submarine
+
+Other patches:
+-Map editor patch: Now correctly patches
+-Map editor patch: Communication Towers now available to place
+-HP Display patch bugfix: Selected Unit information updated based on destination tile's primary unit upon finishing movement; averts display bugs when loading a unit and then opening and closing a menu
+-HP Display patch bugfix: HP changes by Bomb command now correctly updates on unchanged terrain
+-HP Display patch bugfix: Sorting now correctly updates the last Selected Unit's ID # (was irrelevant in base game but did affect HP Display)
+
+Unit changes:
+-Commando Gold Cost 600G -> 700G
+-Supply Truck+ Gold Cost 600G -> 1000G
+-Supply Truck+ Materials Cost 24M -> 28M
+-Convoy Lite Land DEF 14 -> 13
+-Convoy Lite Land DEF 16 -> 15
+-Convoy+ Gold Cost 700G -> 1200G
+-Convoy+ Materials Cost 18M -> 20M
+-Buggy+ Gold Cost 700G -> 1400G
+-Buggy+ Materials Cost 18M -> 22M
+-Buggy+ Primary Weapon Anti-Tank TOW -> Anti-Tank Javelin
+-Buggy+ Primary Weapon Ammo 1 -> 2
+-Humvee Materials Cost 17M -> 18M
+-Humvee+ Gold Cost 800G -> 1600G
+-Humvee+ Materials Cost 19M -> 25M
+-APC Air DEF 24 -> 25
+-APC+ Gold Cost 1200G -> 1600G
+-APC+ Materials Cost 22M -> 25M
+-Rocket Launcher Armor DEF 17 -> 16
+-Rocket Launcher Gold Cost 2200G -> 2000G
+-Rocket Launcher gets Rifle with 3 Ammo
+-Rocket Launcher Focus Loss 2 -> 5
+-Rocket Launcher+ Air DEF 24 -> 25
+-Rocket Launcher+ gets Machine Gun with 3 Ammo
+-Rocket Launcher+ Base Focus 12 -> 14
+-Rocket Launcher+ Focus Loss 2 -> 6
+-Anti-Air Tank Lite Land DEF 27 -> 32
+-Anti-Air Tank Armor DEF 30 -> 32
+-Anti-Air Tank Ship DEF 27 -> 28
+-Mercenary Anti-Air Tank Lite Land DEF 32 -> 40
+-Mercenary Anti-Air Tank Armor DEF 35 -> 40
+-Mercenary Anti-Air Tank Air DEF 44 -> 50
+-Mercenary Anti-Air Tank Ship DEF 32 -> 36
+-Mercenary Anti-Air Tank Secondary Weapon Ammo 4 -> 5
+-Anti-Air Missile Launcher Armor DEF 17 -> 16
+-Anti-Air Missile Launcher Air DEF 24 -> 25
+-Anti-Air Missile Launcher Gold Cost 1600G -> 1400G
+-Anti-Air Missile Launcher Gold Cost 32M -> 36M
+-Anti-Air Missile Launcher gets Rifle with 3 Ammo
+-Anti-Air Missile Launcher Base Focus 12 -> 17
+-Anti-Air Missile Launcher Focus Loss 2 -> 4
+-Anti-Air Missile Launcher+ Air DEF 28 -> 32
+-Anti-Air Missile Launcher+ Gold Cost 3200G -> 2800G
+-Anti-Air Missile Launcher+ Gold Cost 40M -> 45M
+-Anti-Air Missile Launcher+ gets Machine Gun with 3 Ammo
+-Anti-Air Missile Launcher+ Base Focus 12 -> 20
+-Anti-Air Missile Launcher+ Focus Loss 2 -> 5
+-Artillery Lite Land DEF 20 -> 22
+-Artillery Air DEF 24 -> 25
+-Artillery Gold Cost 2000G -> 1600G
+-Artillery gets Rifle with 3 Ammo
+-Artillery Focus Loss 2 -> 6
+-Artillery+ Lite Land DEF 24 -> 28
+-Artillery+ Armor DEF 21 -> 22
+-Artillery+ Air DEF 28 -> 32
+-Artillery+ Ship DEF 24 -> 25
+-Artillery+ Gold Cost 3600G -> 3200G
+-Artillery+ gets Machine Gun with 3 Ammo
+-Artillery+ Focus Loss 2 -> 7
+-IFV Air DEF 30 -> 32
+-IFV+ Movement Power 5 -> 4
+-IFV+ Lite Land DEF 36 -> 40
+-IFV+ Armor DEF 36 -> 40
+-IFV+ Air DEF 32 -> 40
+-IFV+ Ship DEF 36 -> 40
+-IFV+ Gold Cost 2400G -> 2800G
+-Hunter Tank Lite Land DEF 35 -> 40
+-Hunter Tank Armor DEF 35 -> 36
+-Hunter Tank Cost 1400G -> 1300G
+-Hunter Tank Fuel 45 -> 50
+-Hunter Tank+ Lite Land DEF 40 -> 45
+-Hunter Tank+ Cost 2200G -> 2500G
+-Hunter Tank+ Fuel 50 -> 40
+-MB Tank Lite Land DEF 50 -> 64
+-Mercenary Tank Lite Land DEF 56 -> 80
+-Fighter Armor DEF 44 -> 36
+-Fighter Ship DEF 48 -> 32
+-Lite Fighter Armor DEF 32 -> 25
+-Lite Fighter Air DEF 28 -> 32
+-Lite Fighter Ship DEF 35 -> 22
+-Lite Fighter Primary Weapon Ammo 3 -> 2
+-Lite Fighter Gold Cost 3200G -> 2800G
+-Lite Fighter Materials Cost 34M -> 32M
+-Interceptor Armor DEF 40 -> 32
+-Interceptor Ship DEF 44 -> 28
+-Interceptor Gold Cost 5400G -> 5600G
+-Attacker Armor DEF 33 -> 28
+-Attacker Air DEF 32 -> 36
+-Attacker Ship DEF 36 -> 25
+-Attacker Primary Weapon Ammo 2 -> 3
+-Lite Attacker Lite Land DEF 27 -> 25
+-Lite Attacker Armor DEF 28 -> 22
+-Lite Attacker Air DEF 27 -> 28
+-Lite Attacker Ship DEF 32 -> 20
+-Lite Attacker Gold Cost 3400G -> 3200G
+-Lite Attacker Materials Cost 40M -> 36M
+-Lite Bomber Lite Land DEF 44 -> 40
+-Lite Bomber Armor DEF 45 -> 36
+-Lite Bomber Air DEF 44 -> 45
+-Lite Bomber Ship DEF 50 -> 32
+-Bomber Lite Land DEF 50 -> 50
+-Bomber Armor DEF 50 -> 40
+-Bomber Air DEF 48 -> 50
+-Bomber Ship DEF 56 -> 36
+-Mercenary Bomber Armor DEF 64 -> 50
+-Mercenary Bomber Air DEF 60 -> 64
+-Mercenary Bomber Ship DEF 72 -> 45
+-Transport Plane Lite Land DEF 42 -> 45
+-Transport Plane Armor DEF 42 -> 36
+-Transport Plane Ship DEF 44 -> 36
+-Transport Plane Gold Cost 3800G -> 4000G
+-Supply Plane Armor DEF 40 -> 32
+-Supply Plane Ship DEF 44 -> 28
+-Supply Plane Gold Cost 4800G -> 5000G
+-Gunship Gold Cost 2000G -> 1800G
+-Gunship Materials Cost 30M -> 28M
+-Gunship+ Lite Land DEF 24 -> 25
+-Gunship+ Air DEF 24 -> 25
+-Gunship+ Ship DEF 27 -> 28
+-Gunship+ Gold Cost 3400G -> 3200G
+-Gunship+ Materials Cost 33M -> 36M
+-Anti-Submarine Materials Cost 40M -> 50M
+-Aegis Warship Submarine DEF 60 -> 64
+-Aegis Warship Gold Cost 5600G -> 5000G
+-Aegis Warship Materials Cost 64M -> 80M
+-Mercenary Missile Frigate Submarine DEF 75 -> 80
+-Mercenary Missile Frigate Gold Cost 6000G -> 5600G
+-Mercenary Missile Frigate Materials Cost 72M -> 90M
+-Large Aircraft Carrier Submarine DEF 54 -> 56
+-Large Aircraft Carrier Materials Cost 80M -> 100M
+-Small Aircraft Carrier Submarine DEF 48 -> 50
+-Small Aircraft Carrier Materials Cost 64M -> 80M
+-Lander Materials Cost 36M -> 45M
+-Tanker Materials Cost 32M -> 40M
+-Submarine Submarine DEF 48 -> 40
+-Submarine Gold Cost 3200G -> 2500G
+-Submarine Materials Cost 48M -> 64M
+-Submarine Primary Weapon Ammo 4 -> 5
+-Submarine+ Submarine DEF 60 -> 50
+-Submarine+ Gold Cost 5200G -> 4500G
+-Submarine+ Materials Cost 64M -> 80M
+-Submarine+ Base Focus 23 -> 20
+-Submarine+ Focus Loss 1 -> 2
+
+
+Weapon changes:
+-Rifle Air ATK 12 -> 11
+-Machine Gun Air ATK 17 -> 16
+-Vulcan Air ATK 24 -> 22
+-VulcanX4 Lite Land ATK 34 -> 36
+-Minigun Air ATK 33 -> 32
+-Vulcan++ Air ATK 44 -> 45
+-Grenade Range 1~1 -> 1~2
+-Grenade Lite Land ATK 20 -> 18
+-Tank Gun Lite Land ATK 11 -> 10
+-Tank Gun Ship ATK 50 -> 45
+-Tank Gun+ Armor ATK 50 -> 56
+-Tank Gun++ Ship ATK 90 -> 80
+-Cannon Range 2~4 -> 2~3
+-Cannon Ship ATK 44 -> 45
+-Cannon+ Lite Land ATK 22 -> 25
+-Cannon+ Armor ATK 50 -> 56
+-Cannon+ Ship ATK 56 -> 64
+-Rockets Armor ATK 28 -> 25
+-Rockets Ship ATK 32 -> 28
+-Rockets+ Lite Land ATK 40 -> 50
+-Rockets+ Armor ATK 32 -> 36
+-Rockets+ Ship ATK 36 -> 40
+-Anti-Tank TOW Lite Land ATK 8 -> 9
+-Anti-Tank TOW Armor ATK 44 -> 45
+-Bomb Armor ATK 52 -> 56
+-Anti-City Bomb Cost 100G -> 80G
+-Surface-To-Air Missile Direct Air ATK 64 -> 50
+-Surface-To-Air Missile Range Lite Land ATK 4 -> 5
+-Surface-To-Air Missile Range Armor ATK 18 -> 20
+-Surface-To-Air Missile Range Air ATK 64 -> 56
+-Surface-To-Air Missile Range Ship ATK 20 -> 22
+-Surface-To-Air Missile Range+ Lite Land ATK 5 -> 7
+-Surface-To-Air Missile Range+ Armor ATK 22 -> 28
+-Surface-To-Air Missile Range+ Ship ATK 25 -> 32
+
+Terrain/Movement Type changes:
+-Capital Cover 70 -> 50
+-Mountain Cover 50 -> 60
+-Convoy Forest Movement 2 -> 2.5
+-Convoy Moorland Movement 2 -> 2.5
+-Buggy Forest Movement 2 -> 2.5
+-Buggy Moorland Movement 2 -> 2.5
+-Humvee Forest Movement 2.5 -> 3
+-Humvee Moorland Movement 2 -> 2.5
+-Humvee Desert Movement 2 -> 1.5
+
+Map changes:
+-Beginner Map 3 (Class 3) - moved both indirects 4 tiles closer to keep this possible through stat changes without having to downgrade the MB Tank
+-Beginner Map 6 (Class 6) - changed enemy Convoy's tile to a Neutral City to better display the Anti-Air Tank's power VS Lite Land units
+-Beginner Map 10 (Class 10) - added a few Beach tiles for aesthetic
+-Beginner Map 11 (Class 11) - 2 changes:
+--Swapped Red Star's Capital and Airport around and moved Bomber accordingly to retain White Moon Capital bombing fun factor
+--Moved all 3 Grunts close to the Factory cluster to prevent unwinnable situations by the unconditional Factory deployment
+-Beginner Map 12 (Class 12) - Forest tiles for both enemy units to better showcase direct-fire appeal
+-Beginner Map 13 (Class 13) - Forest tile for enemy Artillery+ to better showcase the power of flanking bonuses
+-Beginner Map 14 (Class 14) - Forest tile for enemy APC to punctuate player power
+-Beginner Map 15 (Class 15) - Forest tile for enemy APC and Moorland tile for east Humvee to showcase the Focus system better
+-Beginner Map 16 (Class 16) - Forest tiles for both enemy units to better test the player

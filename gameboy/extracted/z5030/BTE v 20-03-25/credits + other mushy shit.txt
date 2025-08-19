@@ -1,0 +1,93 @@
+credits+other mushy shit:
+1:11 PM 3/22/2020
+this hack was made with the pokémon crystal disassembly found at https://github.com/pret/pokecrystal
+big ups to them for makin all this possible. and game freak ofc.
+im gonna include /some/ of the files i edited for the vanilla version (and probably the rest on their own github pages) so you can kinda get an idea of how things are edited and make your own hacks based on it. seriously, you could make up as many opponents for you to fight and just do endless battle tower battles, but in 6v6 format and no item clause ;_; 
+
+truly a dream come true, at least for me. 
+thank you jace for always bein down to listen to me rant and rave about this shit for hours even though youre not crazy about this shit like i am XD . 
+
+
+
+
+BACKSTORY 1
+this hack was inspired by me replaying a crystal clear update that had the walking pokemon that was really fun. i played it for a while on my PSP and had a sickass time w my bros followin me around and shit.
+really kicked off this massive roleplaying campaign i have in my head that was able to develop a full sidestory in the pokemon colosseum hack i also started work on.
+
+I hella enjoyed crystal clear 2.0 BABY, the most recent pokemon game ive been playing. i think its perfect for roleplaying cuz theres no restrictions on where you can go. you can build your ideal team or just go on a cool slow-paced journey through old johto and kanto. you can rebattle gyms which makes a lot more sense for leveling up pokemon. the adventure i was having was pretty great, i love hangin out w
+	and my bros i met along the way , but i wanted to be able to do more with them.
+ 
+
+ i grew tired of having to press bb every time my slugma (MR. MAGOO) tried to evolve, or the fact that so many mons (and prevos) were just weaker for the sake of it. and i knew how easily that /could/ change, the game could have even more options for self expression..
+ but at least the game makes grinding hella easy and as painless as it can be, so training the fuck outta my spearow (ESPERA) just so it would have the same stats a fearow wouldve had at its level wasnt too big a deal and is what i did.
+ 
+being able to learn event moves/past tm moves from the pc was also a feautre i gratefully welcomed, and inspired all sorts of crazy things later on. (apparently pidgey gets Sing in an event, which lead to my cool underleveled pidgeotto (APRIL) i caught in viridian forest taking a more of a supporting role. one with tthat and agility + baton pass, that eventually included sunny day, since i needed a sun-setter for my ivysaur (GOMEZ) i caught in ilex forest i wanted to use.)
+ 
+	but even tho CC offered more expansive movesets, theres nothing they did to stop the one main problem-- old pokemon battles are just stale at this point and theres not much you can do to make em exciting. theres only a certain number of moves in the game that are worth using and the further back you go into the generations, the less expansive every mon's moveset becomes.
+	i mean, when i went to edit the sets for the BTmons, so many of em just have some form of Rest + sleep talk. it got so bad i saw shit like houndoom or any other mon w/out a sleep-inducing move just randomly have dream eater in one of its sets. they figure youll be usin em too, since you couldnt do much else to avoid getting paralyzed by body slam or thunder wave or RAW THUNDER (cant believe ppl used to run that in this smh) and stat boosting moves are SCARCE.
+also the fact  that they had to make hidden power and it works the way it does feels like a sign that things coulda been tinkered a bit more
+
+and the fact that u cant even simulate a proper top-level battle in-game cuz the battle tower only lets you take in 3 mons at a time.. never knew what was up w that and why its persisted in every game since. and the item clause too like if this is supposed to be "the true ultimate test of a trainer's skill" why make up all these rules for battling at the last second, and change everything we've come to learn throughout the course of the game, like why is pokemon so afraid of letting you fight an opponent on equal terms remember the elite 4 in platinum or shit only had like four mons each or some shit like cmon
+
+
+
+when i started to get bored of how limited, not just the pokemon i could use, but also the movesets were, i felt it was time to seek the next challenge, but i still hadnt exactly completed all there was to do in CC. i had most of the gyms done, was trainin a random group of mons when i decide "ya know what its time to fight blue i guess and lose" so i go to his gym and ofc get creamed w my unevolved charmeleon and wartortle w shitty movesets that i couldnt really do nothin about.
+
+so i figure its time to take em over to orre for training
+
+
+
+BACKSTORY 2
+the second thing this BTE hack was inspired by was that period of time on that training/hacking journey i spent modding colosseum, puttin in better trainer encounters and shadow pokemon. id even transfer pokemon between games and cross train em in crystal clear's gyms and mt. battle.
+(made possible by the wonderful makers of PKHeX and Dolphin's Memcard manager respectively). 
+https://projectpokemon.org/home/files/file/1-PKHeX/
+
+so you can kinda expand your journey if you use a save editor and copy your mons into colosseum, which is why PKHeX is so great, it even handles gamecube save files (.gci) (which can be extracted from your .RAW memcard file in dolphin.)
+
+along w the Colosseum tool, by StarsMMD
+https://projectpokemon.org/home/files/file/2463-gale-of-darkness-tool-osx-colosseum-tool/
+
+
+at first it took a while to get colosseum tool to actually work (had to rename some files that the program was asking for, but the creator mustve not updated yet), but once it did, i took full advantage of the opportunity and really embraced summa the anime traits to be able to go all in w my bros. them bein fully animated and catchin/battlin more interesting mons and sets was so excitin, youd come home after griding in the gym, then play colo a little bit, purify some shadow mons, then trade em back to CC for more trainin.
+
+so when i was migratin over to colosseum, first i started by just editing the pokemon stats so the lower evolutions match the highest ones (also changing the evo methods to stones and allowing for reversion of pokemon forms so its fully cosmetic and you can use wahtever pkmn speaks to u most. this also meant i could do shit i always wanted like give grovyle sceptiles stats, but swap its spatk and atk so its leaf blades are really good), but then i get so many ideas for interesting battles you could face in doubles and all the cool new ideas for shadow pokemon id come up w, again some based on playin as a kid and thinkin "damn i wish i coulda got THIS pokemon instead :<"
+and im stoked cuz i finally get to enjoy colosseum again, but on my terms and get to play the game how i wish it always was. which gives me the drive again to see what i can do about this battle tower shit, since i was a little bummed i wasnt able to keep colosseums battle mode when putting in all the needed changes, but maybe someday that too will be broken and well be able to have a battle mode hack for colosseum with no item clause and 6v6 battles.
+
+
+those programs were honestly were my best friends for a while.
+seems like this would be hard to express concisely in words but, really this whole thing is just a bunch of shit i wanted to do in pokemon as a kid
+-mons followin you  and interactin w the world w you
+-less limitaions on what pokemon can be caught (wild starters should be a thing cuz its not like when we were kids and ditto wasnt even in the GAME at first (hoennbaby))
+-colosseum w the phy/spe split
+-cross generation tradin
+-usin whatever pokemon u like cuz they should ALL be good or at least have something unique about them. 
+
+
+in orre, my mons were in an enviornment where they could thrive and truly be themselves. the charmander and squirtle i was raising (ZEROMARU and ROKEX) could finally fight for each other at the same time (;_;)
+
+givin the lads dragon dance and makin zard part dragon, and buffing its attack so it was equal to its SPatk, 
+makin hydro pump have 100% accuracy, but deal recoil, BUT givin the suirtle family rock head so our homie could finally use its signature move no holds barred ,
+and it bien doubles meant my mind could come up w even MORE anime-ass scenarios: zeromaru would dd and rokex, for the longest time as a wartortle, would mimic and try to be like him. or zeromaru would run protect which is even MORE useful since its doubles and rokex would clean up whoever threated his bf faklsjdflkaj 
+
+
+
+BACKSTORY 3
+Prior to the current CC playthrough which inspired this hack, there were two other campaigns i had that served as a precursor
+
+1) an earlier crystal clear version that i started in johto instead of kanto like this time. started w feraligatr and played pokemon stadium 2 along with it
+
+2) the one before that was a few years ago, a red version campaign i stacked two hacks on and called "Red Perfect" (one to make the game use gen 2 sprites and the other to make the pokedex completable). this one was really impactful, cuz it was my first time hooking up stadium to a main game at all. doubly so since i was able to do it all digitally (project 64 can emulate transfer pak!), so i was able to edit my mons to get around all the dumb level restriction rules so i could actually play the game.(DAMN, thats really the goat, like gettin the gift pokemon was SO GOOD, especially for completin the dex, i lowkey wanna see if i can incorporate that into this)
+
+i think i started to get bored of CC this time around because the last really great full pokemon experience i had was while catching all the mons in 'red perfect'  and being able to challenge all of pokemon stadium with it. i was sad i was gonna be missing the stadium challenge. i just played 2 and was really bummed at the lack of gift pokemon, only the real valid gift those games can give (since ur better off relearnin moves or restoring tms thru a save editor)
+
+i couldve just played the first one again, but id have to account for 100 of the pokemon and moves bein gone. but then i remembered id gotten (should be a word honestly) a macbook from my dad that ran p laggy, but was enough to get the job done and this shit was gonna let me do hella stuff i wanted to when i was a kid so im not complainin. (really if youre still readin this good on you cuz its obv jus a mess of rambling but i think itd be cool if more devs included shit about their lives in the games they work on cuz why not, its not like it takes up a bunch of space and you literally get to look in on a time in somebodys life and what they were goin thru as they were making art, its really quite beautiful. you ever read the new tetris rant? anyway)
+
+
+that custom colosseum hack i was creating/playing for myself is again, thanks to StarsMMD for the editing tools at
+https://projectpokemon.org/home/files/file/2463-gale-of-darkness-tool-osx-colosseum-tool/
+so if you got access to a macOS, i suggest checking that out too cuz you can do shit like add in the physical/special split and edit all the trainers, so you can even make mt Battle its own battle tower if you wanted to only in 3d and 6v6 DOUBLES format, how cool would that be o_0
+
+
+
+some of the sets in BTE are inspired by stuff i came up for shadow pokemon in that hack. i might release it later as a complement to this, since a lotta the changes in the krusty edition of BTE started there.
+ 

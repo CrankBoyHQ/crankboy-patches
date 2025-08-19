@@ -1,0 +1,3 @@
+This patch is meant to make the game a bit easier and less frustrating. Applying this patch to Mega Man World 3 will make the weapon energy of all weapons restore fully whenever a life is lost. This is done in Mega Man games for the PS1 or later. There is a lot of situations in which this could be handy:
+
+- Losing to a boss after exhausting all the weapon energy for the weapon you wanted to use

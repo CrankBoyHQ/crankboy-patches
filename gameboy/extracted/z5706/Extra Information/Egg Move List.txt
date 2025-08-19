@@ -1,0 +1,726 @@
+﻿
+Have in mind that the Egg Elder may be able to teach one move more to certain species besides these!
+Also, While I mention a specific Pokémon, what I mean is the Evolutive Line!
+
+Bulbasaur:
+	  Light Screen:	Chikorita, Mareep Lines
+	  Amnesia:		Slowpoke, Snorlax 
+	  Safeguard:	Lapras, Chikorita Line
+	  Debilitate:	Larvitar Line
+	  Razor Wind:	Charizard
+
+
+Charmander:
+	  Belly Drum:	Snorlax
+	  AncientPower:	Larvitar Line
+	  Rock Slide: 	Rhydon
+	  Outrage: 		Nidoqueen, Nidoking, Kangaskhan Dragonite,
+	  Mind Arrows: 	Marowak
+
+
+Squirtle:
+	  Mirror Coat: 	Corsola, Slowking, 
+	  Haze: 		Quagsire 
+	  Mist: 		Lapras, Quagsire
+	  Amnesia: 		Lapras, Slowking, Slowbro
+	  Aim: 			Kangaskhan
+
+
+Pidgey:
+	  Confuse Ray: 	Zubat, Murkrow
+	  Metal Claw: 	Skarmory
+	  Mean Look: 	Murkrow
+	  Morning Sun:	Xatu
+
+
+Rattata:
+	  Rollout: 		Sandslash
+	  Burninate: 	Vulpix, Growlithe, Houndour Lines
+	  Counter: 		Golduck
+	  Cross Chop: 	Primeape
+
+
+Spearow:
+	  Meditate: 	Farfetch'd
+	  Flail: 		Pidgey, Farfetch'd
+	  Swagger: 		Farfetch'd
+	  Hypnosis: 	Doduo, Zubat, Murkrow
+
+
+Ekans:
+	  Take Down: 	Ninetales, Persian
+	  Safeguard: 	Dragonite
+	  Spite: 		Dunsparce
+	  Mind Arrows: 	Girafarig
+
+
+Sandshrew:
+	  Flail: 	    Granbull
+	  Safeguard: 	Vulpix
+	  Super Fang: 	Raticate
+	  Tantrum: 	    Raichu
+
+
+NidoranF:
+	  Liquid Armor: Umbreon
+	  Disable: 		Stantler
+	  Burninate: 	Vulpix, Growlithe, Houndour Lines
+	  Glare: 		Primeape
+
+
+NidoranM: For Nidoran M Egg moves, you must breed a Nidoran F with a male with egg move until a Nidoran M hatches
+	  Burninate: Vulpix, Growlithe, Houndour Lines
+	  Disable:   Stantler
+	  Body Slam: Golduck
+	  Glare:     Primeape
+
+
+Vulpix:
+	  Hypnosis: Stantler, Golduck
+	  Flail:    Granbull, Ursaring
+	  Spite:    Dunsparce
+	  Disable:  Stantler
+
+
+Zubat:
+	  Mirror Move:  Pidgey Line
+	  Nightmare: 	Murkrow
+	  Spikes: 		Skarmory
+	  Future Sight: Xatu
+
+
+Oddish:
+	  Egg Bomb: 	Exeggcute Line
+	  AncientPower: Tangela Line
+	  Concentrate: 	Sunkern Line
+	  Safeguard: 	Chikorita Line
+
+
+Paras:
+	  Counter: 		Heracross
+	  Flail: 		Heracross
+	  Leech Seed: 	Bulbasaur Line, Tangela Line, Exeggcute Line
+	  Shield Up: 	Omanyte
+
+
+Venonat:
+	  Focus Energy: Pinsir
+	  Scary Face: 	Spinarak Line
+	  Baton Pass: 	Ledyba Line
+	  Shield Up: 	Omanyte
+
+
+Diglett:
+	  Screech: 		Raticate, Primeape
+	  Pay Day: 		Meowth Line
+	  Meditate:     Golduck
+	  Spikes: 		Sandshrew Line
+
+
+Meowth:
+	  Spite: 		Dunsparce
+	  Detect: 		Arcanine
+	  Hypnosis:     Vulpix Line, Golduck
+	  Amnesia: 		Quagsire
+
+
+Psyduck:
+	  Mean Look: 	Umbreon
+	  Charm: 		Snubbull Line
+	  Double Edge: 	Ursaring
+	  Cross Chop: 	Primeape
+
+
+Mankey:
+	  Rock Slide: Rhydon
+	  Body Slam:  Ursaring
+	  Meditate:   Golduck
+	  Counter:    Golduck
+
+
+Growlithe:
+	  Body Slam: 	Ursaring
+	  Safeguard: 	Vulpix
+	  Hyper Fang: 	Rattata Line
+	  Cotton Spore: Mareep Line
+
+
+Poliwag:
+	  Mist:       Lapras 
+	  Safeguard:  Lapras, Seel Line
+	  Amnesia:    Slowking, Quagsire, Lapras
+	  Skull Bash: Squirtle Line
+
+
+Abra:
+	  Light Screen: Mr. Mime
+	  Encore: 		Mr. Mime
+	  Charge Up: 	Hypno
+	  Focus Energy: Machop Line 
+
+
+Machop:
+	  Light Screen: Mr. Mime, Alakazam
+	  Meditate: 	Electabuzz, Hitmonlee
+	  Encore: 		Mr. Mime
+	  Disable: 		Electabuzz, Drowzee 
+
+
+Bellsprout:
+	  Swords Dance: Bellossom
+	  Encore: 		Exeggcute Line
+	  Charm: 		Bellossom
+	  Leech Seed: 	Bulbasaur Line, Tangela Line
+
+
+Tentacool:
+	  Mirror Coat: 	Corsola, Omastar
+	  Melting Web: 	Omastar
+	  Spikes: 		Shellder Line
+	  Confuse Ray:	Shellder Line
+
+
+Geodude:
+	  Light Screen: Voltorb Line
+	  Screech: 		Onix Line
+	  Lock On: 		Magnemite Line
+	  Safeguard:	Magnemite
+
+
+Ponyta:
+	  Confuse Ray:  Stantler
+	  Morning Sun: 	Espeon
+	  Hypnosis: 	Stantler, Golduck 
+	  Charm: 		Raichu 
+
+
+Slowpoke:
+	  Safeguard: 	Mantine
+	  Belly Drum: 	Poliwrath
+	  Charge Up: 	Politoed
+	  Mist: 		Lapras
+
+
+Farfetch'd:
+	  Hypnosis: 	Murkrow
+	  Confuse Ray:  Murkrow, Fearow, Zubat Line
+	  Agility: 		Dodrio
+	  Light Screen: Noctowl
+
+
+Doduo:
+	  Reverb: 		Togekiss Line
+	  Haze: 		Mantine
+	  Feint Attack: Murkrow
+	  Mirror Coat: 	Noctowl
+
+
+Seel:
+	  Perish Song: 	Lapras
+	  Disable: 		Stantler, Psyduck
+	  Rock Launch: 	Typhlosion
+	  Encore: 		Aipom
+
+
+Grimer:
+	  Pain Split: 	Misdreavus
+	  Mean Look: 	Gengar, Misdreavus
+	  Scary Face: 	Gengar
+	  Surf: 		Any pokémon that can learn the HM
+
+
+Shellder:
+	  Screech: 		Kingler
+	  Shield Up: 	Omanyte
+	  Cross Chop: 	Kingler
+	  Safeguard: 	Tentacruel
+
+
+Gastly:
+	  SmokeScreen: Koffing
+	  Perish Song: Misdreavus
+	  Haze:        Koffing
+	  Minimize:    Grimer Line
+
+
+Onix:
+	  Light Screen: Voltorb Line
+	  Safeguard: 	Magnemite Line
+	  Agility: 		Porygon Line
+	  SelfDestruct: Geodude Line
+
+
+Drowzee:
+	  Light Screen: Mr. Mime
+	  Scary Face: 	Magmar
+	  Safeguard: 	Mr. Mime 
+	  Burninate: 	Magmar
+
+
+Krabby:
+	  Spikes: 		Shellder Line
+	  Double Team: 	Kabutops
+	  Clamp: 		Shellder Line
+	  Bide: 		Omanyte Line
+
+
+Exeggcute:
+	  Moonlight: 	Oddish Line
+	  Reflect: 		Chikorita Line
+	  AncientPower: Tangela Line
+	  Morning Sun: 	Hoppip, Chikorita Lines
+
+
+Cubone:
+	  Rock Slide:  Ryhdon
+	  Skull Bash:  Squirtle Line
+	  Perish Song: Lapras
+	  Burninate:   Nidoking (Chain)
+
+
+Lickitung:
+	  Perish Song: Lapras
+	  Scary Face:  Tyranitar, Charmander Line
+	  Body Slam:   Rhydon
+	  Swift:       Vulpix, Sentret Line
+
+
+Koffing:
+	  Safeguard: 	Wobbuffet
+	  Hypnosis:  	Gastly Line
+	  Destiny Bond: Wobbuffet, Gastly Line
+	  Pain Split: 	Misdreavus
+
+
+Rhyhorn:
+	  Recover: 		Quagsire, Slowpoke Line
+	  Outrage: 		Kangaskhan
+	  Counter: 		Primeape, Golduck
+	  Bone Rush: 	Marowak
+
+
+Chansey:
+	  Surf: 		Any Pokémon that can learn that HM
+	  Metronome: 	Clefable Line
+	  Heal Bell: 	Delibird, compatible Pokémon that learn it from Tutor Moves
+	  Burninate: 	Vulpix, Growlithe, Houndour
+
+
+Tangela:
+	  Flail: 		Sudowoodo 
+	  Reflect: 		Chikorita Line
+	  Concentrate: 	Sunflora 
+	  Double Team: 	Victreebel
+
+
+Kangaskhan:
+	  Bone Rush: 	Marowak 
+	  Focus Energy: Marowak 
+	  Disable: 	Lickitung
+
+
+Horsea:
+	  Safeguard: 	Mantine 
+	  Octazooka:	Octillery
+	  Disable: 		Psyduck
+	  AncientPower: Corsola
+
+
+Goldeen:
+	  Spikes: 		Qwilfish
+	  Thunder Wave: Chinchou
+	  Quick Attack: Chinchou
+	  Crunch: 		Gyarados
+
+
+MrMime:
+	  Meditate:     Hitmonlee
+	  Hypnosis: 	Drowzee, Abra Lines
+	  Seismic Toss: Machop Line
+	  Counter: 		Machop Line
+
+
+Scyther:
+	  Counter: 	Heracross
+	  Disable: 	Venonat
+	  Seismic Toss: Pinsir
+	  Confuse Ray: 	Yanma
+
+
+Pinsir:
+	  Metal Claw: 	Scizor
+	  Encore: 		Shuckle
+	  Cross Chop: 	Heracross
+	  Hypnosis: 	Ariados
+
+
+Lapras:
+	  Accelerate:   Nidoking 
+	  Future Sight: Slowking 
+	  DragonBreath: Kingdra
+	  Burninate: 	Kingdra
+
+
+Eevee:
+	  Flail: 		Granbull, Piloswine, Raticate
+	  Safeguard: 	Vulpix
+	  Last Resort:  Raichu
+	  Charm: 		Raichu
+
+
+Omanyte:
+	  Mirror Coat:  Slowking: Corsola
+	  Counter: 		Golduck
+	  Recover: 		Quagsire
+	  Haze:		 	Quagsire, Mantine
+
+
+Kabuto:
+	  Crabhammer: 	Krabby Line, Psyduck Line
+	  Rapid Spin: 	Squirtle Line
+	  Dig: 			Any Water 1/3 that can learn the TM.
+	  Confuse Ray: 	Shellder Line
+
+
+Aerodactyl:
+	  Mirror Move: 	Pidgey Line
+	  Glare: 		Murkrow
+	  Drill Peck: 	Fearow, Pidgeot
+	  Debilitate: 	Crobat
+
+
+Snorlax:
+	  Screech: 		Kangaskhan
+	  Skull Bash: 	Squirtle Line
+	  Amnesia: 		Slowpoke Line
+
+
+Dratini:
+	  Glare: 		Ekans Line
+	  Mean Look: 	Ekans Line
+	  Haze: 		Ekans Line
+	  Mirror Coat: 	Slowking
+
+
+Chikorita:
+	  Bracing Up: 	Tangrowth
+	  Leech Seed: 	Bulbasaur Line
+	  Counter: 		Marowak
+	  Encore: 		Exeggcute Line
+	  Meditate: 	Charmander Line
+
+
+Cyndaquil:
+	  Jolt:			Pikachu, Flaaffy, Jolteon
+	  Quick Attack: Rattata, Pichu Line, Eevee
+	  Counter: 		Golduck
+	  Screech: 		Raticate, Aipom, others
+	  Future Sight: Espeon
+
+
+Totodile:
+	  Metal Claw: 	Charmander Line, Kabuto Line
+	  Take Down: 	Rhydon
+	  Counter: 		Golduck
+	  Recover: 		Slowbro, Slowking
+	  Agility: 		Horsea Line
+
+
+Sentret:
+	  Charm: 		Pichu line
+	  Focus Energy: Mankey Line, Sandslash
+	  Confuse Ray: 	Vulpix
+	  Charge Up:	Persian
+
+
+Hoothoot:
+	  Mirror Move: 	Pidgey Line
+	  Feint Attack: Murkrow, Doduo Line
+	  Mean Look: 	Zubat Line
+	  Confuse Ray:  Zubat, Murkrow
+
+
+Ledyba:
+	  Spark:      Heracross
+	  Counter:    Heracross
+	  Stun Spore: Venonat Line, Butterfree
+	  Debilitate: Pinsir
+
+
+Spinarak:
+	  Spark: 		Heracross
+	  Sleep Powder: Butterfree, Venonat Line
+	  Quick Attack: Yanma
+	  Pain Split:   Butterfree
+
+
+Chinchou:
+	  Lock On: Remoraid Line
+	  Recover: Octillery
+	  Tantrum: Seaking
+	  Screech: Seaking
+
+
+Pichu:
+	  Cotton Spore: Jumpluff 
+	  Encore: 		Clefable, Togekiss Line
+	  Mud Bomb: 	Marill
+
+
+Cleffa:
+	  Counter: 		Wigglytuff
+	  Thunder Wave: Raichu Line
+	  Safeguard: 	Togepi Line
+
+
+Igglybuff:
+	  Mud Bomb: 	Marill Line
+	  Thunder Wave: Raichu Line
+	  Safeguard: 	Togepi Line
+
+
+Togepi:
+	  Cotton Spore: Jumpluff
+	  Mirror Move: 	Pidgey Line
+	  Thunder Wave: Raichu Line
+
+
+Natu:
+	  Mean Look: 	Fearow, Zubat Line
+	  Glare:		Murkrow
+	  Pursuit: 		Murkrow, Doduo Line
+	  Accelerate: 	Pidgey Line
+
+
+Mareep:
+	  FlameBreath: 	Vulpix
+	  Scary Face: 	Snubbull Line
+	  Liquid Armor: Vaporeon, Quagsire
+	  Burninate: 	Vulpix, Grolwithe
+
+
+Marill:
+	  Thunder Wave: Raichu Line
+	  Future Sight: Slowpoke Line
+	  Belly Drum: 	Poliwag Line
+	  Perish Song: 	Lapras
+
+
+Sudowoodo:
+	  Concentrate: 	Bulbasaur, Oddish Lines
+	  Spore: 		Paras Line, Jumpluff 
+	  Cotton Spore: Jumpluff
+
+
+Hoppip:
+	  Counter: Wigglytuff
+	  Encore:  Clefable, Togekiss Lines
+	  Reflect: Clefable
+	  Pay Day: Snubbull Line
+
+
+Aipom:
+	  Quick Attack: Rattata Line, Typhlosion
+	  Spite: 		Granbull
+	  Rock Launch: 	Typhlosion
+	  Mind Arrows: 	Golduck
+
+	
+Sunkern:
+	  Sweet Scent: 	Oddish Line
+	  Sludge: 		Oddish Line
+	  Cotton Spore: Jumpluff, Bulbasaur Lines
+	  Leech Seed: 	Bulbasaur Line, Bellossom
+
+
+Yanma:
+	  Meditate: 	Ledian
+	  Agility: 		Beedrill
+	  Confuse Ray: 	Venonat, Butterfree
+	  Thunder Wave: Dragonite
+
+
+Wooper:
+	  Counter: 		Golduck
+	  AncientPower: Omanyte Line
+	  Safeguard: 	Mantine, Vulpix
+	  Fissure: 		Diglett Line
+
+
+Murkrow:
+	  Swift: Zubat 	Line
+	  Mirror Move: 	Pidgey Line
+	  Future Sight: Xatu
+
+
+Misdreavus:
+	  Liquid Armor: Muk 
+	  Disable: 		Muk
+	  Destiny Bond: Gastly Line
+
+
+Girafarig:
+	  Thunder Wave: Raichu, Ampharos
+	  Double Kick: 	Stantler, Raticate, Rapidash
+	  Mirror Coat: 	Furret
+	  Fire Strike: 	Arcanine, Rapidash, Typhlosion (TM)
+
+
+Pineco:
+	  PoisonPowder: Paras, Venonat Lines
+	  Feint Attack: Venonat Line
+	  Giga Drain: 	Butterfree (TM)
+
+
+Dunsparce:
+	  FlameBreath: 	Dragonair
+	  AncientPower: Cyndaquil Line
+	  Safeguard: 	Dragonite
+	  Mirror Coat: 	Furret
+
+
+Gligar:
+	  Metal Claw: 	Scizor
+	  Counter: 		Heracross
+	  Swords Dance: Pinsir
+
+
+Snubbull:
+	  Metronome: 	Clefable Line
+	  Counter: 		Wigglytuff
+	  Heal Bell: 	Delibird
+
+
+Qwilfish:
+	  Screech: 		Seaking
+	  Thunder Wave: Chinchou Line
+	  Tantrum: 		Seaking
+
+
+Shuckle:
+	  PoisonPowder: Paras Line
+	  Disable: 	Butterfree, Beedrill
+
+
+Heracross:
+	  Dig: 	Pinsir
+	  Bide: Pineco Line
+	  Aim: 	Yanma
+
+
+Sneasel:
+	  Counter: 		Golduck
+	  Spite: 		Snubbull
+	  Hyper Fang: 	Raticate
+	  Cross Chop: 	Primeape
+
+
+Teddiursa:
+	  Skull Bash: 	Piloswine
+	  Seismic Toss: Primeape
+	  Focus Energy: Primeape
+	  Counter: 		Golduck
+
+
+Slugma:
+	  Minimize: 	Grimer Line
+	  Haze: 		Grimer Line
+	  Confuse Ray: 	Gastly Line, Misdreavus
+	  Safeguard: 	Wobbuffet
+
+
+Swinub:
+	  Swords Dance: Sneasel
+	  Spikes: 		Sandslash
+	  MegaHorn: 	Stantler
+
+
+Corsola:
+	  Safeguard: 	Mantine
+	  Light Screen: Staryu Line
+	  Mist: 		Lapras
+	  Amnesia: 		Slowpoke Line
+
+
+Remoraid:
+	  Liquid Armor: Tentacool Line
+	  Spikes: 		Qwilfish
+	  Haze: 		Quagsire, Mantine
+	  Screech: 		Psyduck Line
+
+
+Delibird:
+	  Counter: 		Golduck
+	  Mirror Coat: 	Slowking, Omastar
+	  Future Sight: Slowking
+	  Rock Launch: 	Omastar
+
+
+Mantine:
+	  Outrage: 		Dragonite
+	  Heal Bell: 	Delibird
+	  Haze: 		Quagsire
+	  Mind Arrows: 	Golduck
+
+
+Skarmory:
+	  Quick Attack: Pidgey Line
+	  Mirror Coat: 	Xatu
+	  Confuse Ray: 	Xatu, Zubat, Murkrow, Doduo Lines
+
+
+Houndour:
+	  Skull Bash: 	Piloswine
+	  Counter: 		Primeape, Golduck
+	  Spite: 		Granbull
+	  Mind Arrows: 	Golduck
+
+
+Phanpy:
+	  Focus Energy: Mankey Line
+	  Mirror Coat:  Furret
+	  Concentrate:  Concentrate Raichu, Cyndaquil Line
+
+
+Stantler:
+	  Accelerate:	Rattata Line
+	  Spite: 		Granbull
+	  Disable: 		Psyduck
+	  Screech:		Ursaring
+
+
+Tyrogue:
+	  Confuse Ray: 	Drowzee Line
+	  Teleport: 	Abra Line
+	  Focus Energy: Machop Line
+
+
+Spheal:
+	  Safeguard:    Dewgong
+	  Spikes: 	    Rhydon 
+	  Scary Face: 	Nidoking 
+
+
+Elekid:
+	  Scary Face: 	Magmar Line
+	  Confuse Ray: 	Abra, Drowzee, Magmar Lines
+	  Future Sight: Alakazam Line
+
+
+Magby:
+	  Seismic Toss: Machop Line
+	  Reflect: Abra Line
+	  Cross Chop: 	Electabuzz, Machop Lines
+
+
+Miltank:
+	  PRESENT: 	Delibird
+	  Mirror Coat: 	Furret
+	  Seismic Toss: Primeape
+
+
+Larvitar:
+	  Bone Rush: 	Marowak
+	  Horn Drill: 	Rhydon, Nidoking
+	  Disable: 	Slowpoke Line
+

@@ -1,0 +1,177 @@
+and fairy too, why the hell not?
+actually, upgrade the entire typing system to gen 6
+-demzo
+
+Steel:
+Magnemite/magneton = electric/steel
+
+Dark
+Bite = dark
+
+Fairy
+clefairy/clefable = fairy
+jiggly/wiggly = normal/fairy
+mr. mime = psychic/fairy
+
+also alter these moves:
+gust to flying			done
+karate chop to fighting	done
+sand attack to ground	done
+
++ rewrite gen6 weak/resist/immune
+
+Type IDNs:
+11-	Steel
+12-	Dark
+13-	Fairy
+
+TODO list
+
+Alter types of
+	Magnemite		done
+	Magneton		done
+	Clefairy		done
+	Clefable		done
+	Jigglypuff		done
+	Wigglytuff		done
+	Mr. Mime		done
+	Bite			done
+
+Replace placeholder pointers with pointers to:
+	Steel		D07F		done
+	Dark		D67F		done
+	Fairy		DB7F		done
+
+Replace type match ups with new match ups reflecting Gen 6
+
+done- inserted at 3 FB E0 (E0 7B)
+
+000505
+000800
+001105
+010014
+010205
+010514
+010705
+010800
+011114
+011805
+011914
+011214
+011305
+020114
+020505
+020714
+021105
+021614
+021705
+030305
+030405
+030505
+030805
+031100
+031614
+031314
+040200
+040314
+040514
+040705
+041114
+041414
+041605
+050105
+050214
+050405
+050714
+051105
+051414
+051914
+070105
+070205
+070305
+070805
+071105
+071405
+071614
+071814
+071214
+071305
+080000
+080814
+081814
+081205
+110514
+111105
+111405
+111505
+111705
+111914
+111314
+120105
+120814
+121814
+121205
+121305
+130114
+130305
+131105
+131405
+131A14
+131214
+140505
+140714
+141114
+141405
+141505
+141614
+141914
+141A05
+150414
+150514
+151414
+151505
+151605
+151A05
+160205
+160305
+160414
+160514
+160705
+161105
+161405
+161514
+161605
+161A05
+170214
+170400
+171514
+171605
+171705
+171A05
+180114
+180314
+181105
+181805
+181200
+190214
+190414
+191105
+191405
+191505
+191614
+191905
+191A14
+1A1105
+1A1A14
+1A1300
+120105
+120814
+121814
+121205
+121305
+130114
+130305
+131105
+131405
+131A14
+131214

@@ -1,0 +1,9 @@
+release #2:
+
+new patches created
+- timer start
+- extra banners
+- nes triangle
+- english script
+- skip miss
+- yoshi unlock

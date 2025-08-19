@@ -1,0 +1,163 @@
+; 8c cc .. cc c8 00 .. 00
+
+
+orga 0x7557f
+	.incbin "wave.bin"
+
+
+
+
+; #################################
+
+
+
+
+; 48 cc .. cc 84 00 .. 00
+
+
+orga 0x77318
+	.incbin "wave.bin"
+
+
+orga 0x7e797
+	.incbin "wave.bin"
+
+
+
+
+; #################################
+
+
+
+
+; 7e ee .. ee 70 00 .. 00
+
+
+orga 0x76a3e
+	.incbin "wave.bin"
+
+
+orga 0x7e777
+	.incbin "wave.bin"
+
+
+
+
+; #################################
+
+
+
+
+; 38 bb .. bb 83 00 .. 00
+
+
+orga 0x76b8a
+	.incbin "wave.bin"
+
+
+
+
+; #################################
+
+
+
+
+; 6c cc .. cc 60 00 .. 00
+
+
+orga 0x76d1d
+	.incbin "wave.bin"
+
+
+
+
+; #################################
+
+
+
+
+; 24 66 .. 66 42 00 .. 00
+
+
+orga 0x76d2d
+	.incbin "wave.bin"
+
+
+
+
+; #################################
+
+
+
+
+; 37 aa .. aa 73 00 .. 00
+
+
+orga 0x76f5f
+	.incbin "wave.bin"
+
+
+
+
+; #################################
+
+
+
+
+; 4a ee .. ee a4 00 .. 00
+
+
+orga 0x771a8
+	.incbin "wave.bin"
+
+
+
+orga 0x77549
+	.incbin "wave.bin"
+
+
+
+
+; #################################
+
+
+
+
+; 8f ff .. ff f8 00 .. 00
+
+
+orga 0x773ee
+	.incbin "wave.bin"
+
+
+
+orga 0x77aad
+	.incbin "wave.bin"
+
+
+
+
+; #################################
+
+
+
+
+; 49 dd .. dd 94 00 .. 00
+
+
+orga 0x77c74
+	.incbin "wave.bin"
+
+
+
+
+; #################################
+
+
+
+
+; 12 47 9a bb .. bb a9 74 21 00 .. 00
+
+
+orga 0x77f3e
+	.incbin "wave.bin"

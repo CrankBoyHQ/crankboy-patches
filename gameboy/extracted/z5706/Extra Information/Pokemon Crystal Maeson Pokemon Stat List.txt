@@ -1,0 +1,1704 @@
+
+	IT IS RECOMMENDED TO READ THESE (OR ANY OF THE READMES IN THIS HACK'S PACK)
+	WITH NOTEPAD++, BUT YOU DO YOU. 
+			  
+		
+		To start, here's the Type Matchups for reference.
+
+			-----------------------------------+-------------------------------+------------------------------------------
+			Grass:    x2.0 Fire, Bug		   |Fire: x2.0 Water, Ground	   |Water:    x2.0 Grass, Electric	
+				      x0.5	Grass, Water, Rock |	  x0.5 Fire, Grass, Ice	   |	      x0.5 Water, Fire, Ground
+			-----------------------------------+-------------------------------+------------------------------------------
+			Electric: x2.0 Ground, Poison	   |Ice:  x2.0 Fire, Steel		   |Psychic:  x2.0 Ghost, Dark
+					  x0.5 Elec., Flying, Steel|	  x0.5 Ice, Elec., Dragon  |		  x0.5 Psychic, Fighting, Poison
+			-----------------------------------+-------------------------------+------------------------------------------
+			Fairy:    x2.0 Beast, Dark  	   |Dark: x2.0 Fighting, Bug 	   |Fighting: x2.0 Psychic, Beast
+					  x0.5 Fairy, Dragon, Fire |	  x0.5 Dark,Psychic,Ghost  |		  x0.5 Fighting, Psychic, Fairy
+			-----------------------------------+-------------------------------+------------------------------------------
+			Poison:	  x2.0 Psychic, Ghost      |Bug:  x2.0 Rock, Flying		   |Flying:	  x2.0 Electric, Rock
+			          x0.5 Poison, Grass, Bug  |      x0.5 Bug, Poison, Dark   | 		  x0.5 Flying, Ground, Fighting
+			-----------------------------------+-------------------------------+------------------------------------------
+			Ground:   x2.0 Ice, Water		   |Rock: x2.0 Grass, Steel		   |Ghost: 	  x2.0 Fighting, Dragon
+					  x0.5 Ground, Elec., Steel|      x0.5 Rock, Flying, Bug   |		  x0.5 Ghost, Psychic, Beast
+			-----------------------------------+-------------------------------+------------------------------------------
+			Beast:    x2.0 Poison, Flying	   |Steel:x2.0 Dragon, Fairy	   |Dragon:	  x2.0 Ice, Fairy 
+					  x0.5 Beast, Fairy, Ice   |	  x0.5 Steel, Rock, Beast  |		  x0.5 Dragon, Ghost, Water
+			-----------------------------------+-------------------------------+------------------------------------------
+
+			Remember you can watch all the Weaknesses and Resistances on the Pokédex Data of any caught Pokémon.
+			You can also read about the Types in the school at Violet City.
+
+	-------------------------------------------------------
+
+		Base Stat Totals
+
+		Mewtwo, Lugia, Ho-Oh	650
+		Every other PKMN F.E.	600
+		
+		F.E. Stands for Fully Evolved.
+	-------------------------------------------------------
+
+		Number of Fully Evolved Pokémon of each Type:
+
+		18 BEAST  | 13 FIRE | 12 GRASS | 19 WATER | 15 ELEC.
+		 7 GHOST  | 13 ICE  | 13 DARK  | 11 FIGHT | 15 POISON
+		16 ROCK   | 11 GRND | 15 FAIRY | 10 DRGN  | 14 BUG
+		21 PSYCHIC| 20 FLY  | 10 STEEL |
+
+	Besides the disparity of Psychic & Flying VS Ghost & Steel, I think it's 
+	an okay balance, and the reason of why there's so many Psychic and Flying 
+	Pokémon has simply to do with the large amount of Legendary Pokémon using 
+	said types with 5 Flying Legendaries, 4 Psychic Legendaries, around 25% 
+	of each Type.
+	
+
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Bulbasaur 	 80  80  70  55  95  70		 450		Level 20					
+	Ivysaur		100  90  80  80 110  80		 540		Level 32
+	Venusaur	110 100  90  90 120  90 	 600 		--------
+	-----------------------------------------------------------------------------
+	Type: Grass/Poison			x2.0  Fire, Psychic, Ghost 
+								x0.5  Water, Rock, Poison
+								x2.25 Grass
+	-----------------------------------------------------------------------------
+	
+	
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Charmander 	 70  90  55  95  85  55		 450		Level 20					
+	Charmeleon   75 115  65 110 105  70		 540		Level 32
+	Charizard    85 125  75 120 115  80		 600		--------
+	-----------------------------------------------------------------------------
+	Type: Fire 					x2.0 Water, Ground
+		Charmander				x0.5 Fire, Ice, Grass
+		Charmeleon
+	
+	Type: Fire/Flying			x2.0  Fire, Psychic, Ghost 
+		Charizard				x0.5  Water, Rock, Poison
+								x2.25 Grass
+	-----------------------------------------------------------------------------
+	
+	
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Squirtle 	 70  75  85  50  80  90		 450		Level 20							
+	Wartortle    90  90 100  60  95 105      540		Level 32
+	Blastoise   100 100 110  70 105 115		 600		--------		
+	-----------------------------------------------------------------------------
+	Type: Water					x2.0 Grass, Electric
+		Squirtle				x0.5 Water, Fire, Ground
+		Wartortle
+	
+	Type: Water/Ground			x2.0  Grass, Ice
+		Blastoise				x0.5  Fire, Steel
+								x2.25 Ground
+	-----------------------------------------------------------------------------
+	
+	
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Caterpie 	 75  75  60  95  90  60		 450		Level 10			
+	Metapod		 70  60 100  40 100 100		 470		Level 20						 
+	Butterfree   85  90  80 135 125  85      600		--------
+	-----------------------------------------------------------------------------
+	Type: Bug					x2.0 Rock, Flying
+		Caterpie				x0.5 Bug, Dark, Poison
+		Metapod
+	
+	Type: Bug/Psychic			x2.0  Flying, Rock, Ghost
+		Butterfree				x0.5  Bug, Psychic, Fight
+								x2.25 Poison
+	-----------------------------------------------------------------------------
+	
+	
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Weedle	 	 70  90  60  95  75  60		 450		Level 10			
+	Kakuna		 70 100 100  40  60 100		 470		Level 20						 
+	Beedrill     85 125  85 135  85  80      600		--------
+	-----------------------------------------------------------------------------
+	Type: Bug/Poison			x2.0  Flying, Rock, Ghost, Psychic
+								x0.5  Dark, Grass
+								x2.25 Bug, Poison
+	-----------------------------------------------------------------------------
+	
+	
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Pidgey		 75  90  60 105  60  60		 450		Level 20
+	Pidgeotto    90 115  70 115  70  70      550 		Level 32
+	Pidgeot		100 125  80 125  80  80 	 620		--------
+	-----------------------------------------------------------------------------
+	Type: Beast/Flying			x2.0  Electric, Rock, Poison 
+								x0.5  Ground, Fairy, Beast, Ice, Fighting
+	-----------------------------------------------------------------------------
+	
+	
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Rattata		 70  90  55 105  75  55		 450		Level 23
+	Raticate	 90 130  70 140 100  70 	 600 		--------
+	-----------------------------------------------------------------------------
+		Type: Beast				x2.0 Poison, Flying
+								x0.5 Beast, Fairy, Ice 
+	-----------------------------------------------------------------------------
+	
+	
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Spearow		 75  95  55 100  70  55		 450		Level 23
+	Fearow		105 125  70 140  90  70		 600		--------
+	-----------------------------------------------------------------------------
+		Type: Dark/Flying		x2.0 Bug, Electric, Rock
+								x0.5 Dark, Psychic, Ghost, Flying, Ground
+	-----------------------------------------------------------------------------
+
+
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Ekans		 80  95  85  55  55  80		 450		Level 22
+	Arbok		110 125 105  80  80 100		 600		--------
+	-----------------------------------------------------------------------------
+		Type: Poison/Ground		x2.0  Psychic, Ghost, Water, Ice
+								x0.5  Poison, Grass, Bug, Ground, Electric, Steel
+	-----------------------------------------------------------------------------
+
+
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Pichu		 65  90  50 105  90  50		 450		Level 18
+	Pikachu		 75 105  65 125 105  65		 540		Thunder Stone (Rec. L.32)
+	Raichu       85 115  75 135 115  75		 600		--------
+	-----------------------------------------------------------------------------
+		Type: Electric  		x2.0 Ground, Poison
+								x0.5 Electric, Flying, Steel
+	-----------------------------------------------------------------------------
+
+
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Sandshrew	 80  95  60  95  70  60		 450		Level 22
+	Sandslash    95 130  80 125  90  80      600		--------
+	-----------------------------------------------------------------------------
+		Type: Ground/Beast		x2.0 Poison, Flying, Water
+								x0.5 Beast, Fairy, Ground, Steel, Electric 
+	-----------------------------------------------------------------------------
+	
+	
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Nidoran F	 80  90  80  70  60  80		 450		Level 20
+	Nidorina	 95 115  90  75  75  90		 540		Moon Stone (Rec. L.32)
+	Nidoqueen   105 125 100  85  85 100		 600		--------
+	-----------------------------------------------------------------------------
+		Type: Poison/Dragon		x2.0 Psychic, Ice, Fairy
+								x0.5 Poison, Grass, Bug, Dragon, Water
+	-----------------------------------------------------------------------------
+
+
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Nidoran M	 70  85  60  90  85  60		 450		Level 20
+	Nidorino	 75 105  70 115 105  70		 540		Moon Stone (Rec. L.32)
+	Nidoking	 85 115  80 125 115  80		 600		--------
+	-----------------------------------------------------------------------------
+		Type: Poison/Dragon		x2.0 Psychic, Ice, Fairy
+								x0.5 Poison, Grass, Bug, Dragon, Water
+	-----------------------------------------------------------------------------
+
+
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Cleffa		 80  60  65  65  95  85		 450		Level 18
+	Clefairy	 90  70  90  75 115 100		 540		Moon Stone (Rec. L.32)
+	Clefable	100  80 100  85 125 110		 600		--------
+	-----------------------------------------------------------------------------
+		Type: Fairy				x2.0 Beast, Dark 
+								x0.5 Fairy, Fire, Dragon 
+	-----------------------------------------------------------------------------
+
+
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Vulpix		 60  90  55 100  90  55		 450		Fire Stone (Rec. L.23)
+	Ninetales	 75 115  75 140 120  75		 600		--------
+	-----------------------------------------------------------------------------
+		Type: Fire/Ice			x2.0  Water, Steel, Ground  
+								x0.5  Electric, Rock, Grass 
+								x0.25 Ice
+	-----------------------------------------------------------------------------
+
+
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Igglybuff	110  55  55  85  95  55		 450		Level 18
+	Jigglypuff	125  70  60 110 115  60		 540		Moon Stone (Rec. L.32)
+	Wigglytuff  135  80  70 120 125  70		 600		--------
+	-----------------------------------------------------------------------------
+		Type: Beast/Fairy:		x2.0  Poison, Flying, Dark
+								x0.5  Ice, Dragon, Fire 
+								x0.25 Fairy 
+	-----------------------------------------------------------------------------
+	
+	
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Zubat		 60  90  50 110  90  50		 450		Level 20
+	Golbat		 70 105  60 140 105  60		 540 		Happiness
+	Crobat		 80 115  70 150 115  70      600		--------
+	-----------------------------------------------------------------------------
+		Type: Poison/Flying		x2.0  Psychic, Electric, Rock, Ghost
+								x0.5  Fighting, Poison, Grass, Bug, Flying, Ground
+	-----------------------------------------------------------------------------
+
+
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Oddish		 70  65  80  55 100  80		 450		Level 22
+	Gloom 		 85  80  90  75 120  90		 540		Evolution Stone (Rec. Lvl 32)
+	Vileplume	 95  90 100  85 130 100 	 600 		Leaf Stone for Vileplume
+	Bellossom    95 120  75 135 100  80		 600		Sun Stone for Bellossom
+	-----------------------------------------------------------------------------
+		Type: Grass/Poison		x2.0  Psychic, Ghost, Fire 
+		Oddish	Gloom			x0.5  Water, Poison, Rock
+		Vileplume				x0.25 Grass
+				
+		Type: Grass/Fairy		x2.0 Bug, Poison, Dark 
+		Bellossom				x0.5 Grass, Water, Rock, Fairy, Dragon
+	-----------------------------------------------------------------------------
+
+
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Paras		100  90  80  40  60  80		 450		Level 23
+	Parasect    130 120 100  70  80 100		 600		--------
+	-----------------------------------------------------------------------------
+		Type: Grass/Bug			x2.0  Fire, Flying 
+								x0.5  Grass, Water, Poison, Dark
+	-----------------------------------------------------------------------------
+	
+	
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Venonat		 70  60  50 100 100  70		 450		Level 24
+	Venomoth     85  80  75 130 130 100		 600		--------
+	-----------------------------------------------------------------------------
+		Type: Bug/Dark			x2.0  Flying, Rock, Fighting
+								x0.5  Poison, Psychic, Ghost 
+								x0.25 Dark
+	-----------------------------------------------------------------------------
+
+
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Digglet		 70  80  50 120  80  50		 450		Level 23
+	Dugtrio		 85 110  70 150 110  75		 600		--------
+	-----------------------------------------------------------------------------
+		Type: Ground/Elect.		x2.0  Water, Ice, Poison
+								x0.5  Flying 
+								x0.25 Electric, Steel
+	-----------------------------------------------------------------------------
+
+
+
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Meowth		 70  90  50 100  90  50		 450		Level 23
+	Persian		 80 115  75 140 115  75		 600		--------
+	-----------------------------------------------------------------------------
+		Type: Fairy/Dark		x2.0  Fighting, Bug, Beast
+								x0.5  Psychic, Ghost, Fairy, Fire, Dragon
+	-----------------------------------------------------------------------------
+
+
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Psyduck		 70  90  60  90  80  60		 450		Level 23
+	Golduck		 95 125  75 125 105  75		 600		--------
+	-----------------------------------------------------------------------------
+		Type: Water/Psychic		x2.0  Grass, Electric, Dark, Ghost 
+								x0.5  Water, Fire, Ground, Psychic, Poison, Fighting
+	-----------------------------------------------------------------------------
+
+
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Mankey		 75  90  60 105  60  60		 450		Level 23
+	Primeape	 95 130  80 130  90  75		 600		--------
+	-----------------------------------------------------------------------------
+		Type: Fighting/Dark		x2.0  Beast, Bug 
+								x0.5  Fairy, Ghost
+								x0.25 Dark 
+	-----------------------------------------------------------------------------
+	
+
+
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Growlithe	 70  90  60  90  80  60		 450		Fire Stone (Rec. Lvl 23)
+	Arcanine 	 90 125  80 125 100  80		 600		--------
+	-----------------------------------------------------------------------------
+		Type: Fire				x2.0  Water, Ground
+								x0.5  Fire, Grass, Ice
+	-----------------------------------------------------------------------------
+	
+	
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Poliwag		 80  90  90  50  70  70		 450		Level 20
+	Poliwhirl	 95 100 100  70  90  90		 540 		Evolution Stone (Rec. Lvl 32)
+	Poliwrath   105 105 110  80 100 100		 600		Water Stone for Poliwrath
+	Politoed    105  85 100  90 115 105 	 600		Moon Stone for Politoed 
+	-----------------------------------------------------------------------------
+		Type: Water/Fighting	x2.0  Beast, Psychic, Grass, Electric 
+		Poliwag, Poliwhirl		x0.5  Water, Fire, Ground, Fighting, Dark, Fairy
+		Poliwrath				
+		
+		Type: Water/Elect.		x2.0  Grass, Poison 
+								x0.5  Water, Fire, Flying, Steel
+	-----------------------------------------------------------------------------
+	
+	
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Abra		 50  75  45 105 115  60		 450		Level 20
+	Kadabra 	 65  90  60 120 130  70		 540 		Level 32
+	Alakazam	 75 100  70 130 140  80		 600		--------
+	-----------------------------------------------------------------------------
+		Type: Psychic			x2.0  Dark, Ghost 
+								x0.5  Psychic, Fighting, Poison
+	-----------------------------------------------------------------------------
+
+
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Machop		 80 100  70  70  60  70		 450		Level 20
+	Machoke		 95 130  90  75  70  80		 540		Level 32
+	Machamp		105 140 100  85  80  90		 600		--------
+	-----------------------------------------------------------------------------
+		Type: Fighting			x2.0  Beast, Psychic 
+								x0.5  Fairy, Dark, Fighting 
+	-----------------------------------------------------------------------------
+	
+	
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Bellsprout	 80  95  50  90  85  50		 450		Level 20
+	Weepinbell	 95 110  60 120  95  60		 540		Leaf Stone 
+	Victreebel  105 120  70 130 105  70		 600		--------
+	-----------------------------------------------------------------------------
+		Type: Grass/Elect.		x2.0  Fire, Bug, Poison, Ground  
+								x0.5  Grass, Water, Rock, Flying, Steel, Elect.
+	-----------------------------------------------------------------------------
+	
+	
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Tentacool	 80  70  80  50  85  85		 450		Level 24
+	Tentacruel  105 100 100  75 110 110		 600		--------
+	-----------------------------------------------------------------------------
+		Type: Water/Poison		x2.0  Electric, Psychic, Ghost  
+								x0.5  Water, Fire, Ground, Poison, Bug 
+	-----------------------------------------------------------------------------
+
+
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Geodude		 80 100 100  50  55  65		 450		Level 20
+	Graveler	 90 120 120  65  70  75		 540		Level 32
+	Golem		100 130 130  75  80  85		 600		-------- 
+	-----------------------------------------------------------------------------
+		Type: Ground/Rock		x2.0  Water, Ice, Grass  
+								x0.5  Ground, Rock, Flying, Bug, Elect. 
+	-----------------------------------------------------------------------------
+	
+	
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Ponyta		 65  90  55 105  80  55		 450		Level 24
+	Rapidash     90 115  75 145 100  75 	 600		--------
+	-----------------------------------------------------------------------------
+		Type: Fire/Fairy		x2.0  Water, Ground, Beast, Dark 
+								x0.5  Grass, Ice, Fairy, Dragon 
+								x0.25 Fire 
+	-----------------------------------------------------------------------------
+
+
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Slowpoke	 90  70  80  40  90  80		 450		Level 24 If: 
+	Slowbro     100  90 125  60 125 100 	 600		Defense is Higher than S.Def.
+	Slowking    100  90 100  60 125 125		 600		S.Def is higher than Defense.
+	-----------------------------------------------------------------------------
+	Slowpoke Type: Dragon 			x2.0  Ice, Fairy | x0.5  Dragon, Ghost, Water
+	
+	Slowbro Type: Dragon/Fighting 	x2.0  Ice, Beast, Psychic 
+									x0.5  Dragon, Water, Dark, Fighting, Ghost 
+									
+	Slowking Type: Dragon/Psychic	x2.0  Ice, Dark, Fairy 
+									x0.5  Dragon, Water, Poison, Psychic, Fighting
+								 
+	Note: Through the use of a Shell Orb, you can transform your Slowbro into a
+	      Slowking and viceversa. Basically, it is a form-changing species. 
+	-----------------------------------------------------------------------------
+	
+
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Magnemite	 75  70  90  50 100  75		 450		Level 23
+	Magnezone   100  85 115  75 130 100		 600		-------- 
+	-----------------------------------------------------------------------------
+		Type: Steel/Electric	x2.0  Ground, Poison, Dragon, Fairy 
+								x0.5  Electric, Flying, Beast, Rock 
+								x0.25 Steel 
+	-----------------------------------------------------------------------------
+	
+	
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Farfetch'd   90 120  75 135 100  80 	 600 		--------
+	-----------------------------------------------------------------------------
+		Type: Flying/Fighting	x2.0  Electric, Rock, Psychic, Beast 
+								x0.5  Ground, Dark, Fairy, Flying
+								x0.25 Fighting
+	-----------------------------------------------------------------------------
+	
+	
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Doduo		 60  80  55 115  85  55		 450		Level 23
+	Dodrio		 80 105  80 150 110  75		 600		--------
+	-----------------------------------------------------------------------------
+		Type: Ghost/Flying		x2.0  Dragon, Rock, Electric  
+								x0.5  Ghost, Psychic, Beast, Flying, Ground 
+	-----------------------------------------------------------------------------
+	
+	
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Seel		 90  60  85  50  80  85		 450		Level 24
+	Dewgong		120  85 100  75 110 110		 600		--------
+	-----------------------------------------------------------------------------
+		Type: Ice/Fairy			x2.0  Steel, Beast, Dark  
+								x0.5  Ice, Electric, Rock, Fairy, Dragon 
+	-----------------------------------------------------------------------------
+
+
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Grimer		 85  55  80  50  95  85		 450		Level 24
+	Muk			105	 85 100  70 130 110		 600		--------
+	-----------------------------------------------------------------------------
+		Type: Poison/Ghost		x2.0  Fighting, Dragon  
+								x0.5  Poison, Grass, Bug, Beast 
+	-----------------------------------------------------------------------------
+	
+
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Shellder	 70  90 100  55  75  60		 450		Shell Orb  (Rec. Lvl 24)
+	Cloyster	 90 110 135  80 100  85		 600		--------
+	-----------------------------------------------------------------------------
+		Type: Ice/Steel			x2.0  Fire, Fairy  
+								x0.5  Electric, Ice, Beast, Rock 
+	-----------------------------------------------------------------------------
+	
+	
+		-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Gastly		 60  80  50 110 100  50		 450		Level 20
+	Haunter		 75  90  65 130 110  65		 540 		Level 32
+	Gengar       85 100  75 140 120  75		 600		--------
+	-----------------------------------------------------------------------------
+		Type: Ghost/Poison		x2.0  Fighting, Dragon 
+								x0.5  Beast, Poison, Grass, Bug 
+	-----------------------------------------------------------------------------
+	
+	
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Onix		 80  90 100  50  60  70		 450		Level 24
+	Steelix		105 120 140  70  85  80		 600		--------
+	-----------------------------------------------------------------------------
+	Onix Type: Rock/Ground 		x2.0  Grass, Water, Ice
+								x0.5  Rock, Flying, Bug, Ground, Electric 
+								
+	Steelix Type: Rock/Steel 	x2.0  Grass, Dragon, Fairy 
+								x0.5  Flying, Bug, Beast 
+								x0.25 Rock
+	-----------------------------------------------------------------------------
+
+
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Drowzee		 70  60  90  60  80  90		 450		Level 24
+	Hypno 		100  85 110  80 115 110		 600		--------
+	-----------------------------------------------------------------------------
+		Type: Psychic/Dark		x2.0  Bug  
+								x0.5  Poison 
+								x0.25 Psychic 
+	-----------------------------------------------------------------------------
+	
+
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Krabby 		 80 105  80  45  60  80		 450		Level 24
+	Kingler		110 135 100  70  85 100		 600		--------
+	-----------------------------------------------------------------------------
+		Type: Water				x2.0  Grass, Electric  
+								x0.5  Water, Fire, Ground 
+	-----------------------------------------------------------------------------
+	
+
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Voltorb		 80  85  65  95  60  65		 450		Level 23
+	Electrode   100 115  85 130  90  80		 600		--------
+	-----------------------------------------------------------------------------
+		Type: Elect./Rock 		x2.0  Ground, Poison, Grass
+								x0.5  Electric, Rock, Bug 
+								x0.25 Flying 
+	-----------------------------------------------------------------------------
+	
+
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Exeggcute	 85  85  60  65  90  65		 450		Leaf Stone (Rec. Lvl 23)
+	Exeggutor   110 105  90  85 120  90		 600		--------
+	-----------------------------------------------------------------------------
+		Type: Grass/Psychic		x2.0  Fire, Bug, Dark, Ghost  
+								x0.5  Grass, Water, Rock, Psychic, Fight, Poison 
+	-----------------------------------------------------------------------------
+	
+	
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Cubone 		 80  95  75  55  55  90		 450		Level 23
+	Marowak     110 120  90  85  85 110		 600		--------
+	-----------------------------------------------------------------------------
+		Type: Ground/Fighting	x2.0  Water, Ice, Psychic, Beast  
+								x0.5  Ground, Steel, Fighting, Dark, Fairy, Elect.
+	-----------------------------------------------------------------------------
+
+
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Tyrogue		 75  75  75  75  75  75		 450		Level 20 If:
+	Hitmonchan  100 130 100 105  80  85		 600		Defense is higher than S.Def.
+	Hitmonlee    90 125  80 125  80 100 	 600		S.Def is higher than Defense.
+	Hitmontop   100 100 100 100 100 100 	 600		Defense is equal to S.Def
+	-----------------------------------------------------------------------------
+	Tyrogue	Type: Fighting 		x2.0  Flying, Psychic | x0.5 Fighting, Dark, Fairy 
+
+	Hitmonchan Type: Fighting/Steel		x2.0  Psychic, Dragon 
+										x0.5  Fighting, Dark, Steel, Rock 
+									
+	Hitmonlee  Type: Fighting/Psichic	x2.0  Beast, Ghost 
+										x0.5  Fairy, Poison 
+										x0.25 Fighting 
+										
+	Hitmontop  Type: Fighting/Beast		x2.0  Psychic, Flying, Poison 
+										x0.5  Fighting, Dark, Ice 
+										x0.25 Fairy 
+	-----------------------------------------------------------------------------
+
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Lickitung	130 120  75  80 120  75		 600		--------
+	-----------------------------------------------------------------------------
+		Type: Beast/Poison			x2.0  Flying, Psychic, Ghost 
+									x0.5  Beast, Fairy, Ice, Grass, Bug
+	-----------------------------------------------------------------------------
+
+
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Koffing		 80  90  90  50  70  70		 450		Level 24
+	Weezing		110 110 110  70 100 100		 600		--------
+	-----------------------------------------------------------------------------
+		Type: Poison/Rock		x2.0  Psychic, Ghost, Steel   
+								x0.5  Poison, Flying, Rock 
+								x0.25 Bug 
+	-----------------------------------------------------------------------------
+	
+	
+
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Rhyhorn		 90  90  85  50  60  75		 450		Level 23
+	Rhydon		110 130 110  80  80  90 	 600		--------
+	-----------------------------------------------------------------------------
+		Type: Rock/Beast		x2.0  Grass, Steel, Poison 
+								x0.5  Rock, Bug, Beast, Fairy, Ice 
+	-----------------------------------------------------------------------------
+	
+
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Chansey		180  60 100  90 100  70		 600		Moon Stone to Blissey
+	Blissey		180  60  70  90 100 100		 600		Moon Stone to Chansey
+	-----------------------------------------------------------------------------
+		Type: Fairy				x2.0  Poison, Dark 
+								x0.5  Fairy, Fire, Dragon 
+								
+	Note: This evolutive line is no longer such, but two forms with equal value 
+	      yet different stat spreads. They can transform into each other freely. 
+	-----------------------------------------------------------------------------
+	
+
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Tangela		 80  80  80  50  80  80		 450		Level 24
+	Tangrowth	110 105 105  70 105 105 	 600		--------
+	-----------------------------------------------------------------------------
+		Type: Grass/Rock 		x2.0  Fire, Steel  
+								x0.5  Water, Flying 
+								x0.25 Rock 
+	-----------------------------------------------------------------------------
+	
+	
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Kangaskhan   90 135  85 105 100  85		 600		--------
+	-----------------------------------------------------------------------------
+		Type: Dragon/Beast		x2.0 Poison, Flying 
+								x0.5 Beast, Dragon, Ghost, Water 
+	-----------------------------------------------------------------------------
+	
+	
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Horsea		 70  70  65  90  90  65		 450		Level 23
+	Seadra 		 80  80  75 115 115  75 	 540 		Level 32
+	Kingdra		 90  90  85 125 125  85		 600		--------
+	-----------------------------------------------------------------------------
+		Type: Water/Dragon 		x2.0  Grass, Ice, Fairy, Electric  
+								x0.5  Fire, Ground, Dragon, Ghost 
+								x0.25 Water 
+	-----------------------------------------------------------------------------
+	
+
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Golden 		 95  90  55  90  60  60		 450		Level 23
+	Seaking		120 130  75 120  80  75		 600		--------
+	-----------------------------------------------------------------------------
+		Type: Water/Fairy		x2.0  Grass, Electric, Beast, Dark 
+								x0.5  Water, Ground, Fairy, Dragon 
+								x0.25 Fire 
+	-----------------------------------------------------------------------------
+	
+
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Staryu 		 70  80  50 110  90  50		 450		Water Stone (Rec. Lvl 23)
+	Starmie		 85 105  75 145 115  75		 600		--------
+	-----------------------------------------------------------------------------
+		Type: Water/Psychic		x2.0  Grass, Electric, Dark, Ghost  
+								x0.5  Water, Fire, Ground, Psychic, Poison, Fighting 
+	-----------------------------------------------------------------------------
+	
+
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Mr. Mime	100 115 110  80  75 120		 600		--------
+	-----------------------------------------------------------------------------
+		Type: Psychic/Elect.	x2.0  Dark, Ghost, Ground  
+								x0.5  Psychic, Fighting, Flying, Steel, Elect. 
+	-----------------------------------------------------------------------------
+	
+	
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Scyther		 95 115  70 150 105  70		 600		Level 23
+	Scizor		110 140  85 100  80  85		 600		--------
+	-----------------------------------------------------------------------------
+		Type: Bug/Dark			x2.0  Flying, Rock, Fighting
+		Scyther					x0.5  Poison, Psychic, Ghost 
+								x0.25 Dark 
+								
+		Type: Bug/Steel			x2.0 Flying, Dragon, Fairy 
+		Scizor					x0.5 Bug, Poison, Dark, Steel, Beast 
+	-----------------------------------------------------------------------------
+	
+	
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Spheal		100  80  60  55  95  60		 450		Level 24
+	Walrein		130 110  80  70 130  80		 600		--------
+	-----------------------------------------------------------------------------
+		Type: Water/Ice			x2.0  Grass, Steel
+								x0.5  Water, Ground, Ice, Rock 
+		Note: These species substitute Smoochum and Jynx
+	-----------------------------------------------------------------------------
+	
+	
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Elekid	 	 80  90  50  90  90  50		 450		Level 22
+	Electabuzz	 85 125  75 115 125  75 	 600		--------
+	-----------------------------------------------------------------------------
+		Type: Electric/Fighting	x2.0  Ground, Poison, Psychic, Beast 
+								x0.5  Steel, Fight, Dark, Fairy, Electric, Flying
+	-----------------------------------------------------------------------------
+
+
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Magby	 	 65  90  50 105  90  50		 450		Level 22
+	Magmar		 80 120  75 130 120  75		 600		--------
+	-----------------------------------------------------------------------------
+		Type: Fire/Poison		x2.0  Water, Ground, Psychic, Ghost 
+								x0.5  Fire, Ice, Poison, Bug 
+								x0.25 Grass 
+	-----------------------------------------------------------------------------
+
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Pinsir		115 130 110  80  80  85		 620		--------
+	-----------------------------------------------------------------------------
+		Type: Bug/Ground		x2.0  Flying, Rock, Water, Ice
+								x0.5  Bug, Poison, Dark, Ground, Steel, Electric
+	-----------------------------------------------------------------------------
+
+
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Tauros 		100 130  85 130  80  75		 600		--------
+	-----------------------------------------------------------------------------
+		Type: Beast/Steel		x2.0  Poison, Flying, Dragon 
+								x0.5  Steel, Ice, Rock 
+								x0.25 Beast
+	-----------------------------------------------------------------------------
+
+
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Magikarp	 70  80  70  90  70  70		 450		Level 20
+	Gyarados 	100 130 100	 80  80 110		 600		--------  
+	-----------------------------------------------------------------------------
+		Type: Water/Dragon		x2.0  Grass, Electric, Ice, Fairy 
+								x0.5  Fire, Ground, Dragon, Ghost 
+								x0.25 Water 
+	-----------------------------------------------------------------------------
+
+
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Lapras		120  85  90  75 120 110		 600		--------
+	-----------------------------------------------------------------------------
+		Type: Water/Ice			x2.0  Grass, Steel
+								x0.5  Water, Ground, Ice, Rock 
+	-----------------------------------------------------------------------------
+
+
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Ditto		100  80 110 130  80 110		 600		--------
+	-----------------------------------------------------------------------------
+		Type: Normal 			No Weaknesses, no Resistances
+								Only Pokémon with Normal Type.
+	-----------------------------------------------------------------------------
+
+
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Eevee	 	 75  75  75  75  75  75		 450		Evolution Stones  (Rec. Lvl 22)
+	Vaporeon 	115  75 100  80 125 105 	 600		Use Water  Stone 
+	Jolteon 	 85 105  70 150 120  70		 600		Use ThunderStone 
+	Flareon		 90 100  80 125 120  85 	 600		Use Fire   Stone 
+	Espeon 		 90  85  80 135 125  85		 600		Use Sun    Stone 
+	Umbreon		110 100 105  80 100 105		 600		Use Moon   Stone 
+	-----------------------------------------------------------------------------
+	Eevee	 Type: Beast 		x2.0 Poison, Flying  | x0.5 Beast, Ice, Fairy
+	Vaporeon Type: Water		x2.0 Grass, Electric | x0.5 Water, Fire, Ground 
+	Jolteon  Type: Electric		x2.0 Ground, Poison  | x0.5 Steel, Flying, Elect.
+	Flareon  Type: Fire			x2.0 Water, Ground   | x0.5 Fire, Grass, Ice 
+	Espeon   Type: Psychic 		x2.0 Dark, Ghost     | x0.5 Psychic, Fighting, Poison 
+	Umbreon  Type: Dark 		x2.0 Fighting, Bug   | x0.5 Dark, Psychic, Ghost 
+	-----------------------------------------------------------------------------
+
+
+
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Porygon		 70  55  85  70  85  85 	 450		Use Upgrade (Like a Stone)
+	Porygon2	 90  80 110 100 110 110		 600		--------
+	-----------------------------------------------------------------------------
+		Type: Steel 			x2.0 Dragon, Fairy 
+								x0.5 Steel, Rock, Beast
+	-----------------------------------------------------------------------------
+
+
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Omanyte 	 70  60  90  50 100  80		 450 		Level 24
+	Omastar		 90  85 115  80 130 100		 600		--------
+	-----------------------------------------------------------------------------
+		Type: Bug/Rock			x2.0  Grass, Steel 
+								x0.5  Poison, Dark 
+								x0.25 Bug 					
+	Note: Egg Group changed to Water 3 & Bug Groups
+	-----------------------------------------------------------------------------
+
+
+
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Kabuto 		 70  90  70  90  70  60		 450 		Level 24
+	Kabutops	 85 135  85 130  90  85		 600		--------
+	-----------------------------------------------------------------------------
+		Type: Rock/Steel		x2.0  Grass, Dragon, Fairy 
+								x0.5  Flying, Bug, Beast  
+								x0.25 Rock  					
+	-----------------------------------------------------------------------------
+
+
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Aerodactyl	100 120  70 150  90  70		 600		--------
+	-----------------------------------------------------------------------------
+		Type: Rock/Flying		x2.0  Grass, Steel, Electric 
+								x0.5  Bug, Ground, Fighting 
+								x0.25 Flying 
+	-----------------------------------------------------------------------------
+
+
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Snorlax		140 130  80	 60  90 100		 600		-------- 
+	-----------------------------------------------------------------------------
+		Type: Beast				x2.0 Poison, Flying
+								x0.5 Beast, Fairy, Ice
+	-----------------------------------------------------------------------------
+	
+	
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Articuno	100  80 100 110 120 100		 610		-------- 
+	-----------------------------------------------------------------------------
+		Type: Ice/Flying		x2.0  Fire, Steel 
+								x0.5  Ice, Flying, Ground, Fighting			
+	-----------------------------------------------------------------------------
+
+
+	
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Zapdos		 95 120  75 140 105  75		 600		--------
+	-----------------------------------------------------------------------------
+		Type: Electric/Flying	x2.0  Poison, Rock  
+								x0.5  Steel, Fighting
+								x0.25 Flying 
+	-----------------------------------------------------------------------------
+	
+
+	
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Moltres		 85 120  75 125 120  75		 600		--------
+	-----------------------------------------------------------------------------
+		Type: Fire/Flying		x2.0  Water, Electric, Rock 
+								x0.5  Fire, Grass, Ice, Flying, Fighting			
+	-----------------------------------------------------------------------------
+
+
+	
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Dratini 	 75  85  60  85  85  60		 450		Level 20 
+	Dragonair	 95 105  70  95 105  70		 540		Level 32
+	Dragonite	105 115  80 105 115  80		 600		--------
+	-----------------------------------------------------------------------------
+		Type: Dragon			x2.0 Ice, Fairy
+		Dratini, Dragonair 		x0.5 Dragon, Water, Ghost 
+	
+		Type: Dragon/Flying		x2.0 Ice, Fairy, Rock, Electric 
+		Dragonite				x0.5 Dragon, Water, Ghost, Fighting, Ground, Fighting	
+	-----------------------------------------------------------------------------
+
+
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Mewtwo		100 125  80 120 140  85		 650		--------
+	-----------------------------------------------------------------------------
+		Type: Psychic			x2.0  Dark, Ghost  
+								x0.5  Psychic, Fighting, Poison  				
+	-----------------------------------------------------------------------------
+
+
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Mew			100 100 100 100 100 100 	 600		--------
+	-----------------------------------------------------------------------------
+		Type: Psychic			x2.0  Dark, Ghost  
+								x0.5  Psychic, Fighting, Poison  				
+	-----------------------------------------------------------------------------
+
+
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Chikorita 	 80  90  90  60  50  80		 450		Level 20 
+	Bayleef		 95 115  95  65  80  90		 540		Level 32
+	Meganium	105 125 105  75  90 100		 600		--------
+	-----------------------------------------------------------------------------
+		Type: Grass/Ground		x2.0 Fire, Bug, Ice 
+								x0.5 Grass, Rock, Ground, Electric, Steel 
+	-----------------------------------------------------------------------------
+	
+
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Cyndaquil 	 70  80  55 100  90  55		 450		Level 20 
+	Quilava		 75 100  65 120 115  65		 540		Level 32
+	Typhlosion	 85 110  75 130 125  80		 600		--------
+	-----------------------------------------------------------------------------
+		Type: Fire/Rock 		x2.0 Water, Ground, Steel 
+								x0.5 Fire, Ice, Rock, Flying, Bug
+	-----------------------------------------------------------------------------
+
+
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Totodile 	 80  90  75  75  55  75		 450		Level 20 
+	Croconaw	 90 110  90  90  75  90		 540		Level 32
+	Feraligatr	100 125 100 100  75 100		 600		--------
+	-----------------------------------------------------------------------------	
+		Type: Water/Ice			x2.0 Grass, Steel 
+								x0.5 Water, Ground, Ice, Rock 	
+	-----------------------------------------------------------------------------
+
+
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Sentret 	 85  65  55 100  90  55		 450		Level 22
+	Furret		110  80  75 140 120  75		 600		--------
+	-----------------------------------------------------------------------------
+		Type: Beast				x2.0 Poison, Flying
+								x0.5 Beast, Fairy, Ice
+	-----------------------------------------------------------------------------
+	
+
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Hoothoot 	100  50  80  50  90  80		 450		Level 22
+	Noctowl		120  75 100  80 125 100 	 600		--------
+	-----------------------------------------------------------------------------
+		Type: Psychic/Ghost		x2.0  Dark, Dragon 
+								x0.5  Poison, Beast 
+								x0.25 Psychic 
+	-----------------------------------------------------------------------------
+
+
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Ledyba 		 70  85  60  90  80  65		 450		Level 22
+	Ledian		 90 115  75 135 100  85		 600		--------
+	-----------------------------------------------------------------------------
+		Type: Bug/Fairy			x2.0 Flying, Rock, Beast
+								x0.5 Bug, Poison, Fairy, Fire, Dragon 
+	-----------------------------------------------------------------------------
+
+
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Spinarak 	 70  80  55 110  80  55		 450		Level 22
+	Ariados		 90 110  75 145 105  75		 600		--------
+	-----------------------------------------------------------------------------
+		Type: Bug/Psychic		x2.0  Rock, Flying, Ghost
+								x0.5  Bug, Psychic, Fighting
+								x0.25 Poison 
+	-----------------------------------------------------------------------------
+
+
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Chinchou 	 80  90  60  95  70  55		 450		Level 23
+	Lanturn		105 120  80 135  85  75		 600		--------
+	-----------------------------------------------------------------------------
+		Type: Water/Electric	x2.0 Grass, Poison  
+								x0.5 Water, Fire, Flying, Steel 
+	-----------------------------------------------------------------------------
+
+
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Togepi  	 80  50  70  90  90  70		 450		Level 18
+	Togetic		100  70  80  95 115  80		 540		Level 30
+	Togekiss	110  80  90 105 125  90 	 600		--------
+	-----------------------------------------------------------------------------
+		Type: Fairy/Flying		x2.0 Beast, Dark, Electric, Rock 
+								x0.5 Fairy, Fire, Dragon, Flying, Ground, Fight 
+	-----------------------------------------------------------------------------
+
+
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Natu 		 90  50  80  60  90  80		 450		Level 22
+	Xatu		120  75 100  85 120 100		 600		--------
+	-----------------------------------------------------------------------------
+		Type: Psychic/Flying	x2.0  Dark, Ghost, Rock, Electric 
+								x0.5  Psychic, Poison, Flying, Ground 
+								x0.25 Fighting 
+	-----------------------------------------------------------------------------
+
+
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Mareep	 	 85  55  75  60  95  80		 450		Level 20 
+	Flaaffy		100  70  90  75 110  95		 540		Level 30
+	Ampharos	110  80 100  85 120 105		 600		--------
+	-----------------------------------------------------------------------------
+	Marep Type: Electric		x2.0 Ground, Poison | x0.5 Electric, Flying, Steel
+	
+		  Type: Elect./Psychic	x2.0 Ground, Dark, Ghost 
+								x0.5 Electric, Flying, Steel, Psychic, Fighting 
+	-----------------------------------------------------------------------------
+
+
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Marill 	 	 80  90  50  90  90  50		 450		Level 23
+	Azumarill	100 115  70 130 115  70		 600		--------
+	-----------------------------------------------------------------------------
+		Type: Water				x2.0 Grass, Electric 
+								x0.5 Fire, Water, Ground 
+	-----------------------------------------------------------------------------
+
+
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Sudowoodo	115 100  75 105 125  80		 600		--------
+	-----------------------------------------------------------------------------
+		Type: Rock/Grass		x2.0  Steel, Fire  
+								x0.5  Flying, Water 
+								x0.25 Rock 
+	-----------------------------------------------------------------------------
+
+
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Hoppip		 60  85  60 100  85  60		 450		Level 20
+	Skiploom	 80  95  65 140  95  65		 540		Level 30
+	Jumpluff	 90 105  75 150 105  75		 600		--------
+	-----------------------------------------------------------------------------
+		Type: Grass/Flying		x2.0 Fire, Bug, Electric
+								x0.5 Grass, Water, Flying, Ground, Fighting 
+	-----------------------------------------------------------------------------
+
+
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Aipom		 85 115  70 145 115  70		 600		--------
+	-----------------------------------------------------------------------------
+		Type: Beast/Poison		x2.0 Flying, Psychic, Ghost  
+								x0.5 Beast, Ice, Fairy, Grass, Bug 
+	-----------------------------------------------------------------------------
+
+
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Sunkern 	100  60  60  60 110  60		 450		Sun Stone 
+	Sunflora	135 100  80  75 130  80		 600		--------
+	-----------------------------------------------------------------------------
+		Type: Grass/Fire		x2.0  Ground, Bug 
+								x0.5  Ice, Rock 
+								x0.25 Grass
+	-----------------------------------------------------------------------------
+
+
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Yanma		 95 115  70 150 100  70		 600		--------
+	-----------------------------------------------------------------------------
+		Type: Dragon/Bug		x2.0 Ice, Fairy, Flying, Rock
+								x0.5 Dragon, Water, Ghost, Bug, Poison, Dark 
+	-----------------------------------------------------------------------------
+	
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Wooper		 80  60  80  60  90  80		 450		Level 24
+	Quagsire	110  90 100  80 120 100		 600		--------
+	-----------------------------------------------------------------------------
+		Type: Water/Ground			x2.0  Grass, Ice
+									x0.5  Fire, Steel
+									x2.25 Ground
+	-----------------------------------------------------------------------------
+
+
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Murkrow		 85 100  75 140 120  80		 600		--------
+	-----------------------------------------------------------------------------
+		Type: Dark/Flying		x2.0  Bug, Electric, Rock  
+								x0.5  Dark, Psychic, Ghost, Flying, Ground 
+	-----------------------------------------------------------------------------
+
+
+
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Misdreavus	110  80 110  90 100 110		 600		-------- 
+	-----------------------------------------------------------------------------
+		Type: Ghost/Fairy		x2.0  Fighting, Dark   
+								x0.5  Ghost, Psychic, Fire, Fairy 
+	-----------------------------------------------------------------------------
+
+
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Unown		100  80 100 115 115 100		 600		--------
+	-----------------------------------------------------------------------------
+		Type: Psychic			x2.0  Dark, Ghost   
+								x0.5  Psychic, Fighting, Poison 
+	-----------------------------------------------------------------------------
+
+
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Wobbuffet	180  80  70  85 115  70		 600		--------
+	-----------------------------------------------------------------------------
+		Type: Psychic/Beast		x2.0  Dark, Ghost, Flying   
+								x0.5  Psychic, Fighting, Beast, Fairy, Ice 
+	-----------------------------------------------------------------------------
+
+
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Girafarig	110 125  75 125  90  75		 600		--------
+	-----------------------------------------------------------------------------
+		Type: Psychic/Dark		x2.0  Bug    
+								x0.5  Poison 
+								x0.25 Psychic 
+	-----------------------------------------------------------------------------
+
+
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Pineco 		 70  60  95  50  80  95 	 450		Level 24
+	Forretress  100  80 125  70 100 125 	 600		--------
+	-----------------------------------------------------------------------------
+		Type: Steel/Bug			x2.0  Dragon, Fairy, Flying
+								x0.5  Steel, Beast, Bug, Poison, Dark 
+	-----------------------------------------------------------------------------
+
+
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Dunsparce	170 100  70  70 120  70		 600		--------
+	-----------------------------------------------------------------------------
+		Type: Dragon/Ghost		x2.0  Ice, Fighting, Fairy     
+								x0.5  Psychic, Water, Beast 
+								x0.25 Ghost 
+	-----------------------------------------------------------------------------
+
+
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Gligar		100 100 110 100  80 110		 600		--------
+	-----------------------------------------------------------------------------
+		Type: Ground/Flying		x2.0  Water, Ice, Rock    
+								x0.5  Steel, Flying, Fighting 
+								x0.25 Ground 
+	-----------------------------------------------------------------------------
+
+
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Snubbull 	 80 110  60  70  50  80		 450		Level 24
+	Granbull	110 140  85  85  80 100		 600		--------
+	-----------------------------------------------------------------------------
+		Type: Dark/Beast		x2.0  Bug, Fighting, Poison, Flying 
+								x0.5  Psychic, Dark, Ghost, Beast, Fairy, Ice
+	-----------------------------------------------------------------------------
+
+
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Qwilfish	 80 110 100 140  80  90		 600		--------
+	-----------------------------------------------------------------------------
+		Type: Water/Poison		x2.0  Electric, Ghost, Psychic    
+								x0.5  Water, Fire, Ground, Poison, Bug  
+	-----------------------------------------------------------------------------
+
+
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Shuckle		 60 100 170  50  30 170		 600		--------
+	-----------------------------------------------------------------------------
+		Type: Bug/Rock			x2.0  Rock, Ground, Poison    
+								x0.5  Poison, Dark 
+								x0.25 Bug 
+	-----------------------------------------------------------------------------
+
+
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Heracross	100 130  80 120  90  80		 600		--------
+	-----------------------------------------------------------------------------
+		Type: Bug/Electric		x2.0  Rock, Ground    
+								x0.5  Bug, Dark, Electric, Steel  
+	-----------------------------------------------------------------------------
+
+
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Sneasel		 80 115  70 150 115  70		 600		--------
+	-----------------------------------------------------------------------------
+		Type: Ice/Dark			x2.0  Fire, Steel, Fighting, Bug    
+								x0.5  Ice Rock, Dark, Psychic, Ghost, Elect.
+	-----------------------------------------------------------------------------
+
+
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Teddiursa	100 110  60  70  50  60		 450 		Level 24
+	Ursaring	125 135  85  90  80  85		 600		--------
+	-----------------------------------------------------------------------------
+		Type: Beast/Fighting	x2.0  Poison, Flying, Psychic
+								x0.5  Fighting, Dark, Ice 
+								x0.25 Fairy  
+	-----------------------------------------------------------------------------
+
+
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Slugma 		 75  70 100  45  90  70		 450		Level 23
+	Magcargo	100 100 125  70 115  90		 600		--------
+	-----------------------------------------------------------------------------
+		Type: Fire/Rock			x2.0  Water, Ground, Steel    
+								x0.5  Fire, Ice, Rock, Flying, Bug  
+	-----------------------------------------------------------------------------
+	
+
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Swinub 		 90  90  90  50  60  70		 450		Level 24
+	Piloswine	115 115 115	 75  80 105		 600		--------
+	-----------------------------------------------------------------------------
+		Type: Ground/Ice		x2.0  Fire, Water    
+								x0.5  Rock, Ground 
+								x0.25 Electric 
+	-----------------------------------------------------------------------------
+	
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Corsola		 80  88 130  75 105 130		 600		--------
+	-----------------------------------------------------------------------------
+		Type: Rock/Fairy		x2.0  Grass, Steel, Beast, Dark 
+								x0.5  Rock, Flying, Bug, Fairy, Fire, Dragon 
+	-----------------------------------------------------------------------------
+
+
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Remoraid 	100  90  55  60  90  55		 450		Level 25
+	Octillery	130 120  70  90 120  70		 600		--------
+	-----------------------------------------------------------------------------
+		Type: Ice/Electric		x2.0  Fire, Ground, Poison    
+								x0.5  Ice, Rock, Flying 
+								x0.25 Electric 
+	-----------------------------------------------------------------------------
+
+
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Delibird	 95  80  90 125 120  90 	 600		--------
+	-----------------------------------------------------------------------------
+		Type: Ice/Fairy			x2.0  Steel, Beast, Dark    
+								x0.5  Ice, Electric, Rock, Fairy, Dragon  
+	-----------------------------------------------------------------------------
+
+
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Mantine		115 110 100  80  80 115		 600		--------
+	-----------------------------------------------------------------------------
+		Type: Flying/Ice		x2.0  Fire, Steel    
+								x0.5  Ice, Flying, Ground, Fighting 
+	-----------------------------------------------------------------------------
+	
+	
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Skarmory	 90 100 120 115  75 100		 600		--------
+	-----------------------------------------------------------------------------
+		Type: Steel/Flying		x2.0  Dragon, Fairy, Electric    
+								x0.5  Steel, Ice, Flying, Ground, Fighting  
+	-----------------------------------------------------------------------------
+
+
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Houndour	 65  90  55 100  85  55		 450		Level 24
+	Houndoom	 85 115  75 130 115  80		 600		--------
+	-----------------------------------------------------------------------------
+		Type: Fire/Dark			x2.0  Water, Ground, Fight, Bug    
+								x0.5  Fire, Grass, Ice, Dark, Psychic, Ghost 
+	-----------------------------------------------------------------------------
+
+
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Phanpy		 80  80  75  60  80  75		 450		Level 24 
+	Donphan		100 110 100  80 110 100		 600		--------
+	-----------------------------------------------------------------------------
+		Type:Beast/Rock:		x2.0  Poison, Grass, Steel 
+								x0.5  Beast, Fairy, Ice, Rock, Bug
+	-----------------------------------------------------------------------------
+
+
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Stantler	105 105  75 135 105  75		 600		--------
+	-----------------------------------------------------------------------------
+		Type: Ice/Ghost			x2.0  Fighting, Fire, Steel     
+								x0.5  Ghost, Psychic, Beast, Ice, Electric
+	-----------------------------------------------------------------------------
+
+
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Smeargle	100 110  80 120 110  80		 600		--------
+	-----------------------------------------------------------------------------
+		Type: Beast				x2.0 Poison, Flying 
+								x0.5 Beast, Fairy, Ice 
+	-----------------------------------------------------------------------------
+	
+	
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Miltank		110  85  85 100 110 110		 600		--------
+	-----------------------------------------------------------------------------
+		Type: Beast/Fairy		x2.0  Poison, Flying, Dark
+								x0.5  Ice, Dragon, Fire 
+								x0.25 Fairy 
+	-----------------------------------------------------------------------------
+
+
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Raikou		 85 110  80 130 115  80		 600		--------
+	-----------------------------------------------------------------------------
+		Type: Electric			x2.0  Ground, Poison 
+								x0.5  Electric, Steel, Flying  
+	-----------------------------------------------------------------------------
+	
+	
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Entei		100 125 100 100  75 100		 600		--------
+	-----------------------------------------------------------------------------
+		Type: Fire				x2.0  Water, Ground   
+								x0.5  Fire, Grass, Ice  
+	-----------------------------------------------------------------------------
+	
+
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Suicune		105  80 110  90 105 110		 600		--------
+	-----------------------------------------------------------------------------
+		Type: Water				x2.0  Grass, Electric 
+								x0.5  Water, Fire, Ground 
+	-----------------------------------------------------------------------------
+
+
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Larvitar	 80  85  70  70  85  70		 450		Level 20 
+	Pupitar		105 115  75  70 100  75		 540		Level 32
+	Tyranitar	115 125  85  80 110  85		 600		--------
+	-----------------------------------------------------------------------------
+		Type: Rock/Dark			x2.0  Grass, Steel, Fighting
+								x0.5  Rock, Flying, Dark, Psychic, Ghost  
+	-----------------------------------------------------------------------------
+
+
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Lugia		100  90 110 100 120 130 	 650		--------
+	-----------------------------------------------------------------------------
+		Type: Psychic/Flying	x2.0  Dark, Ghost, Electric, Rock    
+								x0.5  Psychic, Poison, Ground, Flying 
+								x0.25 Fighting 
+	-----------------------------------------------------------------------------
+
+
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Ho-Oh		100 120  90 110 130 100		 650		--------
+	-----------------------------------------------------------------------------
+		Type: Fire/Flying		x2.0  Water, Electric, Rock    
+								x0.5  Fire, Grass, Ice, Flying, Fighting  
+	-----------------------------------------------------------------------------
+	
+	
+	-----------------------------------------------------------------------------
+				Base Stats								 Type of
+	Species		 HP ATT DEF SPE SAT SDF		Total		Evolution
+	-----------------------------------------------------------------------------
+	Celebi		 90  90 110 100 100 110		 600		--------
+	-----------------------------------------------------------------------------
+		Type: Grass/Psychic		x2.0  Fire, Bug, Dark, Ghost    
+								x0.5  Grass, Water, Rock, Psychic, Fighting, Poison  
+	-----------------------------------------------------------------------------
+
+
+	And that's all for the Pokémon in this hack. 

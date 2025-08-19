@@ -1,0 +1,16 @@
+.loadtable "font_full.tbl"
+
+
+
+org 0x14, 0x687b
+	.stringn " NEW DATE         "
+	.stringn "                  "
+	.stringn "                  "
+
+
+
+
+org 0x15, 0x441c
+	.stringn " NEW DATE         "
+	.stringn "                  "
+	.stringn "                  "

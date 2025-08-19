@@ -1,0 +1,8 @@
+Star Beasts has box art, so please stop using the title screen for box \ cartridge art, please and thank you.
+Said box art is included in the zip file as a png. 
+
+(and no, for you people at RHDN, this version does not have any of the copyrighted stuff it's just the logo which while based off of pokemon is not copyrighted)
+
+Star Beasts / 星兽 有盒子艺术，所以请停止使用盒子\墨盒艺术的标题屏幕，谢谢。
+所述盒子艺术作为 png 包含在 zip 文件中。
+

@@ -1,0 +1,26 @@
+Updated Nov-20, 2023
+- Changed Yuca to Lela. (Face Graphics and Text)
+
+Updated Oct-28, 2023
+- Increased the ability of allied pilots by 3-8%.
+- Changed (aged) facial graphics for Amuro and Bright.
+
+Updated Jan-13, 2023
+- Fixed that Grendizer could not change pilot in the latter half of the story.
+- Made it possible to change pilot with Minerva X.
+
+Updated Jan-12, 2023
+Fixed an issue with MS armor values in "SRW2G_Hack.ips".
+- Medea and White Ark modified to mother ship attributes
+- Strengthening for V Gundam, Gun EZ, and Gun Blaster
+- Mazinger Z, Grendizer, Getter Queen, Texas Mac, Mecha Kochouki
+ + Enhanced performance, and made it possible to change pilot with the Mazinger series.
+- Enhanced the following weapons:
+Hyper Hammer, Photon Missile, Mazinger Blade, Double Harken, Getter Tomahawk, Tomahawk Boomerang, Double Tomahawk, Double Tomahawk Boomerang, Hyper Beam Saber, Double Beam Rifle, Butterfly Dance, Boomerang, Arm Beam Gun
+
+Updated Mar-9, 2022
+- Text message bug improvement
+- Fin funnel enhancement (ν Gundam)
+- Renovation of Boss and Borot
+ + Borot is possible to change pilot.
+ + Pilot ability adjustment, Spilit command change, Borot strengthening.

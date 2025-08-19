@@ -1,0 +1,3 @@
+UPDATE HISTORY:
+v1.0 (2021-03-29) - Initial release.
+v1.01 (2021-03-29) - Made a minor level design change (2 tiles) to prevent softlocking if heading to Area 2 without Bombs or Spider Ball (thanks to RT-55J for pointing this out).

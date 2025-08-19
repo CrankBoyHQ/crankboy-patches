@@ -1,0 +1,326 @@
+This ZIP file holds 3 patches, all intended for use with the basic Game Boy 
+Wars 3 ROM:
+
+*PALBal - short for PAL Balance, this patch involves many gameplay mechanic 
+changes. A general list will be provided below.
+
+*LoadET - short for Loading End Turn. Vanilla GBW3 has an oversight where 
+loading a unit does not set the moved flag for the unit's cargo, even though 
+moving the grandchildren unit(s) becomes impossible. This isn't incredibly 
+game-breaking, but it does inconvenience shifting through units with 
+Start+Left/Right.
+
+*AutoET - short for Auto End Turn. With this hack active, when a player is 
+deemed unable to make any more moves, their phase will be ended automatically 
+like what happens in any Fire Emblem from 6 onwards. The AET triggers even 
+with Auto-Supply On, though it's unlikely a player will care. All of the other 
+conditions are covered, including the Reserve mechanic in Campaign, and the 
+changes in LoadET are included by necessity. Keep in mind that the price 
+checks are built with the PALBal hack in mind, so here are the addresses with 
+the relevant instructions for those who can work with something like GBRead:
+-Grunt (HQ/City/Factory): 3816D
+-Transport Helicopter (Airport): 3817E
+-Tanker (Harbor): 3818F
+
+-------------------------------------------------------------------------------
+
+The purpose of PALBal
+
+I may as well mention how Game Boy Wars 3 is a game full of ideas that have 
+not been put to use in the later games of the Nintendo Wars series. These are 
+actually good, from the income development and terrain changing of the Work 
+Car, to a stronger variety of unit types, to the subtraction defense for cover 
+that favors units with more defensive power or better burst damage (HELLO, 
+ANTI-AIR TANK), to balance that is handled around City-level cover, to 
+surprisingly intuitive math in battle calculations, to an experience system 
+that even rewards overcoming adversity.
+
+Of course, these ideas being stuffed right into a 1MB GBC game, there were 
+inevitabily going to be problems. The most glaring in vanilla GBC, by far, are 
+the Gold price gaps. How bad are the gaps? On a map with 15 Gold Income 
+properties per side with max Strength properties, a freaking Lander requires at 
+least a full Day of banking, and a Submarine or Aegis Warship requires 
+*THREE*. This is an almost extreme example, but it is nevertheless a good 
+indication of how overly subscribed to realism that GBW3 was capable of 
+getting forgetting that it's still a game where an air-to-air fighter and a 
+dived submarine could block each other. Not to say that the realism was 
+necessarily bad in light of the gameplay quirks resulting from attention to 
+detail such as the Lite Attacker's VTOL status being why it refuels from 
+Supply Trucks rather than Supply Planes, but it could have stood to be more 
+wary of some of the resulting problems.
+
+For those who wonder what would happen in PVP in vanilla GBW3? Bazooka spam 
+that would use the built up money and inflated numbers to whip out kiter tech 
+units such as Artillery. So much for welcome interaction.
+
+The intent of PALBal is to provide PAL-style balancing that would flesh out 
+the ideas that Game Boy Wars 3 had to where they could have useful effect. It 
+even turns out that GBW3's intended idea of player phase friendliness was 
+flanking bonuses, as the player in control is more able to utilize them. While 
+the handling was off, it was definitely worth exploring to avoid having to 
+change the Focus system, the other elephant in the room about GBW3's sense of 
+balance. That, by the way, is getting its own section, because do I have stuff 
+to say. 
+
+First, though, the list of changes.
+
+-------------------------------------------------------------------------------
+
+PALBal changes
+
+*Various unit stat changes - there's quite a few of these, so I'd have to dig 
+up a good way to compare. Rest assured that the Gold price gaps have been 
+severely nerfed, and while Bazooka units can now range fire on Lite Land 
+units, their DEF values have been dropped and they now have to worry about the 
+economy the Work Car can provide with the higher amount of "ammo" that unit 
+has.
+
+There are also some changes that are a nod to Battalion Wars, by the way.
+
+*Deployment ability improvement - 5 space deployment is useful compared to the 
+ever confining 3 spaces. Additionally, now controlled Factories and Harbors 
+can deploy from ANYWHERE, further encouraging land force and navy management. 
+This should result in improved gameplay.
+
+*Harbors now provide Materials in addition to Gold - some of us are not fans 
+of either the pandemic or the Russia-Ukraine War, and while I have benefitted 
+from both keeping society's less than welcome traits short-leashed, I will 
+say that people would still appreciate those nice little trade routes. Players 
+themselves would also welcome appealing targets to develop with the Work Car 
+ASAP for indirectly better Gold availability via earlier Materials payoff with 
+mitigated drawback.
+
+*Property recovery rate increased "slightly" - by "slightly", I would mean 
+it's improved by 1 HP at Property Strength values at multiples of 10, though 
+with a hard cap of 4 HP recovery this way to avoid a graphical glitch. Base 
+healing was just too slow before, so this should strike a fine balance where 
+the Work Car's development still will have value.
+
+*EXP gain rates increased all around - EXP gain rates in vanilla GBW3 are just 
+atrocious. They work the way they do because of Campaign where units already 
+carry over between maps, but otherwise, the level ups are simply too few and 
+far between. With the increased EXP, level ups will be a lot more reasonable.
+
+Combat EXP is a lot less reliant on HP damage. Mere participation is actually 
+its own reward now, and the underdog bonus is significanlty improved. Also of 
+note, there is defensive EXP to be wary of especially when range attacking. 
+This simply incentivizes more methodical attacking, without boosting the 
+defender too much because the defensive EXP can be lost with the unit itself. 
+Please also note that Damage/Kill EXP is reduced against newly deployed 
+enemy units.
+
+*Properties provide EXP at the start of the phase - this needed its own point 
+because it's a unique feature that I added that the Nintendo Wars series 
+really would work well with to disrupt spam via map control. When a unit is 
+on a valid resupply property, they will gain EXP proportional to their old HP 
+and the property's Strength value. This will not apply to any newly deployed 
+units, though predeployed units will still gain the EXP. The values are 
+subtle, so Work Car risk assessment would be more desirable for making the 
+most of this.
+
+*Air units have a new Cover system - don't worry, stats have been adjusted 
+accordingly. Air units get a base amount of Cover both as a sort of realism 
+factor, and to better incentivize good gameplay against them via the adjusted 
+stats. In return, planes are vulnerable to range fire and enemy planes in this 
+regard, stacking with each other; while helicopters partially benefit from 
+terrain with better cover as well as resist range fire.
+
+*Sea has 10 Cover - the whole point of this is to help emphasize sea units as 
+Mighty Glaciers. 10 Cover isn't a lot, but it cuts down on MGs dealing silly 
+amounts of damage to them with flanking, so it gets the job done.
+
+Oh, and for the record, GBW3 would have arguably better navy warfare than the 
+other Nintendo Wars games if not for a certain elephant in the room that the 
+patch at least addresses. GBW3 at least tries to provide competent interaction 
+between air and sea units, and VERY arguably land and sea units too.
+
+*Sea units now have Fuel Upkeep - like in the AWs. And like in the AWs, it's 
+subtle. This isn't too big, but it is something to give the Tanker value so 
+as to make that thing able to become a halfway serviceable flanker.
+
+*Fuel low trigger now happens for sub-37.5% - originally happening only at 
+20 Fuel or below, now the Fuel low trigger happens at the sweetspot between 
+too subtle (AW1/2's 25%) and too lenient (AWDS's 50%). Note that this doesn't 
+apply to the mini-status window displaying only HP and Fuel.
+
+*Flanking stat changes favor attacker more - flanking boosts encourage the 
+player to manage, well, flanking. Unfortunately, the defender gets boosts too 
+depending on the attacker's own position. As a result, the defender's benefits 
+have been completely halved, and the attacker's support boosts have been 
+doubled as well.
+
+*Flanking defense penalties now favor base damage and countering Cover - this 
+is inspired by a video on Critical Hits in Pokemon talking about how Crits 
+bolster siege-based offense by ignoring defense boosts and offense penalties 
+(in later games, mind you) allowing for busting up overly defensive teams. Now 
+instead of simply reducing Total DEF, the defense penalty instead gets added 
+to the opponent's ATK percent boost and is a maximum amount of the defense 
+bonus that is ignored. The values are changed up in return, but the end result 
+includes full surrounding changed from 2.5 HP extra damage affected by the 
+defending unit's HP, to a +40% ATK boost that effectively has Forests 
+treated as Roads before involvement of further defense boosts.
+
+*Communication Towers provide Gold and global power boosts - taken directly 
+from Days of Ruin, but for those not familiar, Comm Towers provide income and 
+also give all units +5% per Comm Tower in both ATK and DEF. GBW3 uses 
+basically the same values, albeit with Total DEF being increased by +2.5% 
+instead of +5% per Tower--4 Comm Towers are needed to cut a full HP of damage. 
+Note that this boost caps at +200% to prevent glitchy calculations, not that 
+players should ever get that much in the first place except for kicks and 
+giggles. Also note that the boosts are not shown in-game in the midst of 
+avoiding calculation complications with EXP as well.
+
+*Range fire comes with attack penalties - in Version 0.9, range fire 
+received a 10% attack penalty per space between the units. At some point, 
+longtime friend MarioMastar was talking about how Grit likes his fortresses 
+and came the Eureka Moment. Now the range fire penalties are revamped: 
+if the range attacker doesn't move, they get only 5% penalty for each space 
+beyond what is needed for range attacking. If they do move, it's a much more 
+different story, because now the reduction is 30% base in addition to a 
+further 10% for each additional space. This should result in some hopefully 
+more rewarding gameplay with units like the Artillery. Stats have been 
+adjusted accordingly as well.
+
+*Attacking unit +15 Focus with accommodating values - when all is said and 
+done, first attack is still desirable, but some enemy phase friendliness can 
+help with unit balance. The Attacker will definitely live up to its name a 
+lot better, for example. I could even get going on things like giving the 
+Work Car a whopping FIVE Focus Loss, hee hee.
+
+*Reduced mobility when moving off of an already moved transport - while being 
+able to do this at all to take an action immediately is still around, its 
+effectiveness is reduced to where if the transport has moved, an unloading 
+unit will be stuck with only half their Movement Power, although rounded up. 
+This makes an option that has not even been available with the Aircraft 
+Carrier in Days of Ruin more of a risky burst maneuver for the transport. 
+And fortunately, all 3 involved Beginner Mode maps are basically unaffected, 
+although Class 9 may prove intimidating now.
+
+*Supply Truck and Tanker auto-repairs adjacent surface units - both the 
+Supply Truck and the Tanker have questionable usefulness, relying on the 
+resupply aspect to be handy. The Supply Truck could see some use in refueling 
+a helicopter here and there, but the Tanker's inability to restock units that 
+particularly need it is a problem forever and makes the Tanker arguably THE 
+least useful unit in the entire Nintendo Wars series. Healing ability fixes 
+this, in a way where "Direct-Fire Folly" just becomes an alternative term for 
+the Peltzman Effect rather than an excuse to abuse Stallworks Artillery, Inc., 
+given healing benefits close range combat units more even with repair costs 
+applying.
+
+The healing works as such: at the beginning of the player's phase, ally units 
+adjacent to the supplier get healed, although their Fuel and Ammo won't be 
+restocked this way. In addition to usual repair fees applying, the supplier 
+will use 1 "Ammo" of their Supplies when any healing at all is done, but will 
+heal fellow suppliers where applicable. The Supply Truck will heal only land 
+units, and at a lower rate than the Tanker as as well. The Tanker heals both 
+land and sea units, at a faster HP rate for land units, and the targets for 
+healing does in fact include Submarines. As for the Supply Plane, it's good 
+enough, even having flanking bonus provision, so it doesn't get this benefit.
+
+Please note that this can't be turned off by disabling Auto-Supply. Addressing 
+that would require more ASM management than I would welcome. Besides, the 
+player is making a choice when deploying these non-attacking units.
+
+*More available Campaign features - goes without saying that Badges and 
+Mercenary Units being online-exclusive was a problem.
+
+*All units possible to purchase on VS Mode - just something to make VS Mode 
+a good deal better. Price balance is done with this in mind.
+
+*A few bugfixes - resupplying the secondary weapon charged based on the 
+primary weapon, which didn't make sense. Additionally, there's a bit of 
+idiocy involving the Bomber that gets patched out--just because its influence 
+in vanilla GBW3 was too miniscule doesn't mean I'll say what it is on this 
+document.
+
+-------------------------------------------------------------------------------
+
+Player phase friendliness points
+
+Turn-based strategy games are slower than other genres because they are built 
+to allow players to take their time and figure out how to utilize the 
+potential of their resources. It's the reason Chess Clocks exist: to provide 
+a time-based challenge where players can start making mistakes, while also 
+stopping spiteful stalling. The point of player phase friendliness is to make 
+doubly sure that gameplay can get to stay kinetic rather than allow turtling.
+
+What the Advance Wars games do to provide player friendliness is accommodate 
+the Nintendo Wars series' attack power proportional to HP system with first 
+strike. This provides added defensive power for the attacker as a result of 
+reduced counterdamage. With the standard 55% matchup, the attacker's units 
+take 2-3 HPs of damage with first strike compared to 7-9 without.
+
+GBW3, by contrast, uses the Focus system, where the unit with higher Focus by 
+enough strikes first, and doesn't think to give extra Focus to the attacker to 
+counterbalance the reduction of Focus they get from moving. This system is 
+intended to reward units sitting closer to the action, but there are quite 
+a few ambushes that are going to happen anyway.
+
+How, then, does vanilla GBW3 have decent player phase friendliness that 
+helps directs?
+
+One of the big reasons is subtraction defense on boosts. Unit variety helps by 
+also upping the standard to 7 HPs of damage, but subtraction defense on boosts 
+allows units to go after targets with only moderate counterdamage against even 
+when they do get the ambush off. A 5 HP unit is far less threatening than a 
+10 HP unit because there is less damage to even reduce.
+
+Flanking boosts also help. Technically, they're penalties for the flanked unit 
+aside from invisible support boosts, but even units such as the Supply Truck 
+can still help set up the flanking boosts, silly as that sounds. Once they're 
+set up, the opposing unit suffers a sharp drop in offense, in addition to the 
+extra damage they can just as easily take. Suffice to say that chip KOing is a 
+lot safer despite the ambush shenanigans.
+
+GBW3 also has higher standard mobility among the combat-capable units. Not 
+only are there faster land units that can, natch, flank better, but Movement 
+Costs aren't as high because GBW3 is not afraid to use mixed number MCs. And 
+of course, mobility is actually directly controlled by the active player, 
+which speaks for itself.
+
+There is also, believe it or not, the EXP system. The patch tones it up 
+because it's too abysmal in vanilla GBW3, but the toning up generally 
+emphasizes the game's original intent: to punish thoughtless and especially 
+uncaring behavior by the opponent. Range fire involves defensive EXP because 
+it punishes mere existence of opposing units if not checked well. The thing 
+about EXP is, its usefulness is tied to that of the unit's, which hurts 
+defensive EXP because the unit can still be removed from play. Offensive EXP 
+rewards methodical attacks by contrast, as they can estimate survival on 
+enemy phase that lets the unit escape to where it can get repaired. It is 
+quite natural that the active player can control the flow of EXP.
+
+What I ultimately want to point to, is how first strike becomes questionable 
+in its method of providing player phase friendliness. Yes there is some sense 
+of raw power. That's the thing: relying on raw power in a strategy game. Just 
+because I personally take issue with games rewarding kiting from how a 5YO 
+can come up with it, does not mean that brain-dead melee rushing isn't even 
+more mindless. This is also where I take issue with the way Days of Ruin 
+handles the CO Unit system, which punishes the opponent for daring to consider 
+the mere concept of flanking. Really, the similar enough manual unit system of 
+Battalion Wars amplifies the weaknesses of the manual unit, as the Recon can 
+attest to in its inability to directly contest armor well while lacking 
+sufficiently unique strong points.
+
+I'm not saying first strike under the attack power proportional to HP system 
+shouldn't be used, but it should be at least better understood in order to 
+avoid needless favoritism of Fragile Speedster units, as it's the Mighty 
+Glacier who tends to draw the short straw in game balance, often I find 
+because law of diminishing isn't accounted for by developers. Accommodation 
+of bravery, the MASTERY of fear rather than the absence of it, is how players 
+evolve better, not practicing the same tired thing and exploiting any safety 
+to be had with it.
+
+-------------------------------------------------------------------------------
+
+Closing stuff
+
+Here are the version notes:
+*0.9 - most stuff done.
+*Post-0.9 - check GBW3PalBalChangelog.txt for details
+
+And for those who want to contact me, here's my IM info:
+*Skype - mknightdh
+*Discord - MasterKnightDH#2492
+
+Please use these if you want to report any bugs to me. There shouldn't be any 
+left despite the ASM changes, other than aesthetic things, but I never know.

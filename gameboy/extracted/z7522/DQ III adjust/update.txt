@@ -1,0 +1,6 @@
+Update on March 10
+- Added "Female Hero IV.ips"
+
+Update on March 13
+- Brushed up graphics (Normal, Queen, and Swimsuit) of IV-style female heroes.
+- Restores the strength of the boss character to a setting close to the original.

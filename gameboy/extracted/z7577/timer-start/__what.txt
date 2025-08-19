@@ -1,0 +1,32 @@
+Fixes starting time for W3-2 on Super Levels
+
+
+
+
+
+
+
+Original Credit: lightbulbsun
+https://www.romhacking.net/forum/index.php?msg=440954
+
+
+
+
+
+
+Note:
+Direct patch works for both Japan and USA.
+
+Starting values were re-extracted and the full tables are posted for future modding.
+
+
+
+
+
+
+
+Target: Super Mario Bros. Deluxe (Japan) (En) (Rev 1) (NP).gbc
+
+
+Credit: BucketOfFriedChicken
+License: Free. Whatever. Don't ask.

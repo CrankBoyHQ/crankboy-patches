@@ -1,0 +1,53 @@
+org 0x0, 0x0048
+	push af
+
+@wait:
+	ldh a, (0x41)		; wait h-blank
+	and a, 0x02
+
+	jp @lcd
+
+
+warnpc 0x0050
+
+
+
+
+
+org 0x0, 0x0eeb
+
+@lcd:
+	jp nz, @wait
+	nop
+
+warnpc 0x0eef
+
+
+
+
+org 0x0, 0x0f1a
+	pop af
+	reti
+
+warnpc 0x0f1f
+
+
+
+
+; #######################################
+
+
+
+
+org 0x0, 0x033f
+	ld a, 0x07-1		; hud line
+
+
+
+org 0x0, 0x0c85
+	ld a, 0x07-1
+
+
+
+org 0x0, 0x0cea
+	ld a, 0x07-1

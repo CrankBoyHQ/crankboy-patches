@@ -1,0 +1,105 @@
+.loadtable "font.tbl"
+
+
+
+org 0x31, 0x5f80
+
+.stringn "                  "
+.stringn "Enemies lurk in   "
+.stringn "                  "
+.stringn "watery depths     "
+
+
+
+.stringn "                  "
+.stringn "Fortune is hidden "
+.stringn "                  "
+.stringn "in bricks unbroken"
+
+
+
+.stringn "                  "
+.stringn "Today is your day "
+.stringn "                  "
+.stringn "to win the race   "
+
+
+
+.stringn "                  "
+.stringn "Boxes may contain "
+.stringn "                  "
+.stringn "clues to the quest"
+
+
+
+.stringn "                  "
+.stringn "Victory is yours  "
+.stringn "                  "
+.stringn "in the coming race"
+
+
+
+.stringn "                  "
+.stringn "Beware of winds   "
+.stringn "                  "
+.stringn "from the west     "
+
+
+
+.stringn "                  "
+.stringn "Feelings shared   "
+.stringn "                  "
+.stringn "will be understood"
+
+
+
+.stringn "                  "
+.stringn "He who thinks of  "
+.stringn "                  "
+.stringn "you is beside you "
+
+
+
+.stringn "                  "
+.stringn " Imagination is   "
+.stringn "                  "
+.stringn " a wonderful toy  "
+
+
+
+.stringn "                  "
+.stringn "Old tunes bring   "
+.stringn "                  "
+.stringn "new fortune       "
+
+
+
+.stringn "                  "
+.stringn "Trade high scores "
+.stringn "                  "
+.stringn "to set new goals  "
+
+
+
+.stringn "                  "
+.stringn " Solutions are    "
+.stringn "                  "
+.stringn " within your grasp"
+
+
+
+
+; #########################################################
+
+
+
+
+org 0x23, 0x6480
+	.incbin "lucky.gfx", 0x000, 0x80
+	.incbin "lucky.gfx", 0x100, 0x80
+
+
+
+org 0x14, 0x481d
+	.db 0x05, 0x05, 0x05, 0x05, 0x05, 0x05, 0x05, 0x05
+	.db 0x05, 0x05, 0x05, 0x05, 0x05, 0x05, 0x05, 0x05

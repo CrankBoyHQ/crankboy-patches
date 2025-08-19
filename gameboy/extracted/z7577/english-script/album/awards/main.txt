@@ -1,0 +1,5 @@
+.include "toad.txt"
+.include "mario.txt"
+.include "peach.txt"
+.include "bowser.txt"
+.include "yoshi.txt"

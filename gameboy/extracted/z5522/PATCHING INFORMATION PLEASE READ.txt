@@ -1,0 +1,22 @@
+---------- Patching Information ---------------
+
+Included in the download are two versions of each patch for the Gold and Silver versions
+
+"for Crystal 1.0" is for the 1.0 revision of Pokemon Crystal, this is the version that builds from pret's pokecrystal repository by default.
+
+"for Crystal 1.1" is for the 1.1 revision of Pokemon Crystal, this is the version of the game found more commonly online.
+
+If you are not sure what version of the Crystal rom you have, use Romhacking.net's online rom hasher at this link:
+https://www.romhacking.net/hash/
+
+A Crystal 1.0 hash will look like this:
+Database match: Pokemon - Crystal Version (USA)
+Database: No-Intro: Game Boy/Color (v. 20210227-015730)
+File/ROM SHA-1: F4CD194BDEE0D04CA4EAC29E09B8E4E9D818C133
+File/ROM CRC32: EE6F5188
+
+A Crystal 1.1 hash will look like this:
+Database match: Pokemon - Crystal Version (USA, Europe) (Rev 1)
+Database: No-Intro: Game Boy/Color (v. 20210227-015730)
+File/ROM SHA-1: F2F52230B536214EF7C9924F483392993E226CFB
+File/ROM CRC32: 3358E30A

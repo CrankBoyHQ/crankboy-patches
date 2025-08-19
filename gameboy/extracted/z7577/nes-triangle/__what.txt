@@ -1,0 +1,35 @@
+Replaces triangle approximations with a proper NES-style triangle wave
+
+
+
+
+
+
+Original credit:
+
+NES triangle patch @ DevEd
+https://www.romhacking.net/hacks/3897/
+
+
+
+
+
+
+
+Note:
+Above patch does not work with Japan.
+
+Old work was discarded and samples were re-discovered.
+
+
+
+
+
+
+
+
+Target: Super Mario Bros. Deluxe (Japan) (En) (Rev 1) (NP).gbc
+
+
+Credit: BucketOfFriedChicken
+License: Free. Whatever. Don't ask.

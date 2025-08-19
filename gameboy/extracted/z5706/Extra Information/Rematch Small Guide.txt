@@ -1,0 +1,66 @@
+
+
+ This is a small handy txt file for you to know when to call
+ Pokégear rematches, as they only accept battles at a certain
+ day, during a certain period of time.
+ 
+ Remember that, unlike the original game, in this version 
+ Trainers DO NOT need to be battled for their teams to 
+ be renewed or improved, they do so regardless of if you 
+ fought them or not after you got their number. 
+
+
+Place			Trainer				Day			Time
+----------------------------------------------------------
+Route 30		Youngster Joey		Mondays		Afternoon	He gives Salty Fruits if you win a rematch.
+----------------------------------------------------------
+Route 31		Bug Catcher Wade	Tuesdays	Night 
+----------------------------------------------------------
+Route 32 		Picknicker Liz		Thursdays	Afternoon
+				Fisherman Ralph		Wednesdays	Morning
+----------------------------------------------------------
+Route 33		Hiker Anthony		Fridays		Night 
+----------------------------------------------------------
+Route 34		Picknicker Gina		Sundays		Afternoon
+				Camper     Todd		Saturdays	Morning
+----------------------------------------------------------
+Route 35		Bug Catcher Arnie	Tuesdays	Morning
+----------------------------------------------------------
+National Park	School Kid	Jack	Mondays		Morning
+----------------------------------------------------------
+Route 36		School Kid  Alan	Wednesdays	Afternon
+----------------------------------------------------------
+Route 38		Lass		Dana	Thursdays	Night
+				School Kid  Chad	Fridays		Morning
+----------------------------------------------------------
+Lighthouse F2	Sailor		Huey	Wednesdays	Night					He gives Juicy Fruit if you win a Rematch.
+----------------------------------------------------------
+Route 42		Fisherman	Tully	Sundays		Afternon
+----------------------------------------------------------
+Route 43		Pokémaniac	Brent	Mondays		Morning
+				Picknicker	Tiffany	Tuesdays	Afternoon
+----------------------------------------------------------
+Route 44		Bird Keeper	Vance	Wednesdays	Night					He gives Gutsy Fruit if you win a rematch.
+				Fisherman	Wilton	Thursdays	Morning
+----------------------------------------------------------
+Route 45		Black Belt	Kenji	This NPC is special. You must call
+									him between 12:00 and 12:59 PM, and
+									he'll may accept randomnly. 
+				Hiker		Parry	Fridays		Afternoon				He gives Beefy Fruit if you win a rematch.
+----------------------------------------------------------
+Route 46		Picknicker	Erin	Saturdays	Night					She gives Tasty Fruit if you win a rematch.
+----------------------------------------------------------
+Route 26		Cooltrainer	Beth	Fridays		Afternon
+				Ace Trainer	Gaven	Thursdays	Morning
+----------------------------------------------------------
+Route 27		Ace Trainer Reena	Sundays		Morning
+				Bird Keeper	Jose	Saturdays	Night
+----------------------------------------------------------
+
+
+
+		
+		
+	
+		
+		

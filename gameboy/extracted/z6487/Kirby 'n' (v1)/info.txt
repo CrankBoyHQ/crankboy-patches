@@ -1,0 +1,7 @@
+An amusing addendum to the recently released Accelerometer Removal patch: https://www.romhacking.net/hacks/6479/
+
+Edits the game's title screen to remove the "Tilt" and "Tumble" from Kirby's Tilt 'n' Tumble. After all, if the game no longer requires motion control to play, are you really tilting or tumbling anything?
+
+Credit for this idea largely goes to my friend Dustin. I simply made it reality out of boredom.
+
+For best results, apply this patch first, [i]then[/i] the Accelerometer Removal one. Your emulator might spit out a checksum error at you, but the game will load and play just fine. This will probably be addressed in a future update. For now, enjoy!

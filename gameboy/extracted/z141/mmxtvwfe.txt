@@ -1,0 +1,40 @@
+MEGAMAN XTREME VWF EDITION v 1.10
+(c) 2005-2006 evO
+evobboy@yahoo.it    ...NO SPAM PLEASE :P
+
+Disclaimer:
+I'M NOT RESPONSIBLE FOR THE USE OF THE PROGRAM AND/OR THE INFORMATION DISTRIBUTED.
+I'M NOT AFFILIATED NOR ENDORSED BY NINTENDO. THIS IS ONLY A PATCH, WITH THIS IS INTENDED
+THAT ANY COPYRIGTHED MATERIAL IS DISTRIBUTED. REGISTERED TRADEMARKS ARE OF THE OWNER.
+
+With this release the Yes/No choose is fixed! :)
+Now fixed the gb mode font colors!
+Less space and more velocity for the routines!
+
+Yes i think this is the last relase, it seem that's all working ç_ç
+
+More VWF madness! as said gideon zhi :P
+this isn't a translation! sorry...
+is only a technical patch or better a demonstration patch.
+I spent some hours (3 days) of my life on coding this (and much, much more days to
+debug this patch xD), so please be kind and don't rip my work using it for your own shit!
+If you would a vwf in your projects contact me at asmaster@yahoo.it.
+If you use this patch as a base for your megaman xtreme hacking projects contact
+me at least, and give me credit please. ^_^
+
+If u r only a lamer do NOT even try to contact me with stupid questions like:
+"i dunno asm, how can i do a vwf?" .-.
+
+For all the other questions/flames/comments i'm here and i'll be glad to reply.
+I'm also disponible to collaborate with translation/hacking groups so don't
+esitate and contact me for your most strange projects ;)
+
+Greets fly out to:
+Gemini, Gideon Zhi, KingMike
+#traduzioni, clomax forum members,
+acmlm romhacking board members.
+All the gameboy demosceners that do fantastik effects
+that i can't understand how they do ç_ç
+
+DO NOT DISTRIBUTE THE PATCH WITHOUT THIS README!
+DO NOT DISTRIBUTE PATCHED ROMS!

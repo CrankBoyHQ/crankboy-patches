@@ -1,0 +1,201 @@
+org 0x15, 0x6aa1
+	jp @oam
+
+
+
+
+org 0x15, 0x7cc0
+
+@oam:
+	ld a, (0xc191)		; peach = top priority
+	call 0x6aa4
+
+
+	push bc
+	ld a, (0xc191)
+	ld b, a
+
+
+
+@toad1:
+	bit 0, b		; left
+	jr z, @toad2
+
+	ld de, @toad1_oam
+	ld c, 1
+	call 0x6aac
+
+
+
+
+@toad2:
+	; bottom
+
+
+
+
+@toad3:
+	bit 2, b		; lower-left
+	jr z, @toad4
+
+	ld de, @toad3_oam
+	ld c, 3
+	call 0x6aac
+
+
+
+
+@toad4:
+	; top-right
+
+
+
+
+@toad5:
+	bit 4, b		; right
+	jr z, @toad6
+
+	ld de, @toad5_oam
+	ld c, 2
+	call 0x6aac
+
+
+
+
+@toad6:
+	; top-left
+
+
+
+
+@toad7:
+	bit 6, b		; bottom-right
+	jr z, @peach
+
+	ld de, @toad7_oam
+	ld c, 2
+	call 0x6aac
+
+
+
+
+@peach:
+	bit 7, b		; top = 10+ sprite-limiter only
+	jr z, @exit
+
+	ld de, @peach_oam
+	ld c, 4
+	call 0x6aac
+
+
+
+
+@exit:
+	pop bc
+	ret
+
+
+
+
+; @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+
+
+@toad3_oam:
+	.db 0x0e*8+1, 0x08*8+0, 0x38, 0x07
+	.db 0x10*8+2, 0x07*8+0, 0x3a, 0x07
+	.db 0x0f*8+7, 0x08*8+0, 0x3c, 0x04
+
+
+
+@toad7_oam:
+	.db 0x0d*8+4, 0x10*8+0, 0x3e, 0x05
+	.db 0x0f*8+7, 0x0f*8+0, 0x40, 0x07
+
+
+
+@toad1_oam:
+	.db 0x0e*8+5, 0x02*8+4, 0x42, 0x07
+
+
+
+@toad5_oam:
+	.db 0x0c*8+0, 0x11*8+6, 0x44, 0x07
+	.db 0x0d*8+6, 0x12*8+3, 0x46, 0x07
+
+
+
+@peach_oam:
+	.db 0x08*8+0, 0x08*8+0, 0x48, 0x07	; floor-l
+	.db 0x08*8+0, 0x0d*8+0, 0x4e, 0x07	; floor-r
+	.db 0x08*8+0, 0x09*8+0, 0x4a, 0x07	; floor
+	.db 0x08*8+0, 0x0c*8+0, 0x4c, 0x07	; glove
+
+
+; warnpc 0x7d40
+warnpc 0x7d60
+
+
+
+
+org 0,0
+
+
+
+
+; ####################################
+
+
+
+
+; bg tiles
+
+
+orga 0xf0840
+	.incbin "bricks.gfx", 0x000, 0x10
+
+
+
+orga 0xf0b90
+	.incbin "toad5.gfx", 0x100, 0x10
+	.incbin "toad5.gfx", 0x120, 0x20
+
+
+
+orga 0xf0a80
+	.incbin "toad5.gfx", 0x110, 0x10
+
+
+
+orga 0xf0ce0
+	.incbin "toad1.gfx", 0x100, 0x10
+
+
+
+orga 0xf12c0
+	.incbin "toad7.gfx", 0x100, 0x10
+
+
+
+
+; @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+
+
+; oam tiles = 8x16
+
+
+orga 0xf0380
+	.incbin "toad3.gfx", 0x000, 0x60
+	.incbin "toad7.gfx", 0x000, 0x40
+	.incbin "toad1.gfx", 0x000, 0x20
+	.incbin "toad5.gfx", 0x000, 0x40
+	.incbin "peach.gfx", 0x000, 0x80
+
+
+
+
+orga 0x5650a
+	.dh 0x0300, 0x7fff, 0x033f, 0x001f	; palette 5  [unused]

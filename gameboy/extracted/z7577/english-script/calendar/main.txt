@@ -1,0 +1,3 @@
+.include "erase\main.txt"
+.include "script\main.txt"
+.include "title\main.txt"

@@ -1,0 +1,19 @@
+VBA USERS:
+
+There's a minor bug related to VBA (1.8)'s emulation of GBC games
+that causes the "1,2,POOF" sound effect to hold out for
+like 30 extra seconds. this is emulator specific and can be
+avoided by doing the following:
+
+>go to Options
+>go to Gameboy
+>check the box for SGB instead of GBC
+
+This puts the emulator in super gameboy mode instead of gameboy color
+
+
+This bug can also be avoided by playing the game with
+BGB or Sameboy instead (both are better for emulating gameboy than VBA anyway)
+
+
+And if you use BGB you can actually see the super gameboy border :^)

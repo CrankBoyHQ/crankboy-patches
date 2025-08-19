@@ -1,0 +1,7 @@
+1. Obtain the Pokemon - Crystal Version (UE) (V1.1) [C][!].gbc ROM
+ 
+2. Open LunarIPS and click "apply ips patch". Select the 
+"Pokemon Perfect Crystal (2020 Update)"IPS patch. Select the Pokemon 
+Crystal ROM.
+
+3. Play using Visual Boy Advance emulator or your flash cart.

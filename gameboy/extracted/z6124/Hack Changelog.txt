@@ -1,0 +1,42 @@
+VERSION 1.1 is a very important hotfix, that makes the Heal Party item unusable in Viridian Forest, since it 
+freezes the game there for some strange reason. Hopefully no further band-aids of this sort will need to be applied. 
+It also changes the "Option" menu to "Options," since I always found that annoying.
+
+VERSION 1.2 is a minor update, that mainly reverts Missigno to its vanilla properties, done by means of some 
+trainer changes (to move data around). It also localizes Missingno's Pokedex entry (although it does not seem to be 
+viewable in game). Finally, the file overworld.bst was reverted to its original state, having been re-saved and 
+possibly accidentally changed when editing Route 15.
+
+VERSION 1.3 actually, finally fixes the Heal Party issues. It can be used, and works perfectly fine, in all areas, 
+without the weird message at the end. Also, the Pokemon on Route 3 had their levels raised a bit, to make them less 
+useless.
+
+VERSION 1.3.1 is another minor update. Route 24 and 35 have had their wild data swapped and then edited a little, 
+so that the water pokemon all actually appear next to the water. Clefairy has also had its learnset edited, so it 
+does not learn a move it started with at the beginning. Finally, SonicBoom has had its accuracy lowered to 75, due 
+to its great utility in the early game, and Struggle has changed to deal a constant damage of 20, to prevent 
+ridiculous utility in the late game. Also, from now on, updates which do not fix non-cosmetic bugs, or touch very 
+large amounts of data, will be labeled x.y.z, as this update is, to conserve numbers.
+
+VERSION 1.4 changes just about every trainer in the game. Party pokemon has been greatly diversified, and now the 
+trainers should be up to snuff with the movesets and wild data. As a bonus, the Daycare will now take pokemon who  
+know HM moves, and the max level is now 99, not 100. The latter change was made because it was weird that the 
+last level alone would stop the ":L" from appearing. Also, from this version on the Source Code will appear in the 
+archive, so people have access to it and may iterate upon it.
+
+VERSION 1.4.1 is a small fix to get rid of the godforsaken Low Health alarm, because it was driving me up the wall 
+until I realized I could just get rid of it. If you can't read the numbers to see you're on low health, well that's 
+your problem.
+
+VERSION 1.5 is a very major update, which adds finite PP for enemies, and a bunch of other stuff. So much, in fact,  
+that it gets its own, even less comprehensible file: 1.5 Changes.txt. The file is written in the style of a to-do list, 
+so you will have to get used to seeing the future tense for completed features.
+
+VERSION 1.5.1 does only one thing, making it so that Wrap et al. do not clear the Hyper Beam recharging status. This 
+was done for two reasons:
+- This removes the "Hyper Beam PP Underflow" glitch, which is now much easier to trigger since Hyper Beam only has 1 PP, 
+  and more importantly can happen accidentally and ruin, in a sense, a favorite monster (or just make a fight unwinnable 
+  if it happens to the enemy).
+- Now that you can move during these attacks, removing this status is unnecessary, as it will just go away naturally. In 
+  fact, this change removes a major, unneeded downside from Wrap and co., namely letting the opponent Hyper Beam twice
+  in a row.

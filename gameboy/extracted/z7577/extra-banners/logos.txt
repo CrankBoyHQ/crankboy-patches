@@ -1,0 +1,344 @@
+org 0x15, 0x768e
+	.db 0x05+2, 0x04+2		; max items
+
+
+
+
+
+org 0x15, 0x6d35
+	ld hl, @gfx_print
+
+
+org 0x15, 0x6d48
+	add a, @gfx_print_size % 256
+
+
+org 0x15, 0x6d4b
+	ld a, @gfx_print_size >> 8
+
+
+
+
+
+
+
+org 0x15, 0x6f7d
+	ld hl, @gfx
+
+
+org 0x15, 0x6f90
+	add a, @gfx_size % 256
+
+
+org 0x15, 0x6f93
+	ld a, @gfx_size >> 8
+
+
+
+; 39:4b40
+; e61c0 - 39:61c0
+; e6490
+
+
+
+org 0x15, 0x72d6
+	ld hl, (@print_flags % 0x4000) + 0x4000
+
+
+org 0x15, 0x72ec
+	ld hl, (@tilemap_print % 0x4000) + 0x4000
+
+
+org 0x15, 0x7579
+	ld hl, (@tilemap % 0x4000) + 0x4000
+
+
+
+
+; #################################
+
+
+
+
+org 0x15, 0x6d0d
+
+@gfx_print:
+	.db 0xd0, 0x59, 0x3c				; Nintendo
+	.db 0x80, 0x6e, 0x3a				; Game Boy
+	.db 0x30, 0x74, 0x3c				; Famicom Disk System
+
+	.dh (@nes_print_gfx % 0x4000 + 0x4000)		; Nintendo Entertainment System
+	.db (@nes_print_gfx / 0x4000)
+
+	.db 0x80, 0x5f, 0x22				; Super Mario Bros
+	.db 0x80, 0x6e, 0x22				; Japan Nintendo logo
+
+	.dh (@get_n_print_gfx % 0x4000 + 0x4000)	; Get N or Get Out
+	.db (@get_n_print_gfx / 0x4000)
+
+	; 4 free
+
+warnpc 0x6d26
+
+
+
+
+
+
+org 0x15, 0x6f5a
+
+@tilemap:
+	.db 0xd0, 0x71, 0x0e
+	.db 0xa0, 0x74, 0x0e
+	.db 0x70, 0x77, 0x0e
+
+	.dh (@nes_map % 0x4000 + 0x4000)
+	.db (@nes_map / 0x4000)
+
+	.db 0x40, 0x7a, 0x0e
+	.db 0x10, 0x7d, 0x0e
+
+	.dh (@get_n_map % 0x4000 + 0x4000)
+	.db (@get_n_map / 0x4000)
+
+	; 4 free
+
+warnpc 0x6f73
+
+
+
+
+
+
+
+; from portraits area
+
+org 0x15, 0x73ad
+
+@gfx:
+	.db 0x00, 0x40, 0x38
+	.db 0x60, 0x45, 0x38
+	.db 0xd0, 0x4b, 0x38
+
+	.dh (@nes_gfx % 0x4000 + 0x4000)
+	.db (@nes_gfx / 0x4000)
+
+	.db 0x30, 0x50, 0x38
+	.db 0x50, 0x56, 0x38
+
+	.dh (@get_n_gfx % 0x4000 + 0x4000)
+	.db (@get_n_gfx / 0x4000)
+
+	; 3 free
+
+warnpc 0x73c5
+
+
+
+
+
+
+
+org 0x15, 0x72b5
+
+@tilemap_print:
+	.db 0x70, 0x60, 0x3a
+	.db 0x00, 0x40, 0x39
+	.db 0xd0, 0x65, 0x3b
+
+	.dh (@nes_print_map % 0x4000 + 0x4000)
+	.db (@nes_print_map / 0x4000)
+
+	.db 0x40, 0x4b, 0x39
+	.db 0xc0, 0x61, 0x39
+
+	.dh (@get_n_print_map % 0x4000 + 0x4000)
+	.db (@get_n_print_map / 0x4000)
+
+	; 4 free
+
+warnpc 0x72ce
+
+
+
+
+
+
+org 0x15, 0x7560
+
+; ---x = # pages
+
+@print_flags:
+	.dh 0x0185
+	.dh 0x0284
+	.dh 0x0489
+
+	.dh 0x0385		; nes
+
+	.dh 0x0488
+	.dh 0x0384
+
+	.dh 0x0483		; get_n
+
+	; 1 free
+
+warnpc 0x756f
+
+
+
+
+
+
+org 0x15, 0x7fe4
+
+@gfx_print_size:
+	.dh 0x0bd0
+	.dh 0x0e40
+	.dh 0x0a90
+
+	.dh filesize( "nes_print.gfx" )
+
+	.dh 0x0f00
+	.dh 0x0a60
+
+	.dh filesize( "get_n_print.gfx" )
+
+
+
+
+@gfx_size:
+	.dh 0x0560
+	.dh 0x0670
+	.dh 0x0460
+
+	.dh filesize( "nes.gfx" )
+
+	.dh 0x0620
+	.dh 0x07f0
+
+	.dh filesize( "get_n.gfx" )
+
+
+warnpc 0x8000
+
+
+
+
+
+org 0,0
+
+
+
+
+; #####################################
+
+
+
+
+orga 0xe1e40
+
+
+@nes_gfx:
+	.incbin "nes.gfx"
+
+
+
+@get_n_gfx:
+	.incbin "get_n.gfx"
+
+
+
+@get_n_print_gfx:
+	.incbin "get_n_print.gfx"
+
+
+
+@get_n_print_map:
+	.incbin "get_n_print.map"
+
+
+
+; 0 free
+
+
+warnorga 0xe4000
+
+
+
+
+
+
+
+
+orga 0x170b0
+
+
+@nes_print_gfx:
+	.incbin "nes_print.gfx"
+
+
+
+@nes_map:
+	.incbin "nes.map"
+
+
+
+@get_n_map:
+	.incbin "get_n.map"
+
+
+; 0 free
+
+warnorga 0x18000
+
+
+
+
+
+
+
+
+
+orga 0x1b1f0
+
+
+@nes_print_map:
+	.incbin "nes_print.map"
+
+
+; 0 free
+
+warnorga 0x1c000
+
+
+
+
+; ###################################
+
+
+
+
+.if LANGUAGE == "ENGLISH"
+
+orga @nes_gfx + 0x120
+	.incbin "banner.gfx", 0x000, 0xa0
+	.incbin "banner.gfx", 0x100, 0x60
+
+
+orga @nes_gfx + 0x580
+	.incbin "banner.gfx", 0x160, 0x40
+
+
+
+
+
+orga @get_n_gfx + 0x200
+	.incbin "banner.gfx", 0x000, 0xa0
+	.incbin "banner.gfx", 0x100, 0x60
+
+
+orga @get_n_gfx + 0x620
+	.incbin "banner.gfx", 0x160, 0x40
+
+
+.endif

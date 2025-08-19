@@ -1,0 +1,47 @@
+VERSION 1.4.1
+
+Changes:
+	Added new sprites for Leaf, courtesy of Bloodless. Thanks!
+
+Bugfixes:
+	Fixed a bug with a secret feature that made it unavailable for some players
+
+
+
+VERSION 1.4
+
+Changes:
+	Simplified a secret feature to reduce lag
+
+
+
+VERSION 1.3.1
+
+Changes:
+	Added a way to swap between followers in the chat dialogue
+
+
+
+VERSION 1.3
+
+Bugfixes:
+	Fixed Remoraid and Octillery not being available in the wild
+
+
+
+VERSION 1.2
+
+Bugfixes:
+	Fixed Elm's Aide's text disappearing too quickly
+	Fixed a couple of event interactions with follower movement
+
+
+
+VERSION 1.1
+
+Changes:
+	Feraligatr can now learn Waterfall
+	Added a couple credits that I forgot (oops =P)
+
+Bugfixes:
+	Fixed Celebi event trigger

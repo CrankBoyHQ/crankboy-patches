@@ -1,0 +1,37 @@
+In this txt file there will be all patchnotes for this hack. They go from top to bottom. Most of the time there will not
+be a lot of information or changes here, but could be good to know..
+
+--------- VERSION 1.0 RELEASED ON OCTOBER 30TH 2022 -------------
+
+-Released
+-Made available via Google Drive. 
+
+
+--------- VERSION 1.1 RELEASED ON NOVEMBER 1ST 2022 --------------
+
+-Fixed a few kaizo/troll pits, which were just really dumb and annoying.
+-Fixed a few bugs (mostly tiles turning corrupt, letting you softlock yourself or other things)
+-Fixed certain tiles being wrongly put, letting you get stuck in walls on the next screen.
+-Made the start of the game slightly less repetative.
+-Removed a forced death after obtaining the L-1 Sword.
+-Made the overworld slightly easier in general, having less pits than before. However, still challenging.
+-Made available via romhacking.net instead of a hard to find GDrive link. Essenstially a public release.
+
+
+--------- VERSION 1.2 RELEASED ON NOVEMBER 3RD 2022 --------------
+
+-Major fix; Fixed seasons breaking and not actually becoming the intended season, making some screens impossible
+-Made the overworld vanilla, due to bugs.
+-Made Subrosia vanilla, due to bugs.
+-More screens in dungeons are now harder and not as vanilla as they were before. This does not apply to all rooms.
+-Removed a lot of forced damage in dungeons (Exception being D2's Essence Room)
+-Fixed the puzzle in the Diver’s Plaque cave not being changed from vanilla. 
+
+
+If 1.3 is needed to release, I will hopefully include a few more things.
+-No intro. It will skip the long intro of the game, letting you get right into gameplay. (Had issues getting it to work..)
+-Hopefully changes to 2D sections. However that is very hard to edit for some reason..
+-More adjustments to the dungeons to make them more original, compared to having multiple vanilla rooms (barely changed)
+-More bug fixes.
+-A minihack based on the essence rooms, where you start with several items and complete these challenges to progress..
+-An even harder version included incase you want to have even more fun! 

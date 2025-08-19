@@ -1,0 +1,7 @@
+quick rundown of the dif versions
+apply either of these ips's based on what version of the hack you want to play
+
+BTEvanilla: battle system left mostly the same as original unmodified crystal. battle tower mons also mostly left intact so this version is for purists
+
+
+BTEkrusty: phys/spec split, tons new moves. active development, so only first 3 floors and the last one are done. check the github for updates, and exact changes for this one

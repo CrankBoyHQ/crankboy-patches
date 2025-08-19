@@ -1,0 +1,7 @@
+orga 0x8df30
+	.incbin "mario.gfx"
+
+
+
+orga 0xa28f0
+	.incbin "mario-print.gfx"

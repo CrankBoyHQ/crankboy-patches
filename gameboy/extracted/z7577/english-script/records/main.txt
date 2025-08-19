@@ -1,0 +1,2 @@
+.include "ranking\main.txt"
+.include "trade\main.txt"

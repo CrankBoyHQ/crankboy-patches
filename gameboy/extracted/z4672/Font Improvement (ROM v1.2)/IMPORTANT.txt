@@ -1,0 +1,6 @@
+All of the files included within this folder are for exclusive use with the FONT IMPROVEMENT patch alone!
+
+DO NOT use any of the files here in conjuction with the main Redux.ips nor any of the other files in the other folders!
+
+Additionally, be sure that you do NOT patch the main Redux IPS patch alongside Font Improvement. Only use either Redux and its optional patches, OR Font Improvement and its optional patches.
+DO NOT MIX THEM UP!

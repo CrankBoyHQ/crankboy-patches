@@ -1,0 +1,6 @@
+1. Open flips.exe
+2. Press "Apply Patch"
+3. Select "TLOZOOS.bps"
+4. Select your Oracle of Seasons US ROM.
+5. Select save location
+6. You're done! Enjoy :)

@@ -1,0 +1,119 @@
+.loadtable "font.tbl"
+
+
+
+org 0x31, 0x5200
+
+.stringn "                  "
+.stringn "With a Fire Flower"
+.stringn "                  "
+.stringn "you'll beat Bowser"
+
+
+
+.stringn "                  "
+.stringn "Fortune awaits you"
+.stringn "                  "
+.stringn "in the clouds     "
+
+
+
+.stringn "                  "
+.stringn "Fortune will lead "
+.stringn "                  "
+.stringn "you to Yoshi      "
+
+
+
+.stringn "                  "
+.stringn "Look below to find"
+.stringn "                  "
+.stringn "what you seek     "
+
+
+
+.stringn "                  "
+.stringn "Good friends bear "
+.stringn "                  "
+.stringn " good news        "
+
+
+
+.stringn "                  "
+.stringn "Southerly winds   "
+.stringn "                  "
+.stringn "bring sunny skies "
+
+
+
+.stringn "                  "
+.stringn "Kindness given is "
+.stringn "                  "
+.stringn "returned tenfold  "
+
+
+
+.stringn "                  "
+.stringn "Good news is due  "
+.stringn "                  "
+.stringn "from a loved one  "
+
+
+
+.stringn "                  "
+.stringn "Good things come  "
+.stringn "                  "
+.stringn "from hard work    "
+
+
+
+.stringn "                  "
+.stringn "Soothing music    "
+.stringn "                  "
+.stringn "soothes the soul  "
+
+
+
+.stringn "                  "
+.stringn "Keep a good grasp "
+.stringn "                  "
+.stringn "Fortune will last "
+
+
+
+.stringn "                  "
+.stringn "Worries naturally "
+.stringn "                  "
+.stringn "melt away         "
+
+
+
+
+; #########################################################
+
+
+
+
+org 0x23, 0x5800
+	.incbin "extremely-lucky.gfx", 0x000, 0x80
+	.incbin "extremely-lucky.gfx", 0x100, 0x80
+	.incbin "extremely-lucky.gfx", 0x200, 0x80
+	.incbin "extremely-lucky.gfx", 0x300, 0x80
+	.incbin "extremely-lucky.gfx", 0x400, 0x80
+	.incbin "extremely-lucky.gfx", 0x500, 0x80
+	.incbin "extremely-lucky.gfx", 0x600, 0x80
+	.incbin "extremely-lucky.gfx", 0x700, 0x80
+	.incbin "extremely-lucky.gfx", 0x800, 0x80
+
+
+
+org 0x14, 0x4755
+	.db 0x04, 0x04, 0x04, 0x04, 0x04, 0x04, 0x04, 0x04
+	.db 0x04, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x01
+	.db 0x00, 0x00, 0x05, 0x04, 0x04, 0x05, 0x00, 0x00
+	.db 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+	.db 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+	.db 0x00, 0x00, 0x00, 0x01, 0x01, 0x00, 0x00, 0x00
+	.db 0x00, 0x00, 0x02, 0x06, 0x06, 0x02, 0x00, 0x00
+	.db 0x00, 0x00, 0x01, 0x06, 0x06, 0x01, 0x01, 0x00
+	.db 0x04, 0x04, 0x04, 0x04, 0x04, 0x04, 0x04, 0x04

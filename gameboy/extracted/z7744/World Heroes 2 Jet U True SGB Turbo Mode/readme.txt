@@ -1,0 +1,4 @@
+A cheat exists for World Heroes 2 Jet that is said to enable the turbo mode only possible when the game is played using a Super Game Boy. A turbo cheat does exist, except that it actually doesn't adjust the speed mode, which would require the Super Game Boy hardware, and is done only by the game itself using standard Game Boy hardware. This modification enables a "true turbo mode" that achieves the effect of using the Super Game Boy hidden mode to speed up the game to ~5.35Mhz by writing and or sending a custom command hook.
+
+Known issues and or limitations (due to hardware limitations)
+-Graphical glitches will display. This is caused by the video signal losing synch with actual Super Game Boy / 2 hardware.

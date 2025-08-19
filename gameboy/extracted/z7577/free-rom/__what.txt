@@ -1,0 +1,27 @@
+List of used ROM space by patches:
+
+
+05:69e0      = start ??
+05:xxxx
+05:70b0-8000 = extra_banners\logos.txt
+
+
+
+06:5700      = start?
+06:71f0-8000 = extra_banners\logos.txt
+
+
+
+15:7cc0-7d60 = toad_house
+15:xxxx
+15:7fb7-7fe4 = extra_banners\portraits.txt
+15:7fe4-8000 = extra_banners\logos.txt
+
+
+
+38:5e40-8000 = extra_banners\logos.txt
+
+
+
+3d:7630-7f10 = extra_banners\portraits.txt
+3d:xxxx

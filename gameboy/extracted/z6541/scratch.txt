@@ -1,0 +1,120 @@
+// main palette @ 3fc0
+4208 9710 a56c ffff // black red blue white
+4208 4001 0002 ff02 // 2 greens, yellow
+4208 4008 9710 ff02 // black red yellow
+4208 ffff 9710 9710   
+187F EF3F e003 8001 
+187F ff7d 1860 0c30 
+187F ef7d 007c 0030 
+187F 9452 ff7f 4a29 
+ 
+// galaxian palette 8 @ 3f70
+4208 9710 a56c ffff // player & text
+4208 1f00 a56c 7b17
+4208 1f00 0c7f df03
+4208 1f00 407c 5054
+4208 407c 0c7f 1f00
+
+
+// startup 3d40
+ld (DFFF),a
+ld sp, dffd
+cp a,11
+jp nz, 0162
+ld a, 07
+ld (ff00+40), a
+ld de, 3fc0
+call 3d60
+jp 0162
+nop
+
+
+// load palette from hl into de @ 3d59
+ld b, 40;
+ld a,(de);
+inc de;
+ld (hl), a;
+dec b;
+jr nz, -6
+ret
+
+// Set VRam Bank 1
+ld (ff4f), 1
+
+50a0 
+ld hl, 400d
+ldi a,(hl)
+ld h,(hl)
+ld l, a
+call 0397
+ret
+
+
+
+ld hl, 400D
+ldi a, (hl)
+ld h,(hl)
+ld l,a
+call 0397
+
+ld a,01
+ld (3fff),a
+call 05a0
+
+nop
+xor a
+ld (FFa8),a 
+ld (d700),a
+ld (d701),a
+ld (D702),a
+ld a,d4
+ld (d703),a
+ret
+
+
+
+
+// 
+
+// SetupBothColorPalettesFromDE @ 3d62
+push de;
+ld hl, ff68;
+ld a,80;
+ldi (hl), a;
+call 3d52;
+pop de;
+ld hl, ff6A;
+ld a,80;
+ldi (hl), a;
+call 3d52;
+ret
+
+
+ld b,20
+ld hl, 9a20
+ld a,2
+ldi (hl),a
+dec b
+jp nz, -4
+
+
+
+ld (9953),a
+ld (ff00+4f),a
+ld de, 3fc0
+call SetBothGBCPalette
+ld a, d4
+ld (d703),a
+
+ret
+
+
+ld a,00
+ld (ff00+4f), a
+ld de, 3fd0
+call SetBothGBCPalette
+ret
+
+
+setup infoColors
+3E01EA0399EA0499EA2399EA24993E03EA6399EA64993E04EAA399EAA4993E05EAE399EAE499C9

@@ -1,0 +1,13 @@
+--------
+This bordes was taken from DuckTales 2 (NES) Map and edited/adapted to SuperGameBoy sice.
+Thanks to Marc as this would not have been possible without the amazing tool he made.
+
+Adrián B.R. (Pernom)
+--------
+Credits for the tool (Super Game Boy Border Injector) to Marc Max (@marc_robledo)
+
+--------
+CRC32:
+b151509d
+SHA-1:
+c9d5b7a71badcc7b198897b4888482f663f03504

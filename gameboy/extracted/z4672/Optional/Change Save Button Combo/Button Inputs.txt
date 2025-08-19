@@ -1,0 +1,29 @@
+Button input values in Hexadecimal
+(These are registered at High RAM address $FFCB)
+Up	= 04
+Down	= 08
+Left	= 02
+Right	= 01
+A	= 10
+B	= 20
+Start	= 80
+Select	= 40
+
+Value for the manual save is located at ROM address $0E63 (for v1.0, v1.2 is at $0E60)
+Change the FE F0 to any button combination desired.
+
+The exact value needed to be changed is the $F0 at $0E64 (v1.0):
+
+	$F0 = A + B + Start + Select (10 | 20 | 80 | 40)
+
+If you want something else, like, let's say, Start+Select only, without A & B, then we take the $80 from Start, and the $40 from select, and sum them up in Hexadecimal
+
+	$40 + $80 = $C0
+
+Changing the $F0 to $C0 makes it so that pressing both Start+Select in-game brings up the Save menu.
+(Consider that you need to press them both at the same time, if you press one slightly before the other, the map/items screen will open instead in this instance)
+
+I personally recommend that you use a button combo like A/B and Start/Select, like A+Start, or B+Select for the best possible combination and ease of access.
+
+It's highly discouraged that any type of Directional input + A/B button is used, as this button combo will frequently be used in-game when attackig enemies.
+Possible Up+Start or Down+Select would be good options as well.

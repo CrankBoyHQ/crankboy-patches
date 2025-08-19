@@ -1,0 +1,107 @@
+.loadtable "font.tbl"
+
+
+
+org 0x31, 0x6640
+
+.stringn "                  "
+.stringn "Stomping on spikes"
+.stringn "                  "
+.stringn "leads to sore feet"
+
+
+
+.stringn "                  "
+.stringn "Careless footing  "
+.stringn "                  "
+.stringn "causes one to fall"
+
+
+
+.stringn "                  "
+.stringn "Kicked shells may "
+.stringn "                  "
+.stringn "bounce back       "
+
+
+
+.stringn "                  "
+.stringn "What you seek is  "
+.stringn "                  "
+.stringn "right beside you  "
+
+
+
+.stringn "                  "
+.stringn "Sincere apologies "
+.stringn "                  "
+.stringn "renew friendships "
+
+
+
+.stringn "                  "
+.stringn "Storms ride in on "
+.stringn "                  "
+.stringn "northerly winds   "
+
+
+
+.stringn "                  "
+.stringn "You will not find "
+.stringn "                  "
+.stringn "true love this day"
+
+
+
+.stringn "                  "
+.stringn " A VS Mode victory"
+.stringn "                  "
+.stringn " is not your fate "
+
+
+
+.stringn "                  "
+.stringn " Not all pain     "
+.stringn "                  "
+.stringn " leads to gain    "
+
+
+
+.stringn "                  "
+.stringn "Happy songs lift  "
+.stringn "                  "
+.stringn "sad moods         "
+
+
+
+.stringn "                  "
+.stringn "The Warp Zone     "
+.stringn "                  "
+.stringn "speeds success    "
+
+
+
+.stringn "                  "
+.stringn "Only a Challenge  "
+.stringn "                  "
+.stringn "clears the mind   "
+
+
+
+
+; #########################################################
+
+
+
+
+org 0x23, 0x6580
+	.incbin "unlucky.gfx", 0x000, 0x80
+	.incbin "unlucky.gfx", 0x100, 0x80
+	.incbin "unlucky.gfx", 0x200, 0x80
+
+
+
+org 0x14, 0x482d
+	.db 0x04, 0x04, 0x04, 0x04, 0x04, 0x04, 0x04, 0x04
+	.db 0x04, 0x04, 0x04, 0x04, 0x04, 0x04, 0x04, 0x04
+	.db 0x04, 0x04, 0x04, 0x04, 0x04, 0x04, 0x04, 0x04

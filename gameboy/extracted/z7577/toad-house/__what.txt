@@ -1,0 +1,11 @@
+Uses sprites to fill in lots of missing pixels inside Toad's House
+
+
+
+
+
+Target: Super Mario Bros. Deluxe (Japan) (En) (Rev 1) (NP).gbc
+
+
+Credit: BucketOfFriedChicken
+License: Free. Whatever. Don't ask.

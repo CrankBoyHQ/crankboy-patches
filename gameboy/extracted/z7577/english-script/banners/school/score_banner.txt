@@ -1,0 +1,2 @@
+orga 0xf67f0
+	.incbin "max.gfx", 0x000, 0x30

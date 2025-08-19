@@ -1,0 +1,8 @@
+.include "album/main.txt"
+.include "banners/main.txt"
+.include "calendar/main.txt"
+.include "fortune-telling/main.txt"
+.include "ghost/main.txt"
+.include "printer/main.txt"
+.include "records/main.txt"
+.include "sram/main.txt"

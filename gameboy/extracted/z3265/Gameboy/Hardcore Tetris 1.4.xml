@@ -1,0 +1,6 @@
+<BizHawk-XMLGame System="GB" Name="Hardcore Tetris 1.4">
+  <LoadAssets>
+    <Asset FileName=".\Hardcore Tetris 1.4.gb" />
+    <Asset FileName=".\Hardcore Tetris 1.4.gb" />
+  </LoadAssets>
+</BizHawk-XMLGame>

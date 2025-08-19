@@ -1,0 +1,123 @@
+Below is my "asm" behind the hack, in case someone else comes along and wants to do something fancy to this game.  The bytecode targets a 24-bit virtual machine that the game emulates.  I'll upload my notes on the syntax for this to RHDN's data crystal wiki.
+
+Crow!
+
+
+replace at 0x318d1
+(here's original, 22 bytes: 01 7f cc 02 1f 02 e4 58 01 7f cc 03 1f 02 e4 58 02 e4 58 05 cf 5d)
+
+20 47 		target c947 as a 16 bit number
+ec 80 dc	load the number dc80 - this is a timer for animation; it cycles from 0 to f constantly.
+1f		save it
+00 95		target c995 as a 8 bit number
+6c 47		load the thing pointed to by c947
+c5 03		and with 03
+1f		save
+05 YY YY	call my "make sure robots have stuff" subroutine
+05 cf 5d	call subroutine 5dcf
+02 e7 58 	jump to 58e7 (i.e. continue on with the script)
+
+
+replace at 0x31ddf
+(here's the original, 22 bytes: 05 69 45 05 e9 46 00 95 cc 03 04 95 1f 05 29 49 05 a8 5a 02 d6 5a )
+
+05 e9 46	call subroutine 46e9, which loads the species byte
+05 29 49	call subroutine 4929, which saves c995 (which we prepared with the random element selection) into the element byte.
+61 47 cf 03 1f 02 RR RR	if our random number is <= 03, jump to our robot setup routine.  
+02 b5 7f	jump to the previously empty space with the rest of this procedure
+
+insert at 0x33fb1:
+f0 f0 f0 f0 		data table for human transform [NOTE: not used anymore.  I should have deleted it.]
+61 47 cf 07 1f 02 CC CC
+61 47 cf 0b 1f 02 SS SS
+61 47 cf 0f 1f 02 MM MM
+
+(here is the human/mutant code)
+00 49 cc 02 1f		c949 = 02 (we'll merge this in as the class later)
+05 XX XX		jump to the "merge in the class" subroutine
+
+00 19 0c 19 c5 f7 1f	c919 (where the game is tracking the race byte) = itself AND f7, which removes the "base class is a human vs mutant" bit
+02 e0 3f		jump to where we have space to continue our nonsense
+
+insert at AAAA=3fe0
+
+61 47 cf 0e 1f 05 f8 7f	If the random number was 0e instead of 0f, jump to the "become a mutant" subroutine
+
+0b e7 0e ec		acquire the character's species byte
+60 c2 cc f0 1f		save "is base class"
+02 53 5a		jump to where flushex does the human reversion
+
+insert at ZZZZ=7ff8
+00 19 0c 19 c3 08 1f	add 80, which sets the "base class is a mutant" flag since we already made sure it was unset
+06
+
+insert at RRRR=3f78:
+00 49 cc 00 1f		c949 = 00 (we'll merge this in as the class later)
+05 XX XX		jump to the "merge in the class" subroutine
+20 7b ec 53 7f 1f	prepare the address of the start of the table
+03 55 6b		do the table lookup
+02 d6 5a		jump ahead to 5ad6, which has the rest of the monster transform script
+
+insert at CCCC=3f8c:
+00 49 cc 01 1f		c949 = 01 (we'll merge this in as the class later)
+05 XX XX		jump to the "merge in the class" subroutine
+20 7b ec 33 7f 1f	prepare the address of the start of the table
+03 55 6b		do the table lookup
+02 d6 5a		jump ahead to 5ad6, which has the rest of the monster transform script
+
+insert at SSSS=3fa0:
+00 49 cc 03 1f		c949 = 03 (we'll merge this in as the class later)
+05 XX XX		jump to the "merge in the class" subroutine
+20 7b ec f3 7e 1f	prepare the address of the start of the table
+03 52 6b		do the table lookup
+02 d6 5a		jump ahead to 5ad6, which has the rest of the monster transform script
+
+insert at MMMM=3fb4:
+00 49 cc 04 1f		c949 = 04 (we'll merge this in as the class later)
+05 XX XX		jump to the "merge in the class" subroutine
+20 7b ec b3 7e 1f	prepare the address of the start of the table
+03 52 6b		do the table lookup
+02 d6 5a		jump ahead to 5ad6, which has the rest of the monster transform script
+
+insert at XXXX=7fe6:
+0b e7 0d ec		load the race byte
+00 19			point at where the game is tracking the race byte
+6c c2			load the race byte as it presently exists
+c5 f8			AND to remove the previous class
+03 49			add c949, where we put the race from before
+1f			save
+06			return
+
+function here for making sure characters start out with a capsule of each type so level 1 robots suck marginally less.
+insert at YYYY = 3f30
+0b e7 32 ec		load the "bonus stats for robots from attack capsules" byte
+61 c2 cf 01 1f		if that attack <= 1...
+02 YYYY+10		jump ahead to the rest of the function here
+06			return (having done nothing)
+
+insert at YYYY+10 = 3f40
+60 c2			target the byte pointed at by 16 bit address in c912 (attack capusle bonus atm)
+cc 03			load the number 03
+1f			save
+00 c2			target the (lower byte of the) address itself
+0c c2			load the current data in that byte
+c3 01			add the number 01 to it
+1f			save (now we point to defense capsule bonus)
+60 c2			target the character data byte (this time for defense)
+cc 03			load the number 03
+1f			save
+00 c2			target the address itself
+0c c2			load the current data in that byte
+c3 01			add the number 01 to it
+1f			save (now we point to speed capsule bonus)
+60 c2			target the character data byte (this time for speed)
+cc 03			load the number 03
+1f			save
+00 c2			target the address itself
+0c c2			load the current data in that byte
+c4 04			subtract the number 04 from it
+1f			save (now we point to HP capsule bonus)
+60 c2			target the character data byte (this time for HP)
+cc 20			load the number 20
+1f			save
+06			return with glory for the emperor!

@@ -1,0 +1,275 @@
+Johto Land:
+
+National Park:
+Added:
+Eevee (Lv. 10), (Day)
+Espeon (Lv. 12) (Morning)
+Umbreon (Lv. 12) (Night)
+
+Area outside Ruins of Alph:
+Added Xatu (Lv. 24) (Morning, Day, Night)
+
+Union Cave 1F:
+Added Larvitar (Lv 4-5) (Morning, Day, Night)
+
+Union Cave B2F:
+Added Steelix (Lv. 23) (Morning, Day, Night)
+
+Slowpoke Well B2F:
+Added:
+Slowbro (Lv. 36) (Morning, Day, Night)
+Slowking (Lv. 24) (Morning, Day, Night)
+
+Ilex Forest:
+Added:
+Bulbasaur (Lv. 6) (Morning, Day)
+Chikorita (Lv. 7) (Day)
+Ivysaur (Lv. 19) (Night)
+
+Mount Mortar 1F:
+Added Cyndaquil (Lv. 15) (Morning, Day, Night)
+Quilava (Lv. 16) (Morning, Day, Night)
+Charmander (Lv. 14) (Morning, Day, Night)
+Charmeleon (Lv 16) (Morning, Day, Night)
+
+Mount Mortar 2F:
+Added: 
+Quilava (Lv. 30) (Morning, Day, Night)
+Charizard (Lv. 36) (Morning, Day, Night)
+Typhlosion (Lv. 36) (Morning, Day, Night)
+
+Mount Mortar B1F:
+Added:
+Quilava (Lv. 17) (Morning, Day, Night)
+Charmeleon (Lv. 18) (Morning, Day, Night)
+
+Ice Path 1F:
+Added:
+Crobat (Lv 24) (Morning)
+Piloswine (Lv. 22) (Morning, Day)
+
+Ice Path B1F:
+Added:
+Piloswine (Lv. 23) (Morning, Day)
+Smoochum (Lv. 24) (Morning, Day)
+Delibird (Lv. 22) (Night)
+[REDACTED ICE] (Lv. 60) (Night)
+
+Whirl Island Lugia Chamber:
+Added:
+Squirtle (Lv. 27) (Morning, Day, Night)
+Wartortle (Lv. 25) (Morning, Day)
+Totodile (Lv. 27) (Night)
+Croconaw (Lv. 26) (Night)
+
+Silver Cave Room 1:
+Added:
+Electabuzz (Lv. 45) (Morning, Day)
+Cleffa (Lv. 15) (Day)
+Gengar (Lv. 43) (Night) 
+Crobat (Lv. 42) (Night)
+Jynx (Lv. 50) (Morning, Day)
+
+Silver Cave Room 2: 
+Added Machamp (Lv. 48) (Morning)
+Pikachu (Lv. 20) (Morning)
+Bulbasaur (Lv. 22) (Day)
+Charmander (Lv. 20) (Day)
+Squirtle (Lv. 23) (Day)
+Ivysaur (Lv. 48) (Night)
+Charmeleon (Lv. 46) (Night)
+Wartortle (Lv. 45) (Night)
+Donphan (Lv. 48) (Night)
+
+Silver Cave Room 3 AKA Red's Area
+
+Added:
+Crobat (Lv 51) (Day, Morning, Night)
+Steelix (Lv 48) (Morning, Day, Night)
+Golem (Lv. 48) (Morning, Day, Night), 
+Pichu (Lv. 20) (Morning, Day)
+Scizor (Lv. 53-55) (Morning, Night)
+Cleffa (Lv. 15) (Day)
+Togepi (Lv. 20) (Morning)
+Togetic (Lv. 54) (Day)
+Alakazam (Lv. 49) (Night)
+Gengar (Lv. 45) (Night)
+
+Silver Cave Room 4/Item Room:
+Added:
+Venusaur (Lv. 48) (Morning, Day, Night)
+Blastoise (Lv. 46) (Morning, Day, Night) 
+Charizard (Lv. 50) (Morning, Day, Night) 
+Meganium (Lv. 46) (Morning, Day, Night)
+Feraligatr (Lv. 48) (Morning, Day, Night)
+Typhlosion (Lv. 50) (Morning, Day, Night)
+Raichu (Lv. 52) (Morning), 
+Ampharos (Lv. 52) (Day), 
+Tyranitar (Lv. 52) (Night)
+
+Route 29:
+ 
+Added:
+Aipom (Lv. 3) (Morning, Day, Night)
+
+Route 31:
+
+Added:
+Gastly (Lv. 5) (Night)
+ 
+Route 32:
+
+Added: 
+Gastly (Lv. 7) (Night)
+
+Route 35:
+Added:
+Growlithe (Lv. 13) (Morning, Day) 
+Vulpix (Lv. 14) (Morning, Day)
+
+Route 36:
+Added:
+Growlithe (Lv. 5) (Morning, Day)
+Vulpix (Lv. 6) (Morning, Day) 
+Pidgeotto (Lv. 15) (Morning, Day) 
+Stantler (Lv. 13) (Morning, Day, Night) 
+Girafarig (Lv. 12) (Night)
+
+Dark Cave Violet City entrance:
+Added Larvitar (Lv. 4) (Morning, Day, Night)
+Reduced chances of Dunsparce due to a stat imbalance that I refuse to change.
+
+Route 37:
+Added:
+Vulpix (Lv. 14-16) (Morning)
+Growlithe (Lv. 14-16) (Day)
+Arcanine (Lv. 15) (Morning) 
+Ninetales (Lv. 15) (Morning)
+
+Route 38:
+Added:
+Farfetch'd (Lv. 13) (Morning)
+Persian (Lv. 16) (Night)
+
+Route 39
+Added:
+Mankey (Lv. 15) (Morning, Day) 
+Primeape (Lv. 16) (Morning, Day)
+
+Route 42:
+Added:
+Mareep (Lv. 14) (Day)
+Pikachu (Lv. 16) (Morning, Day)
+
+Route 43:
+Added:
+Squirtle (Lv. 15) (Morning, Day)
+Wartortle (Lv. 17) (Morning, Day)
+
+Route 44:
+Added:
+Victreebel (Lv. 26) (Morning, Day, Night), 
+Poliwrath (Lv. 24) (Night) 
+Politoed (Lv. 26) (Night)
+
+Route 45:
+Added Golem (Lv. 27) (Morning, Day, Night)
+
+Route 46:
+Added:
+Pikachu (Lv. 4) (Morning)
+Pikachu (Lv. 2-3) (Day, Night)
+
+Outside Silver Cave:
+Added:
+Raichu (Lv. 43) (Morning, Day)
+Poliwrath (Lv. 44) (Night)
+Politoed (Lv. 44) (Night)
+
+
+Johto Water (Surfing):
+Slowpoke Well B1F:
+Added:
+Cloyster (Lv. 15)
+Shellder (Lv. 10)
+
+Slowpoke Well B2F:
+Added: 
+Slowbro (Lv. 20) and Slowking (Lv. 20)
+
+Ilex Forest:
+Added Totodile (Lv. 10)
+
+Mount Mortar B1F:
+Added:
+Marill (Lv. 15)
+Azumarill (Lv. 20)
+Croconaw (Lv. 20)
+
+Whirl Island SW:
+Added Squirtle (Lv. 15)
+
+Whirl Island B2F:
+Added:
+Seadra (Lv. 20)
+Kingdra (Lv. 20)
+
+Silver Cave Room 2:
+Added Vaporeon (Lv. 35)
+
+Dark Cave Violet Entrance:
+Added Gyarados (Lv. 30)
+
+Dark Cave Blackthorn Entrance:
+Same as above
+
+Dragon's Den B1F:
+Added:
+Dragonair (Lv. 30)
+Dragonite (Lv. 50)
+
+Route 30:
+Added Poliwrath (Lv. 30)
+
+Route 31:
+Same as above
+
+Route 34:
+Added Lapras (Lv. 20)
+
+Route 43:
+Added Gyarados (Lv. 30)
+
+Route 44:
+Added Poliwrath (Lv. 35)
+
+Route 45:
+Added Gyarados (Lv. 20)
+
+Violet City:
+Added:
+Mantine (Lv. 15)
+Octillery (Lv. 20)
+
+Outside Silver Cave:
+Added:
+Poliwrath (Lv. 35)
+Politoed (Lv. 40)
+
+Kanto Land:
+
+Route 18:
+Added [REDACTED PSYCHIC TWO] (Lv. 60)
+
+Route 21:
+Added [REDACTED PSYCHIC] (Lv. 60)
+
+Route 26:
+Added [REDACTED FIRE] (Lv. 60)
+
+Route 28:
+
+Added [REDACTED ELECTRIC] Lv. 60
+
+Kanto water:
+No major changes.

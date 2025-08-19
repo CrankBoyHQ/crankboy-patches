@@ -1,0 +1,49 @@
+Pokemon Blue Emu Edition.
+
+romhack based on Pokemon Red Emu Edition from LocksmithArmy
+
+Changes from Pokémon Red Edition
+
+Ekans is added since Route 4
+
+Bellsprout and Mankey added since Route 5 (rare to find)
+
+Growlithe added since Route 7
+
+Farfetch'd,Mr Mime are very common in Route 21
+
+Pokemon starters (Bulbasaur,Charmander and Squirtle) are Level 5 and 10% to find
+
+Tangela now is rare in Route 21
+
+Jynx added in Route 22 and common to find 
+
+Electabuzz in Power Plant Very Rare to Find 5%
+
+Gengar added in Pokemon Tower Level 28 and Very rare to find 5% and also Uknown Dungeon Level 20
+
+Kabuto and Omanyte still on bottom basement of Seafoam Island at Lv. 5 
+
+Alakazam , Golem and Machamp added in Victory Road 3 and are very rare to find at level 40's and also Uknown Dungeon Level 20
+
+Hitmonlee and Hitmonchan can be found in the safari zone... in the East and West respectively... both at Lv. 5 for training purposes.
+
+Scyther,Hitmonlee and Hitmonchan added at Safari Zone
+
+Mew is addas as a Pokemon Prize for 9999 , Porygon Nerfed for 4545 and my Red Emu Edition 2.0 for 5454 (soon...)
+
+INSTRUCTIONS:
+
+For to patch this IPS file you only need the contents of this .rar file and your origional copy of Pokemon Red Version (USA,Europe)(SGB Enhanced).
+
+Unzip this .rar archive (I use WinRAR) to any location on your computer.
+Add your Pokemon Red Version rom to that folder.
+Double click the "Lunar IPS.exe" application
+Once it is opened click "Apply IPS Patch"
+Then select the "Pokemon - Red Version (Emu Edition).ips" file
+Next you will be prompted to select your clean copy of Pokemon Red Version... 
+After you select your rom the patch will be applied... 
+
+Enjoy it!
+
+Special thanks goes out to the guys at Swampert Tools for making the "PrizeEdit GB" utility aswell as Harrison for making the "RBY Wild Pokémon Editor" and lastly RiGaMoRTiS PRoDuCTioNZ for their "HebeGB9x" which cleared up my checksum problem. 

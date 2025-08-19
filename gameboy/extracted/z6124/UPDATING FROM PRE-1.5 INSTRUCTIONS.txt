@@ -1,0 +1,14 @@
+You can safely ignore this if you are starting a new game. However, a lot of data got moved around 
+in this update, so if you plan on continuing on, there are some things you need to keep in mind. 
+All of this is also in 1.5 Changes.txt, but I wanted to make sure to highlight it:
+
+1. I moved the Options menu around a fair bit, so that the "set" battle style is default, and 
+everything looks nice and pretty. Ergo, please CHOOSE THE LEFTMOST OPTION FOR EVERYTHING, save, 
+and then apply the new patch and go from there. Otherwise, the cursors will be messed up, and 
+since cursor position tells the game what option you chose, this could cause many issues.
+
+2. Due to moving around all sorts of data, a save may spawn you into a Glitch City, or put you in 
+one after going outside of a building. To get around this, all you need to do is use Fly or 
+Teleport, or use the Gameshark code 011671D3 to be able to Dig/Escape Rope from anywhere and 
+do so. Please note that this is NOT the code listed for this function on various websites, due to 
+the change in Bag size.

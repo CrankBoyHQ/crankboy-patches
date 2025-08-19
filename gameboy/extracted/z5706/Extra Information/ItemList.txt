@@ -1,0 +1,350 @@
+
+			Beware: Some of the effects and prices of the Items on this list will be different if
+					you're playing with Items in Battle. Some will be unavailable too. 
+
+
+------------------------------------------------------------------------------------------------------
+Restorative Items. In order: Potions, Drinks/Food, Herbs, Berries and PP-Restoring Items.
+------------------------------------------------------------------------------------------------------
+Potion         	 200	Restores  30 HP.
+Super Potion   	 350	Restores  60 HP.
+Hyper Potion  	1500	Restores 250 HP.
+Max   Potion  	2000	Restores HP to the Max.
+Full Restore	3500 	Restores HP to the Max, and heals any Status bar Faint.
+Sacred Ash		4000    Restores HP & PP to your Pokémon team, and heals any Status bar Faint.
+Team Kit		----	Restores HP & PP to your Pokémon team, heals any status and revives too. Sold in packs of 3.
+------------------------------------------------------------------------------------------------------
+Fresh Water		 250	Restores  50 HP. Gotten from dispensers.
+Lemonade		 350    Restores  80 HP. Gotten from dispensers.
+Rage Candy Bar   600    Restores 100 HP. Gotten in Mahogany.
+MooMoo Milk		 800    Restores 150 HP. Gotten from MooMoo Farm once you cure Miltank.
+------------------------------------------------------------------------------------------------------
+Energy Powder	 400    Restores  80 HP. Lowers Happiness a bit, though.
+Energy Root		 600	Restores 250 HP. Lowers Happiness a bit, though  
+------------------------------------------------------------------------------------------------------
+Berry          	 200	Restores  20 HP. Held Item. Gotten from trees.
+Gold  Berry    	 600	Restores  40 HP. Held Item. Gotten from trees.
+Berry Juice    	3000	Restores 120 HP. Held Item. Must be produced by a Shuckle with a Berry equipped.
+------------------------------------------------------------------------------------------------------
+Soda Pop		 800	Restore   5 PP from one move. Gotten from dispensers.
+Power Juice		2500	Restore   5 PP from one move. Gotten from specific shops. Held Item.
+Ether			1600	Restore  10 PP from one move. 
+Max Ether		5000	Restore All PP from one move. 
+Elixer			3500	Restore  10 PP from all moves the Pokémon knows. 
+Max Elixer		5000	Restore All PP from all moves the Pokémon knows.
+------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------
+Status-Healing Items. First normal items, then berries.
+------------------------------------------------------------------------------------------------------
+Antidote		 100 	Heals Poison.
+ParlayzHeal		 100 	Heals Paralysis.
+Burn   Heal		 100 	Heals Burn.
+Ice    Heal		 100 	Heals Freezing.
+Awakening		 100 	Heals Sleep.
+Full Heal		 300 	Heals any Status bar Faint.
+Heal Powder		 200 	Heals any Status bar Faint. Lowers Happiness a bit, though.
+------------------------------------------------------------------------------------------------------
+Detox Berry		 300	Heals Poison.               Held Item. Gotten from trees. 
+Relax Berry		 300 	Heals Paralysis.            Held Item. Gotten from trees. 
+ChillyBerry		 300 	Heals Burn.                 Held Item. Gotten from trees. 
+Balmy Berry		 300 	Heals Freezing.             Held Item. Gotten from trees. 
+AwakeBerry		 300 	Heals Sleep.                Held Item. Gotten from trees. 
+Clear Berry		 300 	Heals Confusion.            Held Item. Gotten from trees. 
+Herb Cookie		2000 	Heals any Status bar Faint. Held Item. Gotten from trees. 
+------------------------------------------------------------------------------------------------------
+Reviving Items.
+------------------------------------------------------------------------------------------------------
+Revive			1500 	Heals a Fainted Pokémon with 50% of its health.
+Max Revive		4000 	Heals a Fainted Pokémon with all of its health.
+Revival Herb	2000 	Heals a Fainted Pokémon with all of its health. Lowers Happiness a bit, though.
+------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------
+Stat-Increasing Items. First normal items, then Fruits.
+------------------------------------------------------------------------------------------------------
+HP Up			2000	Raises HP        Exp by 10.240 & Happiness.
+Protein			2000	Raises Attack    Exp by 10.240 & Happiness.
+Iron			2000	Raises Defefense Exp by 10.240 & Happiness.
+Carbos			2000	Raises Speed     Exp by 10.240 & Happiness.
+Calcium			2000	Raises Sp.At/Def Exp by 10.240 & Happiness.
+------------------------------------------------------------------------------------------------------
+			PLEASE READ THE VITAMIN AND FRUIT SECTION IN THE MAIN README FOR INFORMATION ON THIS!
+------------------------------------------------------------------------------------------------------
+Salty Fruit		8000	Raises HP        Exp by 20.480 & Hapiness. Gotten from trees.
+Juicy Fruit		8000	Raises Attack    Exp by 20.480 & Hapiness. Gotten from trees. 
+Beefy Fruit		8000	Raises Defense   Exp by 20.480 & Hapiness. Gotten from trees.
+Gutsy Fruit		8000	Raises Speed     Exp by 20.480 & Hapiness. Gotten from trees. 
+Tasty Fruit		8000	Raises Sp.At/Def Exp by 20.480 & Hapiness. Gotten from trees.
+------------------------------------------------------------------------------------------------------
+PP Up			8000	Raises PP from one move.
+Rare Candy		4800	Raises 1 Level to a Pokémon.
+Level 10 Candy	----	Changes the Level of a Pokémon to 10, no matter its original Level. 
+Level 30 Candy  ----	Changes the Level of a Pokémon to 30, no matter its original Level.
+Level 50 Candy  ----	Changes the Level of a Pokémon to 50, no matter its original Level.
+Level 80 Candy  ----	Changes the Level of a Pokémon to 80, no matter its original Level.
+------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------
+Pokeball
+------------------------------------------------------------------------------------------------------
+Poké   Ball		 150    Basic capture device. Has no special properties.
+Super  Ball  	 300    Increases the catch rate by x1.5, making it 50% better than a Poké Ball.  
+Ultra  Ball 	 500    Increases the catch rate by x2, making it twice as effective than a Poké Ball.
+Master Ball       --    Ball that never fails.
+Red    Ball 	1500    Increases the catch rate by x3 when catching Fire,     Fighting or Ground  Pokémon.
+Blue   Ball		1500    Increases the catch rate by x3 when catching Water,    Dragon   or Ice     Pokémon.
+Green  Ball		1500    Increases the catch rate by x3 when catching Grass,    Bug      or Flying  Pokémon.
+Yellow Ball		1500    Increases the catch rate by x3 when catching Electric, Flying   or Beast   Pokémon.
+Pink   Ball		1500    Increases the catch rate by x3 when catching Fairy,    Poison   or Psychic Pokémon.
+White  Ball		1500	Increases the catch rate by x3 when catching Steel,    Beast    or Ice     Pokémon.
+Black  Ball		1500	Increases the catch rate by x3 when catching Rock,     Ghost    or Dark    Pokémon.
+Park   Ball		  --    Given only for Bug Catching Contest. As effective as a Great Ball.
+------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------
+Apricorns - These are now stored on the Balls Pocket (Don't worry, there's space for both Balls and Apricorns).
+------------------------------------------------------------------------------------------------------
+Apric. White	 500	Used to make White  Balls.
+Apric. Black	 500	Used to make Black  Balls.
+Apric. Red		 500	Used to make Red    Balls.
+Apric. Blue		 500	Used to make Blue   Balls.
+Apric. Yellow	 500    Used to make Yellow Balls.
+Apric. Pink		 500    Used to make Pink   Balls.
+Apric. Green	 500	Used to make Green  Balls.
+------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------
+Out of Battle Items.
+------------------------------------------------------------------------------------------------------
+Escape Rope		 500	Lets you go back to the entrance of a Cave, and some other indoor places.
+Repel			 300	Prevents encounters with PKMN with a Level lower than yours. 100 Steps.
+Super Repel		 500	Prevents encounters with PKMN with a Level lower than yours. 200 Steps.
+Max   Repel		 700	Prevents encounters with PKMN with a Level lower than yours. 250 Steps.
+------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------
+Evolutionary Stones
+------------------------------------------------------------------------------------------------------
+Moon   Stone 	2000	Evolutionary Stone.
+Fire   Stone	2000	Evolutionary Stone.
+Water  Stone	2000	Evolutionary Stone.
+ThunderStone	2000	Evolutionary Stone.
+Leaf   Stone	2000	Evolutionary Stone.
+Sun    Stone	2000	Evolutionary Stone. You can see who evolves with which on the Pokémon TXT file.
+Ever   Stone	2000	Makes a Pokémon unable to evolve if it holds it.
+------------------------------------------------------------------------------------------------------
+Held Items. Non-consumable.
+------------------------------------------------------------------------------------------------------
+Wild    Bow		4000	Increases damage done by 20% with Beast   moves.
+Miracle Seed	4000	Increases damage done by 20% with Grass   moves.
+Charcoal		4000	Increases damage done by 20% with Fire    moves. 
+Mystic  Water	4000	Increases damage done by 20% with Water   moves.
+Magnet			4000	Increases damage done by 20% with Elec.   moves.
+Silver  Powder	4000	Increases damage done by 20% with Bug     moves.
+Sharp   Beak	4000	Increases damage done by 20% with Flying  moves.
+Soft    Sand	4000	Increases damage done by 20% with Ground  moves.
+Hard    Stone	4000	Increases damage done by 20% with Rock    moves.
+Black   Belt	4000	Increases damage done by 20% with Fight   moves.
+Twisted Spoon	4000	Increases damage done by 20% with Psychic moves.	
+BlackGlasses	4000	Increases damage done by 20% with Dark    moves.
+Spell   Tag		4000	Increases damage done by 20% with Ghost   moves.
+Metal   Coat	4000	Increases damage done by 20% with Steel   moves.
+NeverMeltIce	4000	Increases damage done by 20% with Ice     moves.
+Dragon  Fang	4000	Increases damage done by 20% with Dragon  moves.
+Poison  Barb	4000	Increases damage done by 20% with Poison  moves.
+Polkadot Bow	4000	Increases damage done by 20% with Fairy   moves.
+Normal Badge    5000    Increases damage done by 40% with Normal  moves. 
+------------------------------------------------------------------------------------------------------
+Leftovers		6000	Restores 1/16 of your total HP at the end of each turn.
+King's Rock		5000	Makes your attacks have 15% chance of Flinching.
+Quick Claw		5000	Gives you 23% Chance of attacking first, with a chance each turn.
+Scope Lens		6000	Increases Critical hit Ratio.
+BrightPowder    5000    Lowers the foe's Accuracy.
+Focus Band		7000	15% Chance of not fainting if a move would leave you with 0 HP.
+Lucky Punch		3500	Increases Critical Hit Ratio of Chansey.
+Thick Club		8000	Doubles Cubone's Attack. Yes, only Cubone.
+Light Ball		8000	Doubles Pikachu's Special Attack.
+Metal Powder	2500	Raises Ditto's Defense.
+Exp. Share		3000	A Pokémon equipped with this gets half of the Experience gained.
+Lucky Egg		5000	Increases the amount of Experience gained.
+Amulet Coin		9950	Increases the amount of Money gained.
+Smoke Ball		1500	100% Rate of Fleeing a wild battle.
+Cleanse Tag		3000	Lowers the encounter rate if equipped to your first Pokémon.
+Team Scarf		7000 	Increases the Catch Rate if your active Pokémon holds it in wild battles.
+------------------------------------------------------------------------------------------------------
+Held Items. Consumable (Healing Held Items not accounted here).
+------------------------------------------------------------------------------------------------------
+Attack   Leaf	2000	When it, the holder will eat it, and increase its Attack   one Level.
+Defense  Leaf	1500	When it, the holder will eat it, and increase its Defense  one Level.
+Sp. Atk  Leaf	2000	When it, the holder will eat it, and increase its Sp. Atk  one Level.
+Sp. Def  Leaf	1500	When it, the holder will eat it, and increase its Sp. Def  one Level.
+Speed    Leaf	2500	When it, the holder will eat it, and increase its Speed    one Level.
+Evasion  Leaf	2000	When it, the holder will eat it, and increase its Evasion  one Level.
+Accuracy Leaf	2500 	When it, the holder will eat it, and increase its Accuracy one Level.
+Berserk Gene	5000	Increases Attack six Levels (MAX), but also confuses the holder.
+------------------------------------------------------------------------------------------------------
+Brick Piece		1600	Valuable item, sell it for profit.
+Dragon Scale	3000	Valuable item, sell it for profit.
+Silver Leaf		2000	Valuable item, sell it for profit.
+Golden Leaf		4000	Valuable item, sell it for profit.
+Tiny Shroom		2000	Valuable item, sell it for profit.
+Big  Shroom		6000	Valuable item, sell it for profit.
+Pearl			4000	Valuable item, sell it for profit.
+Big Pearl		7500	Valuable item, sell it for profit.
+Stardust		2500	Valuable item, sell it for profit.
+Star Piece		9800	Valuable item, sell it for profit.
+------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------
+Mail			 A multiplayer sort of item.
+------------------------------------------------------------------------------------------------------
+Flower  Mail	  50	Letter on which you can write a message.
+Surf    Mail	  50	Letter on which you can write a message.
+LiteBlueMail	  50	Letter on which you can write a message.
+PortraitMail	  50	Letter on which you can write a message.
+Lovely  Mail	  50	Letter on which you can write a message.
+Eon     Mail	  50	Letter on which write a message. Some wild Pokémon may have it with themselves.
+Mirage  Mail	  50	Letter on which you can write a message.
+Morth   Mail	  50	Letter on which you can write a message.
+Bluesky Mail	  50	Letter on which you can write a message.
+Music   Mail	  50	Letter on which you can write a message.
+------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------
+Battle Items. Because this hack disables most of them, this list is short. Very short.
+------------------------------------------------------------------------------------------------------
+Poké  Doll	1000	100% Rate of Fleeing a wild battle.
+------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+ TM AND HM LIST
+----------------------------------------------------------------------------------------------------------------------
+TMS		Name	   		Pow  Acc PP  Cat  Type     Description									Location
+----------------------------------------------------------------------------------------------------------------------
+TM01	Dynamic Punch   100   80  5  Phy  Fight	   30% Chance of Confusion.						Cianwood Gym 		
+TM02	Headbutt	 	 70  100 15  Phy  Normal   30% Chance of Flinching.						Ilex Forest 		
+TM03	Curse			 --  100 ??  Sta  ???      If ghost Curse effect.If not, +ATK/DEF-SPE. 	Celadon Mansion Night	
+TM04	Vital Throw		 95  100 15  Spe  Fight    10% Chance of lowering Sp. Def.				Route 35		
+TM05 	Scare			 --  100 20  Sta  Normal   Forces the foe to switch out or flee.		Route 32		
+TM06	Toxic			 --   85 10  Sta  Poison   Can cause Deep Poison. 						Goldenrod City Underground		
+TM07	Melting Web		 90   90 20  Spe  Bug 	   20% Chance of Burning.						Route 45
+TM08	Rock Smash		 70   90 20  Phy  Fight    35% Chance of lowering DEF.					Route 36		
+TM09	Mind Arrows		 95  100 10  Phy  Psychic  10% Chance of Confusion.						Ruins of Alpha
+TM10	Hidden Power	 70  100 15  Spe  ???      Type based on Determinant Values				Lake Of Rage		
+----------------------------------------------------------------------------------------------------------------------
+TMS		Name	       	Pow  Acc PP  Cat  Type     Description									Location
+----------------------------------------------------------------------------------------------------------------------
+TM11	Sunny Day		 --   90  5  Sta  Fire     Makes the battlefield Sunny (+Fire Moves).	Route 42	
+TM12	Numb Petal		 95  100 15  Phy  Grass    10% Chance of lowering Evasion.				Route 34 Gate 		
+TM13	Dizzy Punch 	 85   90 10  Phy  Fairy    20% Chance of Confusion.						Route 39		
+TM14	Ice Beam		 95  100 15  Spe  Ice      10% Chance of Freezing						Goldenrod Game Corner   
+TM15	Hyper Beam     	150  100  5  Spe  Normal   Next turn takes a rest.						Celadon   Game Corner   
+TM16    Icy Wind		 70   85 20  Spe  Ice      30% Chance of lowering SPEED.				Mahogany Gym            
+TM17	Protect			 --  100 10  Sta  Normal   Stops an enemy move. Can fail if repeated.	Olivine Lighthouse
+TM18	Rain Dance		 --   90  5  Sta  Water    Makes the battlefield Rainy (+Water Moves).	Slowpoke Well		
+TM19	Giga Drain		 75  100 10  Spe  Grass    Recovers half of the HP on damaged. 			Celadon Gym		
+TM20	Draco Slash      95   90 15  Phy  Dragon   15% Chance of lowering ATK.					Burned Tower		
+----------------------------------------------------------------------------------------------------------------------
+TMS		Name	       	Pow  Acc PP  Cat  Type     Description									Location
+----------------------------------------------------------------------------------------------------------------------
+TM21	Dark Aura        95  100 15  Spe  Dark	   10% chance of lowering SDEF.					Goldenrod Mart, Unhappy PKMN
+TM22	Solar Beam      130  100 10  Spe  Grass	   First turn charges, second one attacks.		Route 27			
+TM23	Iron Clash      100   90 15  Phy  Steel	   10% Chance of lowering DEF.					Olivine Gym			
+TM24	DragonBreath     95  100 15  Spe  Dragon   10% Chance of Paralyze.						Blackthorn Gym			
+TM25	Thunderbolt      95  100 15  Spe  Elect.   10% Chance of Paralysis.						Goldenrod Game Corner		
+TM26	Earthquake       95  100 10  Phy  Ground   10% Chance of lowering Speed.				Victory Road			
+TM27	Wild Beam		 90   95 15  Spe  Beast    15% Chance of lowering Attack.				Goldenrod Mart, Happy PKMN	*See notes
+TM28	Dig				 80  100 15  Phy  Ground   First tun digs, second attacks.				National Park			
+TM29	Psychic			 95  100 15  Spe  Psychic  10% Chance of lowering SP.DEF.				Slowpoke Well		
+TM30	Shadow Ball		 95  100 15  Spe  Ghost	   10% Chance of lowering SP.DEF.				Ecruteak Gym			
+----------------------------------------------------------------------------------------------------------------------
+TMS		Name	        Pow  Acc PP  Cat  Type     Description									Location
+----------------------------------------------------------------------------------------------------------------------
+TM31	Mud Slap		 50  100 10  Spe  Ground   25% Chance of lowering Accuracy.				Violet Gym			
+TM32	Crunch			 95  100 15  Phy  Dark     10% Chance of lowering DEF.					Celadon Game Corner 		
+TM33	Ice Punch		 95  100 15  Phy  Ice      10% Chance of Freezing.						Team Rocket Base
+TM34	Bug Bite 		 80   90 20  Phy  Bug      Restores half the damage done.				Olivine Lighthouse		
+TM35	Sleep Talk		 --   -- 10  Sta  Normal   You will use other of your moves if sleeping.Goldenrod Mart Bsmnt		
+TM36	Sludge Bomb		 90   95 15  Spe  Poison   20% Chance of Poison.						Route 43			
+TM37	Sandstorm		 --   90  5  Sta  Ground   Creates a sandstorm that last 5 turns.       Tohjo Falls			
+TM38	Flamethrower 	 95  100 15  Spe  Fire     10% Chance of Burning.						Goldenrod Game Corner		
+TM39	Iron Bomb		 95   95 15  Spe  Steel    10% Chance of raising DEF.	        		Union Cave 1BF			
+TM40	Earth Crash		 95  100 15  Spe  Ground   Removes Spikes and Leech Seed from the field.Mt. Mortar			
+----------------------------------------------------------------------------------------------------------------------
+TMS		Name	        Pow  Acc PP  Cat  Type     Description									Location
+----------------------------------------------------------------------------------------------------------------------
+TM41	Bolt Strike      95  100 15  Phy  Elect.   10% Chance of Paralyzing.					Team Rocket Base
+TM42	Dream Eater     100  100 15  Spe  Psychic  Steals health from foe if asleep.			Viridian City	
+TM43	Reverb	    	 95  100 15  Spe  Fairy	   10% Chance of Confusion.						Lake Of Rage			
+TM44	Rest			 --  100 10  Sta  Normal   Causes Sleep to itself, healing HP to full.	Ice Path 			
+TM45	Attract			 --  100 15  Sta  Normal   Causes Infatuation to a foe of opposite sex. Goldenrod Gym			
+TM46	Thief			 70  100 15  Phy, Dark     Can Steal Items from Wild Pokémon.			Team Rocket HQ			
+TM47	Rock Slide		 95   90 10  Phy  Rock     20% Chance of Flinching.						Mount Mortar		
+TM48	Fire Strike		 95  100 15  Phy  Fire     10% Chance of Burning.						Team Rocket Base			
+TM49	Fury Cutter      10   95 20  Phy  Bug	   Repeated use raises power (10-20-40-80-160). Azalea Gym			
+TM50	Night Slash		 95  100 20  Phy  Ghost    10% Chance of Flinching.						Route 31, Randy's Mail		
+----------------------------------------------------------------------------------------------------------------------
+TMS		Name	        Pow  Acc PP  Cat  Type     Description									Location
+----------------------------------------------------------------------------------------------------------------------
+TM51	Hyper Fang		 90   90 15  Spe  Beast    15% Chance of Flinching.						Mount Mortar		
+TM52	Petal Dance		 95  100 15  Spe  Grass    10% Chance of lowering Speed.				Ilex Forest
+TM53    Razor Wind  	 95  100 15  Spe  Flying   15% Chance of Flinching						Victory Road
+TM54    Poison Fang		 90   95 15  Phy  Poison   20% Chance of Poison.						Lake of Rage	
+TM55	Rock Launch		 95   90 15  Spe  Rock     15% Chance of raising own DEF.				Whirl Island	
+----------------------------------------------------------------------------------------------------------------------
+HMS	Name	       		Pow  Acc PP  Cat  Type     Description									Location
+----------------------------------------------------------------------------------------------------------------------
+HM01	Cut				 70  100 15  Phy  Normal   High Critical Ratio.							Ilex Forest
+HM02    Fly	       		115   90 10  Phy  Flying   Produces Recoil Damage.						Cianwood City
+HM03	Surf			 95  100 15  Spe  Water    10% Chance of lowering Speed.				Ecruteak Dance Hall
+HM04	Strength		 95  100 15  Phy  Fight.   10% Chance of Flinching.						Olivine Restaurant
+HM05	Flash			 60   95 20  Spe  Normal   25% Chance of lowering Accuracy.				Sprout Tower
+HM06	Waterfall		 95  100 15  Phy  Water	   10% Chance of causing Confusion.				Ice Path
+HM07	Whirlpool		 40   80 10  Spe  Water	   Traps the foe for 2/5 turns & damages it.
+----------------------------------------------------------------------------------------------------------------------
+1.1 Note compared to 1.0:
+	Wild Beam  replaces Return as TM, but it can still be taught by a Tutor Move in the Battle Tower.
+	Hyper Fang replaces Enerbeam as a TM, but it can still be taught by a Tutor Move in the Battle Tower.
+----------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------
+
+
+Wild Pokémon items
+------------------
+
+These are SOME of the items you can find being carried by Wild Pokémon:
+
+
+Gold Berry  - Aipom, Exeggcute
+Detox Berry -  Weedle, Ekans, Koffing
+Relax Berry - Elekid, Ariados, Pichu
+ChillyBerry - Magby, Vulpix, Growlithe
+Balmy Berry - Natu, Meowth, Swinub
+AwakeBerry  - Poliwag, Doduo, Igglybuff
+Clear Berry - Venonat, Drowzee, Psyduck
+
+Red    Apricorn - Ledyba, Spearow, Mankey
+Green  Apricorn - Caterpie, Oddish, Sunkern
+Yellow Apricorn - Bellsprout, Mareep, Sandshrew 
+Blue   Apricorn - Wooper, Marill, Nidoran F
+Pink   Apricorn - Cleffa, Hoppip, Nidoran M
+Black  Apricorn - Geodude, Houndour, Hoothoot, 
+White  Apricorn - Sentret, Rattata, Pidgey
+
+
+	      In Johto			In Kanto
+Salty Fruit - Miltank, Magneton		Tangrowth,
+Juicy Fruit - Weepinbell, Girafarig, 	Machamp,
+Beefy Fruit - Graveler, Weezing		Golem,
+Tasty Fruit - Flaaffy, Jynx		Sunflora, 
+Gutsy Fruit - Pidgeotto, Persian	Dugtrio, Crobat
+
+
+There are more out there, just check your caught Pokémon, and remember that
+Thief and Peck are moves capable of getting items from Wild Pokémon!

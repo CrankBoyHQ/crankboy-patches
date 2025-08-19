@@ -1,0 +1,43 @@
+org 0,0
+
+
+
+orga 0x5040
+	.incbin "cloud1.gfx"
+
+
+
+orga 0x5e840
+	.incbin "cloud1.gfx"
+
+
+
+orga 0x66870
+	.incbin "cloud1.gfx", 0x30, 0x50
+
+
+
+
+; ########################################
+
+
+
+
+orga 0xf2b30
+	.incbin "cloud2.gfx"
+
+
+
+
+; ########################################
+
+
+
+
+orga 0x89b30
+	.incbin "cloud-print.gfx", 0x000, 0x10
+
+
+
+orga 0x89ee0
+	.incbin "cloud-print.gfx", 0x010, 0x10

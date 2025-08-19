@@ -1,0 +1,9 @@
+00:2DE8 do_white_bgp_on_menu_load
+00:3BD6 set_obp_to_1
+01:3A03 do_white_bgp_on_incorrect
+01:3F92 do_black_bgp_on_incorrect
+01:458C do_black_bgp_on_correct
+01:4594 do_white_bgp_on_correct
+01:494E UpdateWordPos
+01:758A DoOBP0Updates
+01:759A update_obp0

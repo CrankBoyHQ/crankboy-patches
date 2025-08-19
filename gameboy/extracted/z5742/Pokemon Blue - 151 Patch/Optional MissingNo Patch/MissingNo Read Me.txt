@@ -1,0 +1,19 @@
+Pokemon Blue - 151
+MissingNo Patch
+by RazorMime
+
+GOALS
+	+ To revert changes introduced to Cinnabar Island in "Pokemon Blue - 151", which removed the ability to
+	encounter MISSINGNO. - With this patch, you will now be able to encounter MISSIGNO. and 'M' once again.
+	+ Changes made in "Pokemon Blue - 151" to Fuchsia city are still present. As well as minor cosmetic
+	changes made to Seafoam Island exterior.
+	
+HOW TO PATCH
+	+ First, patch a clean ROM of Pokemon Blue with "Pokemon Blue - 151.ips" - Rename the ROM "Pokemon Blue - 151.gb"
+	+ Next, patch the "Pokemon Blue - 151.gb" file with this, "MissingNo.ips"
+	
+IMPORTANT
+	+ All original save files should work fine, just make sure to rename the save files to match the ROM title
+		+Example: "Pokemon Blue - 151.gb" and "Pokemon Blue - 151.sav"
+	+ I have not tested re-removing MISSINGNO. after this patch. I suggest just start with a clean copy of blue
+	and using the original patch, then renaming your save file again. Backup your saves!

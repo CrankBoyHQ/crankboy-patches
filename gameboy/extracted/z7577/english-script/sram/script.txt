@@ -1,0 +1,288 @@
+; text stored into sram if invalid
+; - albums
+; - banners
+; - calendar - special dates
+
+
+.loadtable "font_full.tbl"
+
+
+
+org 0x0b, 0x637d
+
+.stringn "You exceeded the  "
+.stringn "Challenge Score   "
+.stringn "                  "
+
+
+
+.stringn "Hooray! You       "
+.stringn "cleared World 8-4!"
+.stringn "                  "
+
+
+
+.stringn "You received all  "
+.stringn "Challenge Medals! "
+.stringn "                  "
+
+
+
+.stringn "You finished      "
+.stringn "the Star Courses! "
+.stringn "                  "
+
+
+
+.stringn "You completed the "
+.stringn "Extra Courses!    "
+.stringn "                  "
+
+
+
+.stringn "A Fireworks Show  "
+.stringn "just for you!     "
+.stringn "                  "
+
+
+
+.stringn "All right! You got"
+.stringn "a 1-Up Mushroom!  "
+.stringn "                  "
+
+
+
+.stringn "You found the     "
+.stringn "Bonus Stage!      "
+.stringn "                  "
+
+
+
+.stringn "You played your   "
+.stringn "first VS GAME!    "
+.stringn "                  "
+
+
+
+.stringn "You're a hero! You"
+.stringn "rescued Peach!    "
+.stringn "                  "
+
+
+
+.stringn "You traded High   "
+.stringn "Scores! Way to go!"
+.stringn "                  "
+
+
+
+.stringn "Good job! You got "
+.stringn "all the Red Coins!"
+.stringn "                  "
+
+
+
+.stringn "You got all the   "
+.stringn "High Score Medals!"
+.stringn "                  "
+
+
+
+.stringn "Wow! You found all"
+.stringn "the Yoshi Eggs!   "
+.stringn "                  "
+
+
+
+.stringn "You stomped a     "
+.stringn "Goomba!           "
+.stringn "                  "
+
+
+
+.stringn "Way to go! You    "
+.stringn "beat a Bloober!   "
+.stringn "                  "
+
+
+
+.stringn "You knocked Lakitu"
+.stringn "off his cloud!    "
+.stringn "                  "
+
+
+
+.stringn "You beat a Cheep- "
+.stringn "cheep! Nice work! "
+.stringn "                  "
+
+
+
+.stringn "You defeated the  "
+.stringn "Hammer Bros!      "
+.stringn "                  "
+
+
+
+.stringn "You stomped Bullet"
+.stringn "Bill! All right!  "
+.stringn "                  "
+
+
+
+.stringn "Great! You toppled"
+.stringn "a Koopa Troopa!   "
+.stringn "                  "
+
+
+
+.stringn "You defeated a    "
+.stringn "Spiny! Yippee!    "
+.stringn "                  "
+
+
+
+.stringn "Good job! You beat"
+.stringn "a Buzzy Beetle!   "
+.stringn "                  "
+
+
+
+; .stringn "You blazed the    "
+; .stringn "first 4 Bowsers!  "
+; .stringn "                  "
+
+
+
+; .stringn "You blazed the    "
+; .stringn "last 4 Bowsers!   "
+; .stringn "                  "
+
+
+
+.stringn "You got 4 of the  "
+.stringn "Red Coins!        "
+.stringn "                  "
+
+
+
+.stringn "You got 20 of the "
+.stringn "Red Coins!        "
+.stringn "                  "
+
+
+
+.stringn "  Complete  "
+.stringn "   Album    "
+.stringn "            "
+
+
+
+.stringn "                  "
+
+
+
+.stringn "MARIO BROS.       "
+.stringn "                  "
+.stringn "                  "
+
+
+
+.stringn "MARIO!            "
+.stringn "                  "
+.stringn "                  "
+
+
+
+.stringn "<1/8><hi-C><hi-D><hi-C><hi-D><hi-C><1/16><rest>C<A#>A<1/8>GF<1/16><lo-F><lo-F><rest>"
+.stringn "<lo-F><lo-F><rest><1/4><lo-F><hi-F>            "
+.stringn "                  "
+
+
+
+.stringn "<1/8>G<F#>G<1/4>E<rest>F<F#>G<rest><hi-C><hi-E><hi-D><hi-E><hi-F>B<hi-D>"
+.stringn "<rest><hi-C>                "
+.stringn "    Thank you!    "
+
+
+
+.stringn " A Lovely Day     "
+.stringn "                  "
+.stringn "                  "
+
+
+
+.stringn " A Peaceful Day   "
+.stringn "                  "
+.stringn "                  "
+
+
+
+.stringn " SUPER MARIO BROS."
+.stringn "released in japan "
+.stringn "                  "
+
+
+
+.stringn " NEW DATE         "
+.stringn "                  "
+.stringn "                  "
+
+
+
+.stringn " NEW DATE         "
+.stringn "                  "
+.stringn "                  "
+
+
+
+.stringn " NEW DATE         "
+.stringn "                  "
+.stringn "                  "
+
+
+
+.stringn " NEW DATE         "
+.stringn "                  "
+.stringn "                  "
+
+
+
+.stringn " NEW DATE         "
+.stringn "                  "
+.stringn "                  "
+
+
+
+.stringn " NEW DATE         "
+.stringn "                  "
+.stringn "                  "
+
+
+
+.stringn " NEW DATE         "
+.stringn "                  "
+.stringn "                  "
+
+
+
+.stringn " NEW DATE         "
+.stringn "                  "
+.stringn "                  "
+
+
+
+.stringn " NEW DATE         "
+.stringn "                  "
+.stringn "                  "
+
+
+
+.stringn " NEW DATE         "
+.stringn "                  "
+.stringn "                  "
+
+
+
+.stringn " NEW DATE         "
+.stringn "                  "

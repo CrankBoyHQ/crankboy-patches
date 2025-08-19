@@ -1,0 +1,10 @@
+"I updated to a newer version of the hack, do I need to replay it all?"
+
+This is something that might be a common question. The answer is simply no. 
+
+If you updated, your ROM should still be named "TLOZOOS.gbc" and your save should be "TLOZOOS.sav"
+If you changed the name of the previous ROM/SAVE, just change the new ROM to the same name, and it should work
+properly. No need to replay it all!
+
+If there is still any issue, you can DM me on Discord for help. 
+My tag is DorrieDD#4415, I am also in the Oracles/LA hacking discord, Wind Fishes' Breeze.

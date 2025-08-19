@@ -1,0 +1,5 @@
+.include "message\main.txt"
+
+
+.include "large\main.txt"
+.include "small\main.txt"

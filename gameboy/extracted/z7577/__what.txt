@@ -1,0 +1,55 @@
+Combines these fixes for quick play:
+
+- hud flicker           [Bug - v1]
+- toad house            [Bug - v1]
+
+- cloud outline         [Plus - v1]
+- fortune mario         [Plus - v1]
+- jump glove            [Plus - v1]
+- lives death           [Plus - v1]
+- timer start           [Plus - v1]
+
+- extra banners         [QoL - v1]
+- nes triangle          [QoL - v1]
+- english script        [QoL - v1]
+- skip miss             [QoL - v1]
+- yoshi unlock          [QoL - v1]
+
+
+See readmes in each folder for details or DIY patches
+
+
+
+
+
+
+
+
+These patches can also be used:
+
+- english script        [Enhance - v1]
+
+
+
+
+
+
+
+
+
+Type
+
+1. Bug = An undeniable error of some type
+2. Plus = Highly likely a mistake, but some will say it's intentional
+3. QoL = Quality-of-Life hacks to correct design problems
+4. Enhance = Changes the game in a more dramatic way, more of an improvement
+
+
+
+
+
+
+
+
+
+Target: Super Mario Bros. Deluxe (Japan) (En) (Rev 1) (NP).gbc

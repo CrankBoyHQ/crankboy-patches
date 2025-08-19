@@ -1,0 +1,50 @@
+1: Mahogany Town
+2: Goldenrod City
+3: Viridian City
+4: Blackthorn City
+5: Blackthorn City
+6: Fuschia City
+7: Viridian City
+8: Goldenrod Dpt Store
+9: Goldenrod Dpt Store
+10: Celadon Dpt Store
+11: Celadon Dpt Store
+12: Violet City
+13: Saffron City
+14: Goldenrod Game Corner
+15: Celadon Game Corner
+16: Mahogany Town
+17: Celadon Dpt Store
+18: Celadon Dpt Store
+19: Viridian City
+20: Goldenrod Dpt Store
+21: Saffron City
+22: Celadon Dpt Store
+23: Olivine City
+24: Blackthorn City
+25: Goldenrod Game Corner
+26: Blackthorn City
+27: Viridian City
+28: Violet City
+29: Celadon Game Corner
+30: Olivine City
+31: Violet City
+32: Celadon Game Corner
+33: Goldenrod Dpt Store
+34: Viridian City
+35: Goldenrod Dpt Store
+36: Vermillion City
+37: Celadon Dpt Store
+38: Goldenrod Game Corner
+39: Goldenrod Dpt Store
+40: Violet City
+41: Goldenrod Dpt Store
+42: Vermillion City
+43: Vermillion City
+44: Azalea Town
+45: Goldenrod Dpt Store
+46: Goldenrod Dpt Store
+47: Vermillion City
+48: Goldenrod Dpt Store
+49: Azalea Town
+50: Celadon Dpt Store

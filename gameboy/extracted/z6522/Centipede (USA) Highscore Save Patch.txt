@@ -1,0 +1,6 @@
+Centipede (USA) - Highscore Save Patch v1.0 by AlexiG
+------------------------------------------------------------------------
+
+Centipede for the GBC doesn’t keep the high score after the Game Boy is turned off. With this patch the high score will be saved.
+
+You will also need to use the "Centipede (USA)" file found in the zip file.

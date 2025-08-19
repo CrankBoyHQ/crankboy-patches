@@ -1,0 +1,37 @@
+Slow Down SML Music (using counter)
+Basis: Instead of playing once, it does nothing once in it's place, half of the time. This halves the speed of music.
+
+0457 = Dec an address example
+
+FE 01 CP A, 01
+
+Address = DFFF
+
+Write to ROM Address 7FD9:
+F5 (Push AF)
+FA (Load 2 Byte Address DFFF)
+FF
+DF
+3D (Dec A)
+EA (Store 2 Byte Address DFFF)
+FF
+DF
+FE 00 (Compare A with 00)
+28 07 (If equal, jump 7 bytes, which plays the music)
+3E 01 (load A with 1)
+EA (Store A to 2 Byte Address DFFF)
+FF
+DF
+F1 (Pop AF)
+C9 (Ret)
+F1 (Pop AF...needed because it won't get popped if you Ret instead of JR)
+C36266
+
+Change 7FF0 to jump to 7FD9, since that's a music-run referencial jump.
+
+
+----------------------
+
+The following is some info that applies to the changes I made to level 3 objects.
+
+Breakpoint 21FF in BGB, with the VRAM Viewer on. That'll tell you the general area to look for that level's data. I can look it up easily enough by putting a read watch on the data. That's about the extent of what I did, in the way of hard parts.

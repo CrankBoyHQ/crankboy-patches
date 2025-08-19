@@ -1,0 +1,86 @@
+orga 0xd0da0
+	.incbin "mario.gfx", 0x130, 0x20
+
+
+
+orga 0xd14d0
+	.incbin "mario.gfx", 0x000, 0x50
+	.incbin "mario.gfx", 0x100, 0x30
+
+
+
+
+; #######################################
+
+
+
+
+orga 0xd1b40
+	.incbin "luigi.gfx", 0x000, 0x50
+	.incbin "luigi.gfx", 0x100, 0x50
+
+
+
+
+; #######################################
+
+
+
+
+orga 0xd2310
+	.incbin "peach.gfx", 0x000, 0x50
+	.incbin "peach.gfx", 0x100, 0x50
+
+
+
+
+; #######################################
+
+
+
+
+orga 0xd2850
+	.incbin "toad.gfx", 0x000, 0x50
+	.incbin "toad.gfx", 0x100, 0x50
+
+
+
+
+; #######################################
+
+
+
+
+orga 0xd2ef0
+	.incbin "yoshi.gfx", 0x000, 0x50
+	.incbin "yoshi.gfx", 0x100, 0x50
+
+
+
+
+; #######################################
+
+
+
+
+orga 0xd3450
+	.incbin "bowser.gfx", 0x000, 0x60
+	.incbin "bowser.gfx", 0x100, 0x60
+
+
+
+
+org 0x3f, 0x7c43
+	.db 0xcc, 0xcd, 0xce, 0xcf, 0xd0, 0xd1
+	.skip 14
+	.db 0xd2, 0xd3, 0xd4, 0xd5, 0xd6, 0xd7
+
+
+
+
+; #######################################
+
+
+
+
+org 0, 0

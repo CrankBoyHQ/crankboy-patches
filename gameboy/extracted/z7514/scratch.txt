@@ -1,0 +1,35 @@
+38a0 - x40 bytes
+
+7ec0 - 7fff
+
+150 was 
+
+ld hl, c000
+ld bc, 2000
+xor a
+157 : ldi (hl), a
+
+
+101 was jp 0150
+
+c669 = bgpal
+c66a = objpal 0
+c66b = objpal 1
+
+05f7 fadeout / in? 
+    hl = 060e = fade in
+    hl = 0636 = fade out
+    hl = 0626 = fade out
+    hl = 062e
+
+00 = all white
+6c = full colors
+
+purples as per bgb filter
+1d 1a 1d
+18 14 18
+10 c 10
+
+reds as per bgb filter
+215 183 181 = 
+124 94 93 = 

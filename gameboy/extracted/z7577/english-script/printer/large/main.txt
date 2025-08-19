@@ -1,0 +1,49 @@
+; note: extra window tiles added to calender\erase.gfx
+
+
+org 0x15, 0x427f
+	.db 0x1c, 0x07		; -OK-
+	.skip 2
+	.db 0xc8, 0x0f
+	.skip 2
+	.db 0xcc, 0x0f
+	.skip 2
+	.db 0xd0, 0x0f
+	.skip 2
+	.db 0xd4, 0x0f
+	.skip 2
+	.db 0x1c, 0x27
+	.skip 2
+
+
+	.skip 4
+	.skip 4
+
+
+	.db 0x1e, 0x07
+	.skip 2
+	.db 0xca, 0x0f
+	.skip 2
+	.db 0xce, 0x0f
+	.skip 2
+	.db 0xd2, 0x0f
+	.skip 2
+	.db 0xd6, 0x0f
+	.skip 2
+	.db 0x1e, 0x27
+
+
+
+
+org 0, 0
+
+
+
+
+; ##########################
+
+
+
+
+orga 0x95800
+	.incbin "large.gfx"			; 1W x 4H - vertical  [yychr]

@@ -1,0 +1,4 @@
+This patch is meant to make the game a bit easier and less frustrating. Applying this patch to Mega Man World 1 will make the weapon energy of all weapons restore fully whenever a life is lost. This is done in Mega Man games for the PS1 or later. There is a lot of situations in which this could be handy:
+
+- Losing to a boss after exhausting all the weapon energy for the weapon you wanted to use (especially annoying with the final boss, who can only be defeated using the Mirror Buster)
+- Exhausting the weapon energy of the Carrier weapon, trying to get past a part where it’s use is mandatory (mainly used in the Wily Stages)

@@ -1,0 +1,22 @@
+org 0x14, 0x40e2
+	call @yoshi_unlock
+
+
+
+
+org 0x14, 0x77f0
+
+@yoshi_unlock:
+	ld a, (0xc194)		; 1+ yoshi eggs found
+	ret nz
+
+
+	ld a, (0xc191)		; new: unlock if full toad house
+	cp a, 0xff
+	ret z
+
+	xor a
+	ret
+
+
+warnpc 0x7800

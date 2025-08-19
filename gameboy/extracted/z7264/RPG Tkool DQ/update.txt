@@ -1,0 +1,21 @@
+April 22, 2023 Update:
+- Add DQ5 hero to party characters.
+- Readjusted the party character order to match the content of the random messages.
+
+April 16, 2023 Update:
+- Adjusted the party character order to match the content of the random messages.
+- Four types of castles graphics were ported from RPG Tukuru GB2.
+- Further improved map graphics (Paintings, trees, Prison door, etc.)
+
+April 3, 2023 Update:
+- Further improved map graphics (Dungeons, etc.)
+- Further improved party character graphics (added Miku)
+
+March 28, 2023 Update:
+- Rearrangement of party character graphics
+- Further improved monster graphics (added Negi-miku)
+- Some map graphics changed
+
+March 25, 2023 Update:
+- Improved title and monster graphics.
+- The graphics of the party characters have also been changed to a Dragon Quest style.

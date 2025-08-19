@@ -1,0 +1,73 @@
+ROM0 bank #0:
+	EMPTY: $0101 bytes
+	SECTION: $0101-$0103 ($0003 bytes) ["HeaderChanges"]
+	EMPTY: $08be bytes
+	SECTION: $09c2-$09c4 ($0003 bytes) ["SpritePaletteInjector"]
+	EMPTY: $0129 bytes
+	SECTION: $0aee-$0af0 ($0003 bytes) ["InjectVBlankPaletteUpdate"]
+	EMPTY: $285f bytes
+	SECTION: $3350-$3366 ($0017 bytes) ["SpriteFn"]
+	         $3350 = GbcSprite
+	EMPTY: $0539 bytes
+	SECTION: $38a0-$38b3 ($0014 bytes) ["FadeChanges2"]
+	         $38a0 = GbcFade2
+	EMPTY: $074c bytes
+	SLACK: $3fcc bytes
+
+ROMX bank #1:
+	EMPTY: $3ec0 bytes
+	SECTION: $7ec0-$7fac ($00ed bytes) ["StartupInsert"]
+	         $7ec0 = GbcStartup
+	         $7edb = LoadSinglePaletteFromDEIntoHL
+	         $7edd = LoadSinglePaletteFromDEIntoHL.loadpal_loop
+	         $7ee4 = LoadBkgPalFromDE
+	         $7eee = LoadObjPalFromDE
+	         $7efb = FadeInWait
+	         $7f01 = FadeIn
+	         $7f0e = BlankPalette
+	         $7f1e = BkgPalette
+	         $7f26 = ObjPalette
+	         $7f36 = MidBkg
+	         $7f3e = MidObj
+	         $7f4e = TurnLcdOff
+	         $7f58 = TurnLcdOn
+	         $7f5d = FadeOutWait
+	         $7f63 = FadeOut
+	         $7f70 = FadeMid
+	         $7f7d = GbcFade
+	         $7f84 = GbcFade.FadeOut
+	         $7f89 = GbcFade.CheckFadeIn
+	         $7f93 = GbcFade.FadeMid
+	         $7f98 = GbcSprite2
+	         $7f9b = GbcSprite2.start
+	         $7fa3 = GbcSprite2.after
+	EMPTY: $0053 bytes
+	SLACK: $3f13 bytes
+
+ROMX bank #2:
+	EMPTY: $4000 bytes
+  EMPTY
+
+ROMX bank #3:
+	EMPTY: $4000 bytes
+  EMPTY
+
+ROMX bank #4:
+	EMPTY: $4000 bytes
+  EMPTY
+
+ROMX bank #5:
+	EMPTY: $4000 bytes
+  EMPTY
+
+ROMX bank #6:
+	EMPTY: $4000 bytes
+  EMPTY
+
+ROMX bank #7:
+	EMPTY: $4000 bytes
+  EMPTY
+
+SUMMARY:
+	ROM0: 52 bytes used / 16332 free
+	ROMX: 237 bytes used / 114451 free in 7 banks

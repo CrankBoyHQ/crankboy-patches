@@ -1,0 +1,52 @@
+asm machina more ideas
+	⁃	change text to sound better, not bash you over the head with stuff CHECK (rocket game corner now "celadon game corner," npc on route 2 no longer explicitly mentions Rock Tunnel so you have to figure it out, 
+                guy who got scammed by Magikarp salesman does not mention the price, replaced all instances of "champ in making" with champ in the making", rocket guy in celadon proper says "get out of *our* way" b/c its 
+                supposed to be a hidden, criminal organization)
+	⁃	Raise levels of Rocket Hideout members CHECK
+	⁃	Raise levels of wild guys in general. Instead of linear growth, consider grinding done before Gyms and make a more step-wise pattern (10, 20, 25, 30, 35, 40, 45, 50, 60) CHECK
+	⁃	Lower PP of Quick Attack from 6 down to 4 CHECK
+	⁃	Fix CooltrainerF AI bug (see https://github.com/pret/pokered/issues/308) CHECK
+	⁃	Non-infinite PP for enemies would be nice CHECK (also they often switch out if forced to use Struggle). Credit to Jojobear13 and their hack shinpokemon for the code to retain PP after switching
+	⁃	Ethers and Elixirs should restore 1 PP instead of 10, to keep things nice and scaled. It also seems that max versions of these can be wasted on moves with full PP but a PP-Up applied, so fix that. 
+                As a bonus, elixir and max elixir will be spelled correctly now. CHECK
+	⁃	Change defaults to fast text, "set" battle style. CHECK
+	⁃	TELL PEOPLE TO PICK LEFTMOST OPTIONS LEST THEY BREAK THE GAME (menu got moved around to look nicer and swap set/shift, could cause problems with cursor position)
+	⁃	Rage increases Attack, but Fire is a Special type. Figure out some hack around this (the plan is to hardcode Rage Effect moves as Physical) CHECK
+	⁃	Rage should also end on missing, like Wrap CHECK
+	⁃	Psyduck and Golduck should be Psychic type CHECK
+	⁃	Fuck with eeveelutions' learnsets CHECK
+	⁃	Rebalance moves' PP in general. Why does Screech have 8 ffs? CHECK
+	⁃	Make whirlwind et al. switch pokemon like in later gens, instead of just failing against trainers. CHECK (Set to still never work in Link Battles because I cant figure that out)
+	⁃	AI switches out if hit by super effective move, and does not spam stuff like Focus Energy CHECK
+	⁃	Let more people learn Night Shade--four is a little low. I'm thinking: Gloom [as an addition], Vileplume [as an addition], Golbat [as an addition], Drowzee [over Toxic], Hypno [also over Toxic], 
+                Cubone [over Bubblebeam], and Marowak [also over Bubblebeam] CHECK
+
+Random things done:
+	⁃	Fixed bug where failure text for healing moves was not preceded by a delay
+	⁃	Various minor move edits (see Moves.txt)
+	⁃	Flash now lowers Accuracy by two stages, since it's an HM
+	⁃	You can now see your enemy's health, albeit hackily (it only shows up while they're taking damage)
+	⁃	Raised all parties' levels
+	⁃	Reduced all Tower channelers to a single pokemon, to represent the one ghost that is possessing them
+	⁃	Many pokemon evolve later, along with learning moves later, due to above level increases. See Evo_Moves.txt
+	⁃	[READ THIS] Moved enough stuff around that old saves may spawn you in a Glitch City. Just teleport/fly away, or use the Gameshark code 011671D3 to be able to Dig/Escape Rope from anywhere and do so
+	⁃	Enemies usually (75% of the time) switch out struggling mons if possible
+	⁃	Amnesia now confuses the user, as one might expect it to, and fails if you are already confused. Enemies also will almost never select it if already confused
+	⁃	Substitute now has the capability to miss, and 80 accuracy
+	⁃	Draining moves now cannot hit substitutes, as intended
+	⁃	Vicegrip now traps people. It retains its 55 power, but has 40 accuracy and 2 PP
+	⁃	The hidden item in the Game Corner yielding 40 coins actually does that instead of giving 20
+	⁃	Reflect and Light Screen can miss
+	⁃	Various move edits, lowering accuracy in particular (see Moves.txt)
+	⁃	Recoil damage is doubled, because it felt low to me
+	⁃	Had to take relatively drastic measures to keep missigno vanilla. In particular, the hikers in the first floor of Mount Moon now all use biker-style poison types, which makes no sense, but was what was needed
+	⁃	Creepy guy near the Celadon gym now faces down by default instead of up, so he does not appear faceless
+	⁃	Haze now clears the need to recharge, preventing newly-defrosted pokemon from being unable to do anything forever
+	⁃	Defrosted pokemon also cannot use a move that turn, even if slower
+	⁃	All trainers on Victory Road now have 6 pokemon, and all trainers in gyms have at least three, since that meshes better with the new systems
+	⁃	Doubleslap now will always hit twice, but has 25 power and 3 PP to make up for it
+	⁃	Blaine will only use Super Potions if health is below 50%. Lance will use Hyper Potions if under 10%, not just under 5%. Instead of having a chance to heal, Lorelai now has a 30% chance of using a Dire Hit, if not already under its effect. 
+                Giovanni will not use a GuardSpec if already under its effect.
+	⁃	Struggle deals 10 damage instead of 20, because this move isn't supposed to be particularly good
+	⁃	Exeggcute and Exeggutor now can learn Softboilec by TM. The appropriate text in Celadon City has been changed as well.
+	⁃	Rest also gets rid of Badly Poisoned, so that damage from Leech Seed and whatnot is handled properly afterwards

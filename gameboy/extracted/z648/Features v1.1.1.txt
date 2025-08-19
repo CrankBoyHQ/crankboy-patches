@@ -1,0 +1,31 @@
+Objectives:
+Modify Pokémon Yellow to include all monsters obtainable without trading.
+Subtle gameplay improvements to enhance player experience faithful to the original story.
+
+Features:
+Title screen update.
+Player/rival name improvement.
+Route 4 improved, can backtrack to Mt. Moon.
+Updated some effect attacks to also apply damage.
+Splash move slightly improved, mimics struggle.
+TM 33 Modified to Surf for minigame access.
+Flash HM improvement, causes confusion.
+All 151 monsters natively obtainable.
+- Wild locations modified and improved.
+- Game Corner prizes balanced and improved.
+- NPC trades modified for trade evolutions.
+- Forest fire area added for fire monsters.
+- Mew glitch modified to Gate and Key sidequest.
+
+Notes:
+Flash works same outside of battle.
+Evolution and move learning unmodified.
+TM33 removed from Celadon shop for balance.
+Abra/Kadabra/Alakazam still learns Reflect.
+Only logical status attacks changed such as tail whip and sand attack.
+Status attacks such as Growl and Leer remain unchanged.
+
+Wishlist:
+Change intro music to something less obnoxious.
+Change SGB border to something less distracting.
+Change sprites of some monsters back to better GRB versions.

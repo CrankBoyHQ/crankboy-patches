@@ -1,0 +1,11 @@
+.include "extremely-lucky.txt"
+.include "very-lucky.txt"
+.include "lucky.txt"
+.include "unlucky.txt"
+.include "extremely-unlucky.txt"
+
+
+
+; odds: 00 - 20 - 60 - a0 - e0
+; - 12.5% for extremely (un)lucky
+; - 25.0% for (very)(un)lucky
