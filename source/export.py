@@ -40,6 +40,7 @@ for hack in jhacks["hacks"]:
     oh = {}
     hackkey = str(hack["hackkey"])
     gamekey = str(hack["gamekey"])
+    title = hack["title"]
     oh["title"] = hack["title"]
     oh["description"] = hack["description"]
     oh["reldate"] = hack["reldate"]
@@ -47,16 +48,29 @@ for hack in jhacks["hacks"]:
     authorkey = hack["authorkey"]
     oh["author"] = jauthor[str(authorkey)]
     
-    d = f"z{hackkey}"
+    filename = hack["filename"]
+    
+    # parse number from filename
+    match = re.search(r'\[(\d+)\]', filename)
+    if match:
+        number = match.group(1)
+        oh["filekey"] = number
+    else:
+        print(f"no number found in filename for hack {hackkey}")
+        continue
+    
+    d = f"z{number}"
     
     if d not in jfs:
+        print(f"no dir for hack {d} ({title})")
         continue
     dir = jfs[d]
     if not dir:
-        print(f"no dir for hack {hackkey}")
+        print(f"null dir for hack {hackkey}")
         continue
 
     if (hack["filename"]) == "":
+        print(f"no filename for {hackkey}")
         continue
     
     out["hacks"][hackkey] = oh
