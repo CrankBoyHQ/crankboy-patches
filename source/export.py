@@ -27,7 +27,9 @@ out = {
     "fs": jfs,
     "lookup": {},
     "g2h": {},
-    "hacks": {}
+    "hacks": {},
+    "domain": "raw.githubusercontent.com",
+    "prefix": "/CrankBoyHQ/crankboy-patches/refs/heads/main/gameboy/"
 }
 
 for gamekey, names in jheader.items():
