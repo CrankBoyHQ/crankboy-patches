@@ -1,3 +1,5 @@
+# after running this, be sure to apply html_unescape.py to the rhdb.json output
+
 import json
 import os
 import re
@@ -40,7 +42,7 @@ for hack in jhacks["hacks"]:
     oh = {}
     hackkey = str(hack["hackkey"])
     gamekey = str(hack["gamekey"])
-    title = hack["title"]
+    title = html.unescape(hack["title"])
     oh["title"] = hack["title"]
     oh["description"] = hack["description"]
     oh["reldate"] = hack["reldate"]
